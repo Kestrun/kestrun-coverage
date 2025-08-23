@@ -221,7 +221,7 @@ var assemblies = [
       { "name": "Kestrun.Authentication.BasicAuthHandler", "rp": "Kestrun_BasicAuthHandler.html", "cl": 101, "ucl": 16, "cal": 117, "tl": 356, "cb": 46, "tb": 62, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Authentication.IAuthHandler", "rp": "Kestrun_IAuthHandler.html", "cl": 183, "ucl": 26, "cal": 209, "tl": 478, "cb": 64, "tb": 90, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Authentication.JwtAuthenticationOptions", "rp": "Kestrun_JwtAuthenticationOptions.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 49, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Certificates.CertificateManager", "rp": "Kestrun_CertificateManager.html", "cl": 277, "ucl": 38, "cal": 315, "tl": 934, "cb": 92, "tb": 136, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Certificates.CertificateManager", "rp": "Kestrun_CertificateManager.html", "cl": 279, "ucl": 75, "cal": 354, "tl": 1009, "cb": 93, "tb": 150, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Certificates.CsrResult", "rp": "Kestrun_CsrResult.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 10, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Claims.ClaimPolicyBuilder", "rp": "Kestrun_ClaimPolicyBuilder.html", "cl": 21, "ucl": 0, "cal": 21, "tl": 74, "cb": 8, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Claims.ClaimPolicyConfig", "rp": "Kestrun_ClaimPolicyConfig.html", "cl": 1, "ucl": 0, "cal": 1, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -251,7 +251,7 @@ var assemblies = [
       { "name": "Kestrun.Jwt.JwtTokenBuilder", "rp": "Kestrun_JwtTokenBuilder.html", "cl": 232, "ucl": 58, "cal": 290, "tl": 869, "cb": 58, "tb": 116, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.KestrunHostManager", "rp": "Kestrun_KestrunHostManager.html", "cl": 64, "ucl": 14, "cal": 78, "tl": 303, "cb": 47, "tb": 62, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Languages.CsGlobals", "rp": "Kestrun_CsGlobals.html", "cl": 23, "ucl": 0, "cal": 23, "tl": 76, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Languages.CSharpDelegateBuilder", "rp": "Kestrun_CSharpDelegateBuilder.html", "cl": 145, "ucl": 28, "cal": 173, "tl": 443, "cb": 82, "tb": 124, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Languages.CSharpDelegateBuilder", "rp": "Kestrun_CSharpDelegateBuilder.html", "cl": 145, "ucl": 28, "cal": 173, "tl": 443, "cb": 83, "tb": 124, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Languages.FSharpDelegateBuilder", "rp": "Kestrun_FSharpDelegateBuilder.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 20, "cb": 1, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Languages.JScriptDelegateBuilder", "rp": "Kestrun_JScriptDelegateBuilder.html", "cl": 4, "ucl": 17, "cal": 21, "tl": 43, "cb": 2, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Languages.PowerShellDelegateBuilder", "rp": "Kestrun_PowerShellDelegateBuilder.html", "cl": 85, "ucl": 28, "cal": 113, "tl": 194, "cb": 19, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -287,10 +287,10 @@ var assemblies = [
       { "name": "Kestrun.Scheduling.RoslynJobFactory", "rp": "Kestrun_RoslynJobFactory.html", "cl": 33, "ucl": 0, "cal": 33, "tl": 77, "cb": 13, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scheduling.ScheduledTask", "rp": "Kestrun_ScheduledTask.html", "cl": 13, "ucl": 0, "cal": 13, "tl": 57, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scheduling.ScheduleReport", "rp": "Kestrun_ScheduleReport.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 16, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Scheduling.SchedulerService", "rp": "Kestrun_SchedulerService.html", "cl": 167, "ucl": 18, "cal": 185, "tl": 627, "cb": 64, "tb": 84, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Scheduling.SchedulerService", "rp": "Kestrun_SchedulerService.html", "cl": 170, "ucl": 15, "cal": 185, "tl": 627, "cb": 64, "tb": 84, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scripting.CompilationErrorException", "rp": "Kestrun_CompilationErrorException.html", "cl": 25, "ucl": 1, "cal": 26, "tl": 90, "cb": 10, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions", "rp": "Kestrun_EndpointConventionBuilderLanguageExtensions.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 25, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Scripting.KestrunRunspacePoolManager", "rp": "Kestrun_KestrunRunspacePoolManager.html", "cl": 63, "ucl": 31, "cal": 94, "tl": 251, "cb": 35, "tb": 52, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Scripting.KestrunRunspacePoolManager", "rp": "Kestrun_KestrunRunspacePoolManager.html", "cl": 67, "ucl": 27, "cal": 94, "tl": 251, "cb": 37, "tb": 52, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scripting.LanguageRuntimeExtensions", "rp": "Kestrun_LanguageRuntimeExtensions.html", "cl": 3, "ucl": 4, "cal": 7, "tl": 28, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions", "rp": "Kestrun_RouteHandlerBuilderLanguageExtensions.html", "cl": 0, "ucl": 1, "cal": 1, "tl": 17, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scripting.ScriptLanguageAttribute", "rp": "Kestrun_ScriptLanguageAttribute.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 19, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -322,6 +322,12 @@ var riskHotspotMetrics = [
 ];
 
 var riskHotspots = [
+  {
+    "assembly": "Kestrun", "class": "Kestrun.Certificates.CertificateManager", "reportPath": "Kestrun_CertificateManager.html", "methodName": "Import(System.String,System.ReadOnlySpan`1<System.Char>,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)", "methodShortName": "Import(...)", "fileIndex": 0, "line": 275,
+    "metrics": [
+      { "value": 503, "exceeded": true },
+      { "value": 40, "exceeded": true },
+    ]},
   {
     "assembly": "Kestrun", "class": "Kestrun.Jwt.JwtTokenBuilder", "reportPath": "Kestrun_JwtTokenBuilder.html", "methodName": "ToSigningCreds()", "methodShortName": "ToSigningCreds()", "fileIndex": 0, "line": 615,
     "metrics": [
@@ -371,7 +377,7 @@ var riskHotspots = [
       { "value": 12, "exceeded": false },
     ]},
   {
-    "assembly": "Kestrun", "class": "Kestrun.Certificates.CertificateManager", "reportPath": "Kestrun_CertificateManager.html", "methodName": "NormalizeExportPath(System.String,Kestrun.Certificates.CertificateManager/ExportFormat)", "methodShortName": "NormalizeExportPath(...)", "fileIndex": 0, "line": 508,
+    "assembly": "Kestrun", "class": "Kestrun.Certificates.CertificateManager", "reportPath": "Kestrun_CertificateManager.html", "methodName": "NormalizeExportPath(System.String,Kestrun.Certificates.CertificateManager/ExportFormat)", "methodShortName": "NormalizeExportPath(...)", "fileIndex": 0, "line": 583,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 14, "exceeded": false },
@@ -417,12 +423,6 @@ var riskHotspots = [
     "metrics": [
       { "value": 40, "exceeded": true },
       { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "Kestrun", "class": "Kestrun.Certificates.CertificateManager", "reportPath": "Kestrun_CertificateManager.html", "methodName": "Import(System.String,System.ReadOnlySpan`1<System.Char>,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)", "methodShortName": "Import(...)", "fileIndex": 0, "line": 275,
-    "metrics": [
-      { "value": 34, "exceeded": true },
-      { "value": 26, "exceeded": true },
     ]},
   {
     "assembly": "Kestrun", "class": "Kestrun.Hosting.KestrunHostMapExtensions", "reportPath": "Kestrun_KestrunHostMapExtensions.html", "methodName": "ApplyOpenApiMetadata(Kestrun.Hosting.KestrunHost,Microsoft.AspNetCore.Builder.IEndpointConventionBuilder,Kestrun.Hosting.Options.MapRouteOptions)", "methodShortName": "ApplyOpenApiMetadata(...)", "fileIndex": 0, "line": 429,
