@@ -1,25 +1,25 @@
 Summary
-  Generated on: 08/23/2025 - 16:46:57
-  Coverage date: 08/23/2025 - 16:46:54
+  Generated on: 08/23/2025 - 20:11:27
+  Coverage date: 08/23/2025 - 20:11:25
   Parser: Cobertura
   Assemblies: 1
   Classes: 96
   Files: 96
-  Line coverage: 81.2%
-  Covered lines: 4153
-  Uncovered lines: 956
+  Line coverage: 81.1%
+  Covered lines: 4147
+  Uncovered lines: 962
   Coverable lines: 5109
   Total lines: 15276
-  Branch coverage: 68% (1592 of 2340)
-  Covered branches: 1592
+  Branch coverage: 67.9% (1590 of 2340)
+  Covered branches: 1590
   Total branches: 2340
   Method coverage: 90.2% (738 of 818)
-  Full method coverage: 70.4% (576 of 818)
+  Full method coverage: 70.5% (577 of 818)
   Covered methods: 738
-  Fully covered methods: 576
+  Fully covered methods: 577
   Total methods: 818
 
-Kestrun                                                                81.2%
+Kestrun                                                                81.1%
   DelegateBuilder                                                      77.7%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             93.2%
@@ -94,10 +94,10 @@ Kestrun                                                                81.2%
   Kestrun.Scheduling.RoslynJobFactory                                   100%
   Kestrun.Scheduling.ScheduledTask                                      100%
   Kestrun.Scheduling.ScheduleReport                                     100%
-  Kestrun.Scheduling.SchedulerService                                  93.2%
+  Kestrun.Scheduling.SchedulerService                                  91.4%
   Kestrun.Scripting.CompilationErrorException                          96.1%
   Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions          75%
-  Kestrun.Scripting.KestrunRunspacePoolManager                         71.2%
+  Kestrun.Scripting.KestrunRunspacePoolManager                           67%
   Kestrun.Scripting.LanguageRuntimeExtensions                          42.8%
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                 0%
   Kestrun.Scripting.ScriptLanguageAttribute                             100%
@@ -112,7 +112,7 @@ Kestrun                                                                81.2%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                       95.4%
+  Kestrun.Utilities.VariablesMap                                        100%
   Kestrun.Utilities.XmlUtil                                            93.5%
   Kestrun.Utilities.YamlHelper                                         94.2%
   KestrunRuntimeApiAttribute                                            100%
