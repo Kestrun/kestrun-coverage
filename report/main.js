@@ -251,7 +251,7 @@ var assemblies = [
       { "name": "Kestrun.Jwt.JwtTokenBuilder", "rp": "Kestrun_JwtTokenBuilder.html", "cl": 232, "ucl": 58, "cal": 290, "tl": 869, "cb": 58, "tb": 116, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.KestrunHostManager", "rp": "Kestrun_KestrunHostManager.html", "cl": 64, "ucl": 14, "cal": 78, "tl": 303, "cb": 47, "tb": 62, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Languages.CsGlobals", "rp": "Kestrun_CsGlobals.html", "cl": 23, "ucl": 0, "cal": 23, "tl": 76, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Languages.CSharpDelegateBuilder", "rp": "Kestrun_CSharpDelegateBuilder.html", "cl": 145, "ucl": 28, "cal": 173, "tl": 443, "cb": 83, "tb": 124, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Languages.CSharpDelegateBuilder", "rp": "Kestrun_CSharpDelegateBuilder.html", "cl": 145, "ucl": 28, "cal": 173, "tl": 443, "cb": 82, "tb": 124, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Languages.FSharpDelegateBuilder", "rp": "Kestrun_FSharpDelegateBuilder.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 20, "cb": 1, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Languages.JScriptDelegateBuilder", "rp": "Kestrun_JScriptDelegateBuilder.html", "cl": 4, "ucl": 17, "cal": 21, "tl": 43, "cb": 2, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Languages.PowerShellDelegateBuilder", "rp": "Kestrun_PowerShellDelegateBuilder.html", "cl": 85, "ucl": 28, "cal": 113, "tl": 194, "cb": 19, "tb": 36, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -283,11 +283,11 @@ var assemblies = [
       { "name": "Kestrun.Razor.PowerShellRazorPage", "rp": "Kestrun_PowerShellRazorPage.html", "cl": 118, "ucl": 20, "cal": 138, "tl": 329, "cb": 34, "tb": 50, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Razor.PwshKestrunModel", "rp": "Kestrun_PwshKestrunModel.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 30, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scheduling.JobFactory", "rp": "Kestrun_JobFactory.html", "cl": 82, "ucl": 13, "cal": 95, "tl": 139, "cb": 6, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Scheduling.JobInfo", "rp": "Kestrun_JobInfo.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 18, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Scheduling.JobInfo", "rp": "Kestrun_JobInfo.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 20, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scheduling.RoslynJobFactory", "rp": "Kestrun_RoslynJobFactory.html", "cl": 33, "ucl": 0, "cal": 33, "tl": 77, "cb": 13, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Scheduling.ScheduledTask", "rp": "Kestrun_ScheduledTask.html", "cl": 13, "ucl": 0, "cal": 13, "tl": 57, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Scheduling.ScheduledTask", "rp": "Kestrun_ScheduledTask.html", "cl": 13, "ucl": 0, "cal": 13, "tl": 62, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scheduling.ScheduleReport", "rp": "Kestrun_ScheduleReport.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 16, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Scheduling.SchedulerService", "rp": "Kestrun_SchedulerService.html", "cl": 174, "ucl": 11, "cal": 185, "tl": 627, "cb": 67, "tb": 84, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Scheduling.SchedulerService", "rp": "Kestrun_SchedulerService.html", "cl": 173, "ucl": 35, "cal": 208, "tl": 669, "cb": 64, "tb": 94, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scripting.CompilationErrorException", "rp": "Kestrun_CompilationErrorException.html", "cl": 25, "ucl": 1, "cal": 26, "tl": 90, "cb": 10, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions", "rp": "Kestrun_EndpointConventionBuilderLanguageExtensions.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 25, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Scripting.KestrunRunspacePoolManager", "rp": "Kestrun_KestrunRunspacePoolManager.html", "cl": 67, "ucl": 27, "cal": 94, "tl": 251, "cb": 37, "tb": 52, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -305,7 +305,7 @@ var assemblies = [
       { "name": "Kestrun.Utilities.ReadOnlyDictionaryAdapter", "rp": "Kestrun_ReadOnlyDictionaryAdapter.html", "cl": 18, "ucl": 4, "cal": 22, "tl": 94, "cb": 14, "tb": 20, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Utilities.RegexUtils", "rp": "Kestrun_RegexUtils.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 25, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Utilities.SecureStringUtils", "rp": "Kestrun_SecureStringUtils.html", "cl": 26, "ucl": 3, "cal": 29, "tl": 94, "cb": 10, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Kestrun.Utilities.VariablesMap", "rp": "Kestrun_VariablesMap.html", "cl": 22, "ucl": 0, "cal": 22, "tl": 69, "cb": 12, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Kestrun.Utilities.VariablesMap", "rp": "Kestrun_VariablesMap.html", "cl": 21, "ucl": 1, "cal": 22, "tl": 69, "cb": 11, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Utilities.XmlUtil", "rp": "Kestrun_XmlUtil.html", "cl": 29, "ucl": 2, "cal": 31, "tl": 125, "cb": 26, "tb": 28, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Kestrun.Utilities.YamlHelper", "rp": "Kestrun_YamlHelper.html", "cl": 66, "ucl": 4, "cal": 70, "tl": 238, "cb": 48, "tb": 52, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "KestrunRuntimeApiAttribute", "rp": "Kestrun_KestrunRuntimeApiAttribute.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 64, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -351,6 +351,12 @@ var riskHotspots = [
     "metrics": [
       { "value": 111, "exceeded": true },
       { "value": 34, "exceeded": true },
+    ]},
+  {
+    "assembly": "Kestrun", "class": "Kestrun.Scheduling.SchedulerService", "reportPath": "Kestrun_SchedulerService.html", "methodName": "CancelAsync()", "methodShortName": "CancelAsync()", "fileIndex": 0, "line": 254,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
     ]},
   {
     "assembly": "Kestrun", "class": "Kestrun.Scripting.KestrunRunspacePoolManager", "reportPath": "Kestrun_KestrunRunspacePoolManager.html", "methodName": "AcquireAsync()", "methodShortName": "AcquireAsync()", "fileIndex": 0, "line": 125,
@@ -587,7 +593,7 @@ var riskHotspots = [
       { "value": 16, "exceeded": true },
     ]},
   {
-    "assembly": "Kestrun", "class": "Kestrun.Scheduling.SchedulerService", "reportPath": "Kestrun_SchedulerService.html", "methodName": "LoopAsync()", "methodShortName": "LoopAsync()", "fileIndex": 0, "line": 493,
+    "assembly": "Kestrun", "class": "Kestrun.Scheduling.SchedulerService", "reportPath": "Kestrun_SchedulerService.html", "methodName": "LoopAsync()", "methodShortName": "LoopAsync()", "fileIndex": 0, "line": 534,
     "metrics": [
       { "value": 16, "exceeded": false },
       { "value": 16, "exceeded": true },
