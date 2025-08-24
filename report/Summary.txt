@@ -1,17 +1,17 @@
 Summary
-  Generated on: 08/23/2025 - 22:58:44
-  Coverage date: 08/23/2025 - 22:58:41
+  Generated on: 08/24/2025 - 00:12:24
+  Coverage date: 08/24/2025 - 00:12:22
   Parser: Cobertura
   Assemblies: 1
   Classes: 96
   Files: 96
-  Line coverage: 80.4%
-  Covered lines: 4168
-  Uncovered lines: 1012
+  Line coverage: 80.5%
+  Covered lines: 4173
+  Uncovered lines: 1007
   Coverable lines: 5180
   Total lines: 15448
-  Branch coverage: 67.7% (1606 of 2372)
-  Covered branches: 1606
+  Branch coverage: 67.7% (1608 of 2372)
+  Covered branches: 1608
   Total branches: 2372
   Method coverage: 90.2% (741 of 821)
   Full method coverage: 70.5% (579 of 821)
@@ -19,7 +19,7 @@ Summary
   Fully covered methods: 579
   Total methods: 821
 
-Kestrun                                                                80.4%
+Kestrun                                                                80.5%
   DelegateBuilder                                                      77.7%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             93.2%
@@ -94,7 +94,7 @@ Kestrun                                                                80.4%
   Kestrun.Scheduling.RoslynJobFactory                                   100%
   Kestrun.Scheduling.ScheduledTask                                      100%
   Kestrun.Scheduling.ScheduleReport                                     100%
-  Kestrun.Scheduling.SchedulerService                                  89.7%
+  Kestrun.Scheduling.SchedulerService                                  92.4%
   Kestrun.Scripting.CompilationErrorException                          96.1%
   Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions          75%
   Kestrun.Scripting.KestrunRunspacePoolManager                           67%
