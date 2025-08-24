@@ -1,17 +1,17 @@
 Summary
-  Generated on: 08/24/2025 - 05:04:18
-  Coverage date: 08/24/2025 - 05:04:16
+  Generated on: 08/24/2025 - 14:17:36
+  Coverage date: 08/24/2025 - 14:17:33
   Parser: Cobertura
   Assemblies: 1
   Classes: 96
   Files: 96
-  Line coverage: 80.3%
-  Covered lines: 4192
-  Uncovered lines: 1027
+  Line coverage: 80.1%
+  Covered lines: 4184
+  Uncovered lines: 1035
   Coverable lines: 5219
   Total lines: 15540
-  Branch coverage: 67.5% (1612 of 2388)
-  Covered branches: 1612
+  Branch coverage: 67.4% (1610 of 2388)
+  Covered branches: 1610
   Total branches: 2388
   Method coverage: 90.1% (743 of 824)
   Full method coverage: 70.5% (581 of 824)
@@ -19,7 +19,7 @@ Summary
   Fully covered methods: 581
   Total methods: 824
 
-Kestrun                                                                80.3%
+Kestrun                                                                80.1%
   DelegateBuilder                                                      77.7%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             93.2%
@@ -94,10 +94,10 @@ Kestrun                                                                80.3%
   Kestrun.Scheduling.RoslynJobFactory                                   100%
   Kestrun.Scheduling.ScheduledTask                                      100%
   Kestrun.Scheduling.ScheduleReport                                     100%
-  Kestrun.Scheduling.SchedulerService                                    85%
+  Kestrun.Scheduling.SchedulerService                                  83.1%
   Kestrun.Scripting.CompilationErrorException                          96.1%
   Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions          75%
-  Kestrun.Scripting.KestrunRunspacePoolManager                         71.2%
+  Kestrun.Scripting.KestrunRunspacePoolManager                           67%
   Kestrun.Scripting.LanguageRuntimeExtensions                          42.8%
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                 0%
   Kestrun.Scripting.ScriptLanguageAttribute                             100%
