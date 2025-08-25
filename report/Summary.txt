@@ -1,24 +1,29 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 08/25/2025 - 21:14:12
-  Coverage date: 08/25/2025 - 21:13:53
+  Generated on: 08/25/2025 - 22:59:40
+  Coverage date: 08/25/2025 - 22:59:21
   Parser: MultiReport (2x Cobertura)
-  Assemblies: 1
-  Classes: 96
-  Files: 96
-  Line coverage: 79.9%
-  Covered lines: 4183
-  Uncovered lines: 1051
-  Coverable lines: 5234
-  Total lines: 15566
-  Branch coverage: 66.9% (1608 of 2402)
-  Covered branches: 1608
+  Assemblies: 2
+  Classes: 99
+  Files: 99
+  Line coverage: 79.8%
+  Covered lines: 4194
+  Uncovered lines: 1059
+  Coverable lines: 5253
+  Total lines: 15668
+  Branch coverage: 66.9% (1607 of 2402)
+  Covered branches: 1607
   Total branches: 2402
-  Method coverage: 90.1% (743 of 824)
-  Full method coverage: 70.5% (581 of 824)
-  Covered methods: 743
+  Method coverage: 90% (745 of 827)
+  Full method coverage: 70.2% (581 of 827)
+  Covered methods: 745
   Fully covered methods: 581
-  Total methods: 824
-  Tag: Kestrun/Kestrun@898c78fa693c6d30fd33240825af66c73ba71ffc
+  Total methods: 827
+  Tag: Kestrun/Kestrun@83c5c300b89aef5972e5c6c0079e754c574361b5
+
+                                                                       63.1%
+  Clear-KsVariable.ps1                                                    0%
+  Helper.ps1                                                            100%
+  Resolve-KestrunServer.ps1                                              80%
 
 Kestrun                                                                79.9%
   DelegateBuilder                                                      77.7%
@@ -113,7 +118,7 @@ Kestrun                                                                79.9%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                        100%
+  Kestrun.Utilities.VariablesMap                                       95.4%
   Kestrun.Utilities.XmlUtil                                            93.5%
   Kestrun.Utilities.YamlHelper                                         94.2%
   KestrunRuntimeApiAttribute                                            100%
