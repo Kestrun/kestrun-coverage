@@ -1,6 +1,6 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/01/2025 - 15:34:44
-  Coverage date: 09/01/2025 - 15:34:18
+  Generated on: 09/01/2025 - 15:55:01
+  Coverage date: 09/01/2025 - 15:54:36
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 230
@@ -10,15 +10,15 @@ Summary - Kestrun — Combined Coverage
   Uncovered lines: 1927
   Coverable lines: 6521
   Total lines: 24600
-  Branch coverage: 67.1% (1633 of 2432)
-  Covered branches: 1633
+  Branch coverage: 67.1% (1632 of 2432)
+  Covered branches: 1632
   Total branches: 2432
   Method coverage: 81.8% (796 of 973)
   Full method coverage: 61.7% (601 of 973)
   Covered methods: 796
   Fully covered methods: 601
   Total methods: 973
-  Tag: Kestrun/Kestrun@a3fc44fcdf346321e4339b4c79648d2d6a433e68
+  Tag: Kestrun/Kestrun@19d70630c420f79cdedeb90ba1187c4ef9ff5474
 
 Kestrun                                                                79.8%
   DelegateBuilder                                                      77.7%
