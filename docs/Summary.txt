@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/04/2025 - 20:03:06
-  Coverage date: 09/04/2025 - 20:02:37
+  Generated on: 09/04/2025 - 22:37:33
+  Coverage date: 09/04/2025 - 22:37:05
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 230
   Files: 230
   Line coverage: 71%
-  Covered lines: 4818
-  Uncovered lines: 1963
+  Covered lines: 4819
+  Uncovered lines: 1962
   Coverable lines: 6781
-  Total lines: 25186
-  Branch coverage: 68% (1734 of 2548)
-  Covered branches: 1734
+  Total lines: 25262
+  Branch coverage: 68% (1735 of 2548)
+  Covered branches: 1735
   Total branches: 2548
   Method coverage: 82% (805 of 981)
-  Full method coverage: 61.5% (604 of 981)
+  Full method coverage: 61.6% (605 of 981)
   Covered methods: 805
-  Fully covered methods: 604
+  Fully covered methods: 605
   Total methods: 981
-  Tag: Kestrun/Kestrun@aac43c4a9d431237cc28e06bebdc8b9fca48b306
+  Tag: Kestrun/Kestrun@afb7aadc0a8a42bfa2b51ea62c8a6e2cf63faec6
 
 Kestrun                                                                80.2%
   DelegateBuilder                                                        93%
@@ -113,7 +113,7 @@ Kestrun                                                                80.2%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                       95.4%
+  Kestrun.Utilities.VariablesMap                                        100%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
@@ -125,12 +125,12 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Assembly.Get-KrCommandByContext                                 0%
   Private.Assembly.Get-KrDocSet                                           0%
   Private.Assembly.Get-KrFunctionContextMask                              0%
-  Private.Helper                                                        100%
   Private.Logging.Get-KrFormattedMessage                                  0%
   Private.Logging.Set-KrLogLevelToPreference                              0%
   Private.Logging.Write.Write-KrSinkPowerShell                            0%
-  Private.Resolve-KestrunServer                                          80%
   Private.Routing.RoutingHelper                                        40.8%
+  Private.Server.Helper                                                 100%
+  Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
 Kestrun.PowerShell.Public                                              29.4%
