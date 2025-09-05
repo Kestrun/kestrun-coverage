@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/05/2025 - 14:10:26
-  Coverage date: 09/05/2025 - 14:09:58
+  Generated on: 09/05/2025 - 16:51:52
+  Coverage date: 09/05/2025 - 16:51:22
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 234
-  Files: 234
-  Line coverage: 71%
-  Covered lines: 4819
-  Uncovered lines: 1962
-  Coverable lines: 6781
-  Total lines: 25264
-  Branch coverage: 68.1% (1736 of 2548)
-  Covered branches: 1736
+  Classes: 228
+  Files: 228
+  Line coverage: 71.1%
+  Covered lines: 4818
+  Uncovered lines: 1957
+  Coverable lines: 6775
+  Total lines: 24845
+  Branch coverage: 68% (1735 of 2548)
+  Covered branches: 1735
   Total branches: 2548
-  Method coverage: 82% (805 of 981)
-  Full method coverage: 61.6% (605 of 981)
+  Method coverage: 82.5% (805 of 975)
+  Full method coverage: 62% (605 of 975)
   Covered methods: 805
   Fully covered methods: 605
-  Total methods: 981
-  Tag: Kestrun/Kestrun@f330d4cae7fa41d656a487ea31bc201a029fe955
+  Total methods: 975
+  Tag: Kestrun/Kestrun@c672b8f05e89891aff034d6863debc0ea95b234d
 
 Kestrun                                                                80.2%
   DelegateBuilder                                                        93%
@@ -137,7 +137,7 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              29.4%
+Kestrun.PowerShell.Public                                              29.5%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -200,13 +200,7 @@ Kestrun.PowerShell.Public                                              29.4%
   Public.Logging.sinks.Add-KrSinkSyslogLocal                              0%
   Public.Logging.sinks.Add-KrSinkSyslogTcp                                0%
   Public.Logging.sinks.Add-KrSinkSyslogUdp                                0%
-  Public.Logging.Write-KrDebugLog                                         0%
-  Public.Logging.Write-KrErrorLog                                         0%
-  Public.Logging.Write-KrFatalLog                                         0%
-  Public.Logging.Write-KrInformationLog                                  50%
   Public.Logging.Write-KrLog                                              0%
-  Public.Logging.Write-KrVerboseLog                                       0%
-  Public.Logging.Write-KrWarningLog                                       0%
   Public.Razor.Add-KrPowerShellRazorPagesRuntime                          0%
   Public.Razor.Add-KrRazorPageService                                     0%
   Public.Request.Get-KrRequestBody                                        0%
