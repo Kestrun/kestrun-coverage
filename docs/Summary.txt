@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/04/2025 - 22:37:33
-  Coverage date: 09/04/2025 - 22:37:05
+  Generated on: 09/05/2025 - 01:20:28
+  Coverage date: 09/05/2025 - 01:19:59
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 230
-  Files: 230
+  Classes: 234
+  Files: 234
   Line coverage: 71%
   Covered lines: 4819
   Uncovered lines: 1962
   Coverable lines: 6781
-  Total lines: 25262
-  Branch coverage: 68% (1735 of 2548)
-  Covered branches: 1735
+  Total lines: 25264
+  Branch coverage: 68.1% (1736 of 2548)
+  Covered branches: 1736
   Total branches: 2548
   Method coverage: 82% (805 of 981)
   Full method coverage: 61.6% (605 of 981)
   Covered methods: 805
   Fully covered methods: 605
   Total methods: 981
-  Tag: Kestrun/Kestrun@afb7aadc0a8a42bfa2b51ea62c8a6e2cf63faec6
+  Tag: Kestrun/Kestrun@307328b32323080f64e2bbfdbf3f7087235cf22d
 
 Kestrun                                                                80.2%
   DelegateBuilder                                                        93%
@@ -128,7 +128,11 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Logging.Get-KrFormattedMessage                                  0%
   Private.Logging.Set-KrLogLevelToPreference                              0%
   Private.Logging.Write.Write-KrSinkPowerShell                            0%
-  Private.Routing.RoutingHelper                                        40.8%
+  Private.Routing._KrJoin-Route                                           0%
+  Private.Routing._KrMerge-Args                                        16.6%
+  Private.Routing._KrMerge-MRO                                         81.8%
+  Private.Routing._KrMerge-Unique                                       100%
+  Private.Routing._KrWith-MRO                                             0%
   Private.Server.Helper                                                 100%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
