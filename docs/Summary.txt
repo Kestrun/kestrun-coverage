@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/05/2025 - 14:06:19
-  Coverage date: 09/05/2025 - 14:05:52
+  Generated on: 09/05/2025 - 14:10:26
+  Coverage date: 09/05/2025 - 14:09:58
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 234
   Files: 234
   Line coverage: 71%
-  Covered lines: 4818
-  Uncovered lines: 1963
+  Covered lines: 4819
+  Uncovered lines: 1962
   Coverable lines: 6781
   Total lines: 25264
-  Branch coverage: 68% (1735 of 2548)
-  Covered branches: 1735
+  Branch coverage: 68.1% (1736 of 2548)
+  Covered branches: 1736
   Total branches: 2548
   Method coverage: 82% (805 of 981)
-  Full method coverage: 61.5% (604 of 981)
+  Full method coverage: 61.6% (605 of 981)
   Covered methods: 805
-  Fully covered methods: 604
+  Fully covered methods: 605
   Total methods: 981
-  Tag: Kestrun/Kestrun@bafd996fa4facfcf7f7d9dfc5b62d88518718c46
+  Tag: Kestrun/Kestrun@f330d4cae7fa41d656a487ea31bc201a029fe955
 
 Kestrun                                                                80.2%
   DelegateBuilder                                                        93%
@@ -113,7 +113,7 @@ Kestrun                                                                80.2%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                       95.4%
+  Kestrun.Utilities.VariablesMap                                        100%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
