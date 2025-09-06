@@ -1,15 +1,15 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/05/2025 - 16:51:52
-  Coverage date: 09/05/2025 - 16:51:22
+  Generated on: 09/06/2025 - 02:59:56
+  Coverage date: 09/06/2025 - 02:59:28
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 228
   Files: 228
   Line coverage: 71.1%
-  Covered lines: 4818
-  Uncovered lines: 1957
-  Coverable lines: 6775
-  Total lines: 24845
+  Covered lines: 4819
+  Uncovered lines: 1958
+  Coverable lines: 6777
+  Total lines: 24862
   Branch coverage: 68% (1735 of 2548)
   Covered branches: 1735
   Total branches: 2548
@@ -18,7 +18,7 @@ Summary - Kestrun — Combined Coverage
   Covered methods: 805
   Fully covered methods: 605
   Total methods: 975
-  Tag: Kestrun/Kestrun@c672b8f05e89891aff034d6863debc0ea95b234d
+  Tag: Kestrun/Kestrun@2111f41add084358558c4f74e28884318c1923b0
 
 Kestrun                                                                80.2%
   DelegateBuilder                                                        93%
@@ -137,7 +137,7 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              29.5%
+Kestrun.PowerShell.Public                                              29.6%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -236,7 +236,7 @@ Kestrun.PowerShell.Public                                              29.5%
   Public.Scheduling.Suspend-KrSchedule                                    0%
   Public.Server.Add-KrListener                                         58.3%
   Public.Server.Enable-KrConfiguration                                 76.9%
-  Public.Server.New-KrServer                                           29.4%
+  Public.Server.New-KrServer                                           31.5%
   Public.Server.Remove-KrServer                                           0%
   Public.Server.Set-KrServerLimit                                      67.8%
   Public.Server.Set-KrServerOption                                     63.6%
