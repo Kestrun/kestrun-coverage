@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/07/2025 - 15:39:39
-  Coverage date: 09/07/2025 - 15:39:12
+  Generated on: 09/07/2025 - 18:41:40
+  Coverage date: 09/07/2025 - 18:41:13
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 229
   Files: 229
-  Line coverage: 71.6%
-  Covered lines: 4870
-  Uncovered lines: 1929
-  Coverable lines: 6799
-  Total lines: 25168
-  Branch coverage: 70% (1791 of 2558)
-  Covered branches: 1791
-  Total branches: 2558
-  Method coverage: 81.2% (803 of 988)
-  Full method coverage: 63% (623 of 988)
-  Covered methods: 803
+  Line coverage: 71.4%
+  Covered lines: 4905
+  Uncovered lines: 1964
+  Coverable lines: 6869
+  Total lines: 25292
+  Branch coverage: 70% (1795 of 2564)
+  Covered branches: 1795
+  Total branches: 2564
+  Method coverage: 80.8% (805 of 996)
+  Full method coverage: 62.5% (623 of 996)
+  Covered methods: 805
   Fully covered methods: 623
-  Total methods: 988
-  Tag: Kestrun/Kestrun@3fb018cb3fb12e5d6852c6847273ec977fcc81a4
+  Total methods: 996
+  Tag: Kestrun/Kestrun@2192d4ccb46312ce89b7f7fda1aa8c915bfa2284
 
-Kestrun                                                                80.8%
+Kestrun                                                                80.5%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -29,8 +29,8 @@ Kestrun                                                                80.8%
   Kestrun.Authentication.BasicAuthHandler                              88.8%
   Kestrun.Authentication.IAuthHandler                                  90.4%
   Kestrun.Authentication.JwtAuthenticationOptions                       100%
-  Kestrun.Certificates.CertificateManager                              74.5%
-  Kestrun.Certificates.CsrResult                                        100%
+  Kestrun.Certificates.CertificateManager                              73.5%
+  Kestrun.Certificates.CsrResult                                         60%
   Kestrun.Claims.ClaimPolicyBuilder                                     100%
   Kestrun.Claims.ClaimPolicyConfig                                      100%
   Kestrun.Claims.ClaimPolicyExtensions                                  100%
@@ -39,7 +39,7 @@ Kestrun                                                                80.8%
   Kestrun.Claims.KestrunClaimExtensions                                 100%
   Kestrun.FixedTimeEquals                                              90.9%
   Kestrun.Hosting.KestrunContext                                        100%
-  Kestrun.Hosting.KestrunHost                                          81.9%
+  Kestrun.Hosting.KestrunHost                                          79.5%
   Kestrun.Hosting.KestrunHostAuthExtensions                            88.9%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
@@ -95,7 +95,7 @@ Kestrun                                                                80.8%
   Kestrun.Scheduling.RoslynJobFactory                                   100%
   Kestrun.Scheduling.ScheduledTask                                      100%
   Kestrun.Scheduling.ScheduleReport                                     100%
-  Kestrun.Scheduling.SchedulerService                                  81.2%
+  Kestrun.Scheduling.SchedulerService                                  80.7%
   Kestrun.Scripting.CompilationErrorException                          96.1%
   Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions          75%
   Kestrun.Scripting.KestrunRunspacePoolManager                         75.5%
@@ -137,18 +137,18 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              29.6%
+Kestrun.PowerShell.Public                                              30.3%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
   Public.Authentication.Add-KrJwtBearerAuthentication                  23.8%
   Public.Authentication.Add-KrWindowsAuthentication                      75%
-  Public.Certificate.Export-KsCertificate                                 0%
+  Public.Certificate.Export-KrCertificate                                 0%
   Public.Certificate.Get-KrCertificatePurpose                             0%
-  Public.Certificate.Import-KsCertificate                                 0%
+  Public.Certificate.Import-KrCertificate                                 0%
+  Public.Certificate.New-KrCertificateRequest                             0%
   Public.Certificate.New-KrSelfSignedCertificate                        100%
-  Public.Certificate.New-KsCertificateRequest                             0%
-  Public.Certificate.Test-KsCertificate                                  50%
+  Public.Certificate.Test-KrCertificate                                  50%
   Public.ClaimPolicy.Add-KrClaimPolicy                                  100%
   Public.ClaimPolicy.Add-KrUserClaim                                      0%
   Public.ClaimPolicy.Build-KrClaimPolicy                                100%
@@ -236,13 +236,13 @@ Kestrun.PowerShell.Public                                              29.6%
   Public.Scheduling.Resume-KrSchedule                                     0%
   Public.Scheduling.Suspend-KrSchedule                                    0%
   Public.Server.Add-KrListener                                         58.3%
-  Public.Server.Enable-KrConfiguration                                 76.9%
+  Public.Server.Enable-KrConfiguration                                 73.5%
   Public.Server.New-KrServer                                             38%
   Public.Server.Remove-KrServer                                           0%
   Public.Server.Set-KrServerLimit                                      67.8%
   Public.Server.Set-KrServerOption                                     63.6%
   Public.Server.Start-KrServer                                         17.1%
-  Public.Server.Stop-KrServer                                          61.5%
+  Public.Server.Stop-KrServer                                          58.3%
   Public.Service.Add-Favicon                                             75%
   Public.Service.Add-KrAntiforgery                                        0%
   Public.Service.Add-KrCorsPolicy                                         0%
