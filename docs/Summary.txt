@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/06/2025 - 18:30:33
-  Coverage date: 09/06/2025 - 18:30:06
+  Generated on: 09/07/2025 - 04:51:39
+  Coverage date: 09/07/2025 - 04:51:11
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 229
   Files: 229
-  Line coverage: 71.7%
-  Covered lines: 4883
-  Uncovered lines: 1923
-  Coverable lines: 6806
-  Total lines: 25195
-  Branch coverage: 70.2% (1799 of 2560)
-  Covered branches: 1799
-  Total branches: 2560
-  Method coverage: 82.1% (805 of 980)
-  Full method coverage: 63.4% (622 of 980)
-  Covered methods: 805
+  Line coverage: 71.6%
+  Covered lines: 4869
+  Uncovered lines: 1930
+  Coverable lines: 6799
+  Total lines: 25168
+  Branch coverage: 69.9% (1790 of 2558)
+  Covered branches: 1790
+  Total branches: 2558
+  Method coverage: 81.2% (803 of 988)
+  Full method coverage: 62.9% (622 of 988)
+  Covered methods: 803
   Fully covered methods: 622
-  Total methods: 980
-  Tag: Kestrun/Kestrun@aeddbedb8a96e9137aac94c2d5edd011b57ac871
+  Total methods: 988
+  Tag: Kestrun/Kestrun@461ff737fcae3442df54fb34b135b2349f239c4f
 
-Kestrun                                                                81.2%
+Kestrun                                                                80.8%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -71,9 +71,9 @@ Kestrun                                                                81.2%
   Kestrun.Logging.Enrichers.Extensions.ErrorRecordEnricherExtensions    100%
   Kestrun.Logging.Enrichers.Extensions.ErrorRecordExtensions            100%
   Kestrun.Logging.Exceptions.WrapperException                          22.2%
-  Kestrun.Logging.LoggerConfigurationExtensions                         100%
+  Kestrun.Logging.LoggerConfigurationExtensions                        55.5%
   Kestrun.Logging.LoggerExtensions                                     94.4%
-  Kestrun.Logging.LoggerManager                                        64.9%
+  Kestrun.Logging.LoggerManager                                        34.4%
   Kestrun.Logging.Sinks.Extensions.PowerShellSinkExtensions             100%
   Kestrun.Logging.Sinks.PowerShellSink                                  100%
   Kestrun.Logging.Utils.Console.Cell                                   92.3%
@@ -137,7 +137,7 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              29.1%
+Kestrun.PowerShell.Public                                              29.6%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -177,13 +177,13 @@ Kestrun.PowerShell.Public                                              29.1%
   Public.JWT.Test-KrJWT                                                   0%
   Public.JWT.Update-KrJWT                                                 0%
   Public.Logging.core.Close-KrLogger                                      0%
+  Public.Logging.core.Get-KrLevelSwitch                                   0%
   Public.Logging.core.Get-KrLogger                                        0%
-  Public.Logging.core.New-KrLevelSwitch                                   0%
   Public.Logging.core.New-KrLogger                                      100%
-  Public.Logging.core.Register-KrLogger                                36.3%
+  Public.Logging.core.Register-KrLogger                                 100%
   Public.Logging.core.Set-KrLevelSwitch                                   0%
   Public.Logging.core.Set-KrLogger                                        0%
-  Public.Logging.core.Set-KrMinimumLevel                               18.1%
+  Public.Logging.core.Set-KrMinimumLevel                                 30%
   Public.Logging.enrichers.Add-KrEnrichEnvironment                        0%
   Public.Logging.enrichers.Add-KrEnrichErrorRecord                        0%
   Public.Logging.enrichers.Add-KrEnrichExceptionDetail                    0%
@@ -237,7 +237,7 @@ Kestrun.PowerShell.Public                                              29.1%
   Public.Scheduling.Suspend-KrSchedule                                    0%
   Public.Server.Add-KrListener                                         58.3%
   Public.Server.Enable-KrConfiguration                                 76.9%
-  Public.Server.New-KrServer                                           31.5%
+  Public.Server.New-KrServer                                             38%
   Public.Server.Remove-KrServer                                           0%
   Public.Server.Set-KrServerLimit                                      67.8%
   Public.Server.Set-KrServerOption                                     63.6%
