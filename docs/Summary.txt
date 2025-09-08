@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/08/2025 - 15:16:31
-  Coverage date: 09/08/2025 - 15:16:04
+  Generated on: 09/08/2025 - 16:52:38
+  Coverage date: 09/08/2025 - 16:52:09
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 229
   Files: 229
-  Line coverage: 71.3%
-  Covered lines: 4904
-  Uncovered lines: 1965
-  Coverable lines: 6869
-  Total lines: 25292
-  Branch coverage: 69.9% (1793 of 2564)
-  Covered branches: 1793
-  Total branches: 2564
-  Method coverage: 80.8% (805 of 996)
-  Full method coverage: 62.4% (622 of 996)
-  Covered methods: 805
-  Fully covered methods: 622
-  Total methods: 996
-  Tag: Kestrun/Kestrun@f2964c13c2062dc3cd29b60465a769d942df5832
+  Line coverage: 71.2%
+  Covered lines: 4921
+  Uncovered lines: 1988
+  Coverable lines: 6909
+  Total lines: 25358
+  Branch coverage: 69.8% (1795 of 2568)
+  Covered branches: 1795
+  Total branches: 2568
+  Method coverage: 80.8% (808 of 1000)
+  Full method coverage: 62.6% (626 of 1000)
+  Covered methods: 808
+  Fully covered methods: 626
+  Total methods: 1000
+  Tag: Kestrun/Kestrun@14183915904bc10657c407aa6953ae9be314429f
 
-Kestrun                                                                80.4%
+Kestrun                                                                80.2%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -39,7 +39,7 @@ Kestrun                                                                80.4%
   Kestrun.Claims.KestrunClaimExtensions                                 100%
   Kestrun.FixedTimeEquals                                              90.9%
   Kestrun.Hosting.KestrunContext                                        100%
-  Kestrun.Hosting.KestrunHost                                          79.5%
+  Kestrun.Hosting.KestrunHost                                          74.7%
   Kestrun.Hosting.KestrunHostAuthExtensions                            88.9%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
@@ -48,7 +48,7 @@ Kestrun                                                                80.4%
   Kestrun.Hosting.KestrunHttpMiddlewareExtensions                      67.8%
   Kestrun.Hosting.NoopHostLifetime                                        0%
   Kestrun.Hosting.Options.KestrelOptionsExtensions                      100%
-  Kestrun.Hosting.Options.KestrunOptions                               92.3%
+  Kestrun.Hosting.Options.KestrunOptions                               88.8%
   Kestrun.Hosting.Options.ListenerOptions                               100%
   Kestrun.Hosting.Options.MapRouteOptions                               100%
   Kestrun.Hosting.Options.RouteKeyComparer                              100%
@@ -113,7 +113,7 @@ Kestrun                                                                80.4%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                       95.4%
+  Kestrun.Utilities.VariablesMap                                        100%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
