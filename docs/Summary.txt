@@ -1,6 +1,6 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/08/2025 - 20:34:04
-  Coverage date: 09/08/2025 - 20:33:33
+  Generated on: 09/08/2025 - 22:01:42
+  Coverage date: 09/08/2025 - 22:01:15
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 233
@@ -18,7 +18,7 @@ Summary - Kestrun — Combined Coverage
   Covered methods: 809
   Fully covered methods: 627
   Total methods: 1004
-  Tag: Kestrun/Kestrun@3790ee5884494a7a2a829344a47743e0bf492e72
+  Tag: Kestrun/Kestrun@5b07291e68d6f58c9be969d8be47b9ff645ac08b
 
 Kestrun                                                                80.1%
   DelegateBuilder                                                      97.3%
