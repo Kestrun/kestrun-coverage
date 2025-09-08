@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/08/2025 - 14:52:50
-  Coverage date: 09/08/2025 - 14:52:22
+  Generated on: 09/08/2025 - 15:16:31
+  Coverage date: 09/08/2025 - 15:16:04
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 229
   Files: 229
-  Line coverage: 71.4%
-  Covered lines: 4905
-  Uncovered lines: 1964
+  Line coverage: 71.3%
+  Covered lines: 4904
+  Uncovered lines: 1965
   Coverable lines: 6869
   Total lines: 25292
-  Branch coverage: 69.9% (1794 of 2564)
-  Covered branches: 1794
+  Branch coverage: 69.9% (1793 of 2564)
+  Covered branches: 1793
   Total branches: 2564
   Method coverage: 80.8% (805 of 996)
-  Full method coverage: 62.5% (623 of 996)
+  Full method coverage: 62.4% (622 of 996)
   Covered methods: 805
-  Fully covered methods: 623
+  Fully covered methods: 622
   Total methods: 996
-  Tag: Kestrun/Kestrun@819d430c57fbf6a6ffbecb11f265d9b5cbe754a9
+  Tag: Kestrun/Kestrun@f2964c13c2062dc3cd29b60465a769d942df5832
 
-Kestrun                                                                80.5%
+Kestrun                                                                80.4%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -113,7 +113,7 @@ Kestrun                                                                80.5%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                        100%
+  Kestrun.Utilities.VariablesMap                                       95.4%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
