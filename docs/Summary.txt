@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/09/2025 - 05:44:25
-  Coverage date: 09/09/2025 - 05:43:54
+  Generated on: 09/09/2025 - 20:36:30
+  Coverage date: 09/09/2025 - 20:36:00
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 237
   Files: 237
   Line coverage: 68%
-  Covered lines: 4942
-  Uncovered lines: 2316
-  Coverable lines: 7258
-  Total lines: 26394
+  Covered lines: 4955
+  Uncovered lines: 2327
+  Coverable lines: 7282
+  Total lines: 26419
   Branch coverage: 68.7% (1795 of 2610)
   Covered branches: 1795
   Total branches: 2610
-  Method coverage: 78.6% (809 of 1028)
-  Full method coverage: 60.8% (626 of 1028)
-  Covered methods: 809
-  Fully covered methods: 626
+  Method coverage: 78.7% (810 of 1028)
+  Full method coverage: 60.9% (627 of 1028)
+  Covered methods: 810
+  Fully covered methods: 627
   Total methods: 1028
-  Tag: Kestrun/Kestrun@a26a91936c400a7f2324671b2222643fb7724381
+  Tag: Kestrun/Kestrun@eec6e531f6ea893bb4939db76943e009d9fd963c
 
 Kestrun                                                                78.6%
   DelegateBuilder                                                      97.3%
@@ -116,7 +116,7 @@ Kestrun                                                                78.6%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                       95.4%
+  Kestrun.Utilities.VariablesMap                                        100%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
@@ -140,7 +140,7 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                                26%
+Kestrun.PowerShell.Public                                              26.4%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -205,7 +205,7 @@ Kestrun.PowerShell.Public                                                26%
   Public.Logging.sinks.Add-KrSinkSyslogLocal                              0%
   Public.Logging.sinks.Add-KrSinkSyslogTcp                                0%
   Public.Logging.sinks.Add-KrSinkSyslogUdp                                0%
-  Public.Logging.Write-KrLog                                              0%
+  Public.Logging.Write-KrLog                                             24%
   Public.Razor.Add-KrPowerShellRazorPagesRuntime                          0%
   Public.Razor.Add-KrRazorPageService                                     0%
   Public.Request.Get-KrRequestBody                                        0%
@@ -246,9 +246,9 @@ Kestrun.PowerShell.Public                                                26%
   Public.Server.New-KrServer                                             38%
   Public.Server.Remove-KrServer                                           0%
   Public.Server.Set-KrServerHttpsOption                                   0%
-  Public.Server.Set-KrServerLimit                                      66.6%
+  Public.Server.Set-KrServerLimit                                      58.5%
   Public.Server.Set-KrServerNamedPipeOptions                              0%
-  Public.Server.Set-KrServerOptions                                    62.5%
+  Public.Server.Set-KrServerOptions                                    53.1%
   Public.Server.Start-KrServer                                         18.9%
   Public.Server.Stop-KrServer                                          57.1%
   Public.Service.Add-Favicon                                           66.6%
