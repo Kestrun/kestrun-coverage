@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/08/2025 - 22:31:32
-  Coverage date: 09/08/2025 - 22:31:04
+  Generated on: 09/09/2025 - 05:44:25
+  Coverage date: 09/09/2025 - 05:43:54
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 233
-  Files: 233
-  Line coverage: 70.2%
-  Covered lines: 4945
-  Uncovered lines: 2092
-  Coverable lines: 7037
-  Total lines: 25817
-  Branch coverage: 69.8% (1795 of 2568)
+  Classes: 237
+  Files: 237
+  Line coverage: 68%
+  Covered lines: 4942
+  Uncovered lines: 2316
+  Coverable lines: 7258
+  Total lines: 26394
+  Branch coverage: 68.7% (1795 of 2610)
   Covered branches: 1795
-  Total branches: 2568
-  Method coverage: 80.5% (809 of 1004)
-  Full method coverage: 62.4% (627 of 1004)
+  Total branches: 2610
+  Method coverage: 78.6% (809 of 1028)
+  Full method coverage: 60.8% (626 of 1028)
   Covered methods: 809
-  Fully covered methods: 627
-  Total methods: 1004
-  Tag: Kestrun/Kestrun@dbb18e7ece2c252a9cc087c2d2d9fc2f0af04b8f
+  Fully covered methods: 626
+  Total methods: 1028
+  Tag: Kestrun/Kestrun@a26a91936c400a7f2324671b2222643fb7724381
 
-Kestrun                                                                80.1%
+Kestrun                                                                78.6%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -37,9 +37,12 @@ Kestrun                                                                80.1%
   Kestrun.Claims.ClaimPolicyPostConfigurer                              100%
   Kestrun.Claims.ClaimRule                                               60%
   Kestrun.Claims.KestrunClaimExtensions                                 100%
+  Kestrun.Client.KrHttpClientFactory                                      0%
+  Kestrun.Client.KrHttpClientOptions                                      0%
+  Kestrun.Client.KrHttpDownloads                                          0%
   Kestrun.FixedTimeEquals                                              90.9%
   Kestrun.Hosting.KestrunContext                                        100%
-  Kestrun.Hosting.KestrunHost                                            74%
+  Kestrun.Hosting.KestrunHost                                          73.9%
   Kestrun.Hosting.KestrunHostAuthExtensions                            88.9%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
@@ -113,7 +116,7 @@ Kestrun                                                                80.1%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                        100%
+  Kestrun.Utilities.VariablesMap                                       95.4%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
@@ -137,7 +140,7 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              28.5%
+Kestrun.PowerShell.Public                                                26%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -156,6 +159,7 @@ Kestrun.PowerShell.Public                                              28.5%
   Public.Helper.Expand-KrObject                                           0%
   Public.Helper.Get-KrRoot                                                0%
   Public.Helper.Initialize-KrRoot                                         0%
+  Public.Helper.Invoke-KrWebRequest                                       0%
   Public.Helper.Resolve-KrPath                                         77.7%
   Public.Helper.ScriptBlock                                             6.2%
   Public.Helper.Set-KrPythonRuntime                                       0%
