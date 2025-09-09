@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/09/2025 - 20:36:30
-  Coverage date: 09/09/2025 - 20:36:00
+  Generated on: 09/09/2025 - 21:56:59
+  Coverage date: 09/09/2025 - 21:56:28
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 237
   Files: 237
   Line coverage: 68%
-  Covered lines: 4955
+  Covered lines: 4957
   Uncovered lines: 2327
-  Coverable lines: 7282
-  Total lines: 26419
-  Branch coverage: 68.7% (1795 of 2610)
-  Covered branches: 1795
+  Coverable lines: 7284
+  Total lines: 26434
+  Branch coverage: 68.8% (1796 of 2610)
+  Covered branches: 1796
   Total branches: 2610
-  Method coverage: 78.7% (810 of 1028)
-  Full method coverage: 60.9% (627 of 1028)
-  Covered methods: 810
-  Fully covered methods: 627
-  Total methods: 1028
-  Tag: Kestrun/Kestrun@eec6e531f6ea893bb4939db76943e009d9fd963c
+  Method coverage: 78.8% (811 of 1029)
+  Full method coverage: 61% (628 of 1029)
+  Covered methods: 811
+  Fully covered methods: 628
+  Total methods: 1029
+  Tag: Kestrun/Kestrun@739093f321f10605cc4d1029da7300e3bb4dcba9
 
 Kestrun                                                                78.6%
   DelegateBuilder                                                      97.3%
@@ -98,7 +98,7 @@ Kestrun                                                                78.6%
   Kestrun.Scheduling.RoslynJobFactory                                   100%
   Kestrun.Scheduling.ScheduledTask                                      100%
   Kestrun.Scheduling.ScheduleReport                                     100%
-  Kestrun.Scheduling.SchedulerService                                  80.7%
+  Kestrun.Scheduling.SchedulerService                                  81.2%
   Kestrun.Scripting.CompilationErrorException                          96.1%
   Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions          75%
   Kestrun.Scripting.KestrunRunspacePoolManager                         75.5%
@@ -116,7 +116,7 @@ Kestrun                                                                78.6%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                        100%
+  Kestrun.Utilities.VariablesMap                                       95.4%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
