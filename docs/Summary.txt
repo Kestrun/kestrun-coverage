@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/09/2025 - 21:56:59
-  Coverage date: 09/09/2025 - 21:56:28
+  Generated on: 09/10/2025 - 17:50:34
+  Coverage date: 09/10/2025 - 17:50:06
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 237
   Files: 237
-  Line coverage: 68%
-  Covered lines: 4957
-  Uncovered lines: 2327
-  Coverable lines: 7284
-  Total lines: 26434
-  Branch coverage: 68.8% (1796 of 2610)
-  Covered branches: 1796
-  Total branches: 2610
-  Method coverage: 78.8% (811 of 1029)
-  Full method coverage: 61% (628 of 1029)
+  Line coverage: 67.7%
+  Covered lines: 4959
+  Uncovered lines: 2364
+  Coverable lines: 7323
+  Total lines: 26500
+  Branch coverage: 68.7% (1795 of 2612)
+  Covered branches: 1795
+  Total branches: 2612
+  Method coverage: 78.7% (811 of 1030)
+  Full method coverage: 60.9% (628 of 1030)
   Covered methods: 811
   Fully covered methods: 628
-  Total methods: 1029
-  Tag: Kestrun/Kestrun@739093f321f10605cc4d1029da7300e3bb4dcba9
+  Total methods: 1030
+  Tag: Kestrun/Kestrun@5f41b7385e6492ec5892c0c7887658952f6fb87e
 
-Kestrun                                                                78.6%
+Kestrun                                                                78.1%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -43,7 +43,7 @@ Kestrun                                                                78.6%
   Kestrun.FixedTimeEquals                                              90.9%
   Kestrun.Hosting.KestrunContext                                        100%
   Kestrun.Hosting.KestrunHost                                          73.9%
-  Kestrun.Hosting.KestrunHostAuthExtensions                            88.9%
+  Kestrun.Hosting.KestrunHostAuthExtensions                            78.5%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                82.2%
@@ -98,7 +98,7 @@ Kestrun                                                                78.6%
   Kestrun.Scheduling.RoslynJobFactory                                   100%
   Kestrun.Scheduling.ScheduledTask                                      100%
   Kestrun.Scheduling.ScheduleReport                                     100%
-  Kestrun.Scheduling.SchedulerService                                  81.2%
+  Kestrun.Scheduling.SchedulerService                                  80.7%
   Kestrun.Scripting.CompilationErrorException                          96.1%
   Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions          75%
   Kestrun.Scripting.KestrunRunspacePoolManager                         75.5%
@@ -116,7 +116,7 @@ Kestrun                                                                78.6%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                       95.4%
+  Kestrun.Utilities.VariablesMap                                        100%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
@@ -140,7 +140,7 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              26.4%
+Kestrun.PowerShell.Public                                              26.5%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -239,7 +239,7 @@ Kestrun.PowerShell.Public                                              26.4%
   Public.Scheduling.Register-KrSchedule                                   0%
   Public.Scheduling.Resume-KrSchedule                                     0%
   Public.Scheduling.Suspend-KrSchedule                                    0%
-  Public.Server.Add-KrListener                                         57.1%
+  Public.Server.Add-KrListener                                         56.2%
   Public.Server.Add-KrListenUnixSocket                                    0%
   Public.Server.Add-KrNamedPipeListener                                   0%
   Public.Server.Enable-KrConfiguration                                 72.2%
