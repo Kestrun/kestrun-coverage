@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/10/2025 - 19:58:59
-  Coverage date: 09/10/2025 - 19:58:28
+  Generated on: 09/11/2025 - 03:23:39
+  Coverage date: 09/11/2025 - 03:23:10
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 237
-  Files: 237
-  Line coverage: 67.7%
-  Covered lines: 4959
-  Uncovered lines: 2364
-  Coverable lines: 7323
-  Total lines: 26500
-  Branch coverage: 68.7% (1796 of 2612)
-  Covered branches: 1796
+  Classes: 241
+  Files: 241
+  Line coverage: 66.9%
+  Covered lines: 4958
+  Uncovered lines: 2452
+  Coverable lines: 7410
+  Total lines: 26929
+  Branch coverage: 68.7% (1795 of 2612)
+  Covered branches: 1795
   Total branches: 2612
-  Method coverage: 78.7% (811 of 1030)
-  Full method coverage: 60.9% (628 of 1030)
+  Method coverage: 78.4% (811 of 1034)
+  Full method coverage: 60.6% (627 of 1034)
   Covered methods: 811
-  Fully covered methods: 628
-  Total methods: 1030
-  Tag: Kestrun/Kestrun@9d3a582b2d63930269564a7591aa77ef297cadeb
+  Fully covered methods: 627
+  Total methods: 1034
+  Tag: Kestrun/Kestrun@b7a12f5205442de0d384c1a861c1f8f30c74dcb5
 
 Kestrun                                                                78.1%
   DelegateBuilder                                                      97.3%
@@ -116,18 +116,20 @@ Kestrun                                                                78.1%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                        100%
+  Kestrun.Utilities.VariablesMap                                       95.4%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
 
-Kestrun.PowerShell.Private                                             44.8%
+Kestrun.PowerShell.Private                                             40.6%
   Private.Assembly.Add-KrAspNetCoreType                                71.4%
   Private.Assembly.Add-KrCodeAnalysisType                               100%
   Private.Assembly.Assert-KrAssemblyLoaded                             46.1%
   Private.Assembly.Get-KrCommandByContext                                 0%
   Private.Assembly.Get-KrDocSet                                           0%
   Private.Assembly.Get-KrFunctionContextMask                              0%
+  Private.ConvertTo.ConvertTo-DateTimeOffset                              0%
+  Private.ConvertTo.ConvertTo-TimeSpan                                    0%
   Private.Logging.Get-KrFormattedMessage                                  0%
   Private.Logging.Set-KrLogLevelToPreference                              0%
   Private.Logging.Write.Write-KrSinkPowerShell                            0%
@@ -140,7 +142,7 @@ Kestrun.PowerShell.Private                                             44.8%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              26.5%
+Kestrun.PowerShell.Public                                              25.4%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -156,6 +158,8 @@ Kestrun.PowerShell.Public                                              26.5%
   Public.ClaimPolicy.Add-KrUserClaim                                      0%
   Public.ClaimPolicy.Build-KrClaimPolicy                                100%
   Public.ClaimPolicy.New-KrClaimPolicy                                  100%
+  Public.Cookies.Invoke-KrCookieSignIn                                    0%
+  Public.Cookies.New-KrCookieBuilder                                      0%
   Public.Helper.Expand-KrObject                                           0%
   Public.Helper.Get-KrRoot                                                0%
   Public.Helper.Initialize-KrRoot                                         0%
