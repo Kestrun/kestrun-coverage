@@ -1,30 +1,31 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/11/2025 - 03:23:39
-  Coverage date: 09/11/2025 - 03:23:10
+  Generated on: 09/12/2025 - 03:43:12
+  Coverage date: 09/12/2025 - 03:42:44
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 241
-  Files: 241
-  Line coverage: 66.9%
-  Covered lines: 4958
-  Uncovered lines: 2452
-  Coverable lines: 7410
-  Total lines: 26929
-  Branch coverage: 68.7% (1795 of 2612)
-  Covered branches: 1795
-  Total branches: 2612
-  Method coverage: 78.4% (811 of 1034)
-  Full method coverage: 60.6% (627 of 1034)
-  Covered methods: 811
-  Fully covered methods: 627
-  Total methods: 1034
-  Tag: Kestrun/Kestrun@b7a12f5205442de0d384c1a861c1f8f30c74dcb5
+  Classes: 245
+  Files: 245
+  Line coverage: 66.8%
+  Covered lines: 4991
+  Uncovered lines: 2474
+  Coverable lines: 7465
+  Total lines: 27162
+  Branch coverage: 68.7% (1798 of 2614)
+  Covered branches: 1798
+  Total branches: 2614
+  Method coverage: 78.1% (812 of 1039)
+  Full method coverage: 60.4% (628 of 1039)
+  Covered methods: 812
+  Fully covered methods: 628
+  Total methods: 1039
+  Tag: Kestrun/Kestrun@d160286e3020330b1eb862d66a37db2e26fc9042
 
 Kestrun                                                                78.1%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
   Kestrun.Authentication.AuthenticationCodeSettings                     100%
+  Kestrun.Authentication.AuthOptionsHelper                                0%
   Kestrun.Authentication.BasicAuthenticationOptions                     100%
   Kestrun.Authentication.BasicAuthHandler                              88.8%
   Kestrun.Authentication.IAuthHandler                                  90.4%
@@ -41,9 +42,8 @@ Kestrun                                                                78.1%
   Kestrun.Client.KrHttpClientOptions                                      0%
   Kestrun.Client.KrHttpDownloads                                          0%
   Kestrun.FixedTimeEquals                                              90.9%
-  Kestrun.Hosting.KestrunContext                                        100%
-  Kestrun.Hosting.KestrunHost                                          73.9%
-  Kestrun.Hosting.KestrunHostAuthExtensions                            78.5%
+  Kestrun.Hosting.KestrunHost                                          73.8%
+  Kestrun.Hosting.KestrunHostAuthExtensions                              79%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                82.2%
@@ -89,6 +89,7 @@ Kestrun                                                                78.1%
   Kestrun.Middleware.PowerShellRunspaceMiddleware                       100%
   Kestrun.Middleware.PowerShellRunspaceMiddlewareExtensions             100%
   Kestrun.Models.ContentDispositionOptions                              100%
+  Kestrun.Models.KestrunContext                                         100%
   Kestrun.Models.KestrunRequest                                         100%
   Kestrun.Models.KestrunResponse                                       89.3%
   Kestrun.Razor.PowerShellRazorPage                                    85.5%
@@ -116,12 +117,12 @@ Kestrun                                                                78.1%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                       95.4%
+  Kestrun.Utilities.VariablesMap                                        100%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
 
-Kestrun.PowerShell.Private                                             40.6%
+Kestrun.PowerShell.Private                                             40.2%
   Private.Assembly.Add-KrAspNetCoreType                                71.4%
   Private.Assembly.Add-KrCodeAnalysisType                               100%
   Private.Assembly.Assert-KrAssemblyLoaded                             46.1%
@@ -132,7 +133,8 @@ Kestrun.PowerShell.Private                                             40.6%
   Private.ConvertTo.ConvertTo-TimeSpan                                    0%
   Private.Logging.Get-KrFormattedMessage                                  0%
   Private.Logging.Set-KrLogLevelToPreference                              0%
-  Private.Logging.Write.Write-KrSinkPowerShell                            0%
+  Private.Logging.Write-KrOutsideRouteWarning                             0%
+  Private.Logging.Write-KrSinkPowerShell                                  0%
   Private.Routing._KrJoin-Route                                           0%
   Private.Routing._KrMerge-Args                                        16.6%
   Private.Routing._KrMerge-MRO                                         81.8%
@@ -142,7 +144,7 @@ Kestrun.PowerShell.Private                                             40.6%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              25.4%
+Kestrun.PowerShell.Public                                                26%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -159,7 +161,8 @@ Kestrun.PowerShell.Public                                              25.4%
   Public.ClaimPolicy.Build-KrClaimPolicy                                100%
   Public.ClaimPolicy.New-KrClaimPolicy                                  100%
   Public.Cookies.Invoke-KrCookieSignIn                                    0%
-  Public.Cookies.New-KrCookieBuilder                                      0%
+  Public.Cookies.Invoke-KrCookieSignOut                                   0%
+  Public.Cookies.New-KrCookieBuilder                                     68%
   Public.Helper.Expand-KrObject                                           0%
   Public.Helper.Get-KrRoot                                                0%
   Public.Helper.Initialize-KrRoot                                         0%
@@ -192,6 +195,7 @@ Kestrun.PowerShell.Public                                              25.4%
   Public.Logging.core.Set-KrLevelSwitch                                   0%
   Public.Logging.core.Set-KrLogger                                        0%
   Public.Logging.core.Set-KrMinimumLevel                                 30%
+  Public.Logging.core.Test-KrLogger                                       0%
   Public.Logging.enrichers.Add-KrEnrichEnvironment                        0%
   Public.Logging.enrichers.Add-KrEnrichErrorRecord                        0%
   Public.Logging.enrichers.Add-KrEnrichExceptionDetail                    0%
