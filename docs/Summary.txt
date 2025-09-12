@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/12/2025 - 17:39:52
-  Coverage date: 09/12/2025 - 17:39:23
+  Generated on: 09/12/2025 - 21:57:58
+  Coverage date: 09/12/2025 - 21:57:27
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 251
-  Files: 251
-  Line coverage: 66.3%
+  Classes: 254
+  Files: 254
+  Line coverage: 64.3%
   Covered lines: 5000
-  Uncovered lines: 2531
-  Coverable lines: 7531
-  Total lines: 27451
-  Branch coverage: 67.9% (1799 of 2646)
-  Covered branches: 1799
-  Total branches: 2646
-  Method coverage: 77.1% (816 of 1057)
-  Full method coverage: 59.6% (631 of 1057)
+  Uncovered lines: 2770
+  Coverable lines: 7770
+  Total lines: 28042
+  Branch coverage: 64.1% (1798 of 2802)
+  Covered branches: 1798
+  Total branches: 2802
+  Method coverage: 76.2% (816 of 1070)
+  Full method coverage: 58.9% (631 of 1070)
   Covered methods: 816
   Fully covered methods: 631
-  Total methods: 1057
-  Tag: Kestrun/Kestrun@7189783cf8fc454ea15d22b08b77bebbd01f9687
+  Total methods: 1070
+  Tag: Kestrun/Kestrun@7f3035804f966a691bd6936a199a8086730a7845
 
-Kestrun                                                                77.6%
+Kestrun                                                                74.9%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -52,7 +52,7 @@ Kestrun                                                                77.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                82.2%
   Kestrun.Hosting.KestrunHostStaticFilesExtensions                     55.2%
-  Kestrun.Hosting.KestrunHttpMiddlewareExtensions                      67.8%
+  Kestrun.Hosting.KestrunHttpMiddlewareExtensions                      33.1%
   Kestrun.Hosting.NoopHostLifetime                                        0%
   Kestrun.Hosting.Options.KestrelOptionsExtensions                      100%
   Kestrun.Hosting.Options.KestrunOptions                               94.7%
@@ -113,6 +113,7 @@ Kestrun                                                                77.6%
   Kestrun.SharedState.SharedStateStore                                 87.5%
   Kestrun.Utilities.AssemblyAutoLoader                                 65.6%
   Kestrun.Utilities.BuildError                                         90.9%
+  Kestrun.Utilities.CacheRevalidation                                     0%
   Kestrun.Utilities.CcUtilities                                         100%
   Kestrun.Utilities.HostingExtensions                                     0%
   Kestrun.Utilities.HttpVerbExtensions                                 95.8%
@@ -148,7 +149,7 @@ Kestrun.PowerShell.Private                                             40.2%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              25.7%
+Kestrun.PowerShell.Public                                              25.2%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -228,6 +229,7 @@ Kestrun.PowerShell.Public                                              25.7%
   Public.Request.Get-KrRequestHeader                                      0%
   Public.Request.Get-KrRequestQuery                                       0%
   Public.Request.Get-KrRequestRouteValue                                  0%
+  Public.Response.Test-KrCacheRevalidation                                0%
   Public.Response.Write-KrBinaryResponse                                  0%
   Public.Response.Write-KrBsonResponse                                    0%
   Public.Response.Write-KrCborResponse                                    0%
@@ -270,6 +272,7 @@ Kestrun.PowerShell.Public                                              25.7%
   Public.Service.Add-KrCorsPolicy                                         0%
   Public.Service.Add-KrFileServer                                         0%
   Public.Service.Add-KrPowerShellRuntime                               66.6%
+  Public.Service.Add-KrResponseCaching                                    0%
   Public.Service.Add-KrResponseCompression                             78.5%
   Public.Service.Add-KrScheduling                                         0%
   Public.Service.Add-KrSignalRHub                                         0%
