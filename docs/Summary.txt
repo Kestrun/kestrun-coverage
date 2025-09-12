@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/12/2025 - 13:43:04
-  Coverage date: 09/12/2025 - 13:42:35
+  Generated on: 09/12/2025 - 16:20:14
+  Coverage date: 09/12/2025 - 16:19:46
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 245
-  Files: 245
-  Line coverage: 66.8%
-  Covered lines: 4991
-  Uncovered lines: 2474
-  Coverable lines: 7465
-  Total lines: 27162
-  Branch coverage: 68.7% (1797 of 2614)
-  Covered branches: 1797
-  Total branches: 2614
-  Method coverage: 78.1% (812 of 1039)
-  Full method coverage: 60.4% (628 of 1039)
-  Covered methods: 812
-  Fully covered methods: 628
-  Total methods: 1039
-  Tag: Kestrun/Kestrun@bd4d239cd63303706ae393e27d54f868ef64f9ff
+  Classes: 251
+  Files: 251
+  Line coverage: 66.4%
+  Covered lines: 5001
+  Uncovered lines: 2530
+  Coverable lines: 7531
+  Total lines: 27451
+  Branch coverage: 67.9% (1799 of 2646)
+  Covered branches: 1799
+  Total branches: 2646
+  Method coverage: 77.1% (816 of 1057)
+  Full method coverage: 59.6% (631 of 1057)
+  Covered methods: 816
+  Fully covered methods: 631
+  Total methods: 1057
+  Tag: Kestrun/Kestrun@bd014be0a15f3c9298922d2ff67068869adda2a0
 
-Kestrun                                                                78.1%
+Kestrun                                                                77.6%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -30,6 +30,9 @@ Kestrun                                                                78.1%
   Kestrun.Authentication.BasicAuthHandler                              88.8%
   Kestrun.Authentication.IAuthHandler                                  90.4%
   Kestrun.Authentication.JwtAuthenticationOptions                       100%
+  Kestrun.Authorization.KestrunAuthorizationRegistry                   10.3%
+  Kestrun.Authorization.KestrunDynamicPolicyProvider                   45.4%
+  Kestrun.Authorization.KestrunPolicyConfig                               0%
   Kestrun.Certificates.CertificateManager                              73.5%
   Kestrun.Certificates.CsrResult                                         60%
   Kestrun.Claims.ClaimPolicyBuilder                                     100%
@@ -43,7 +46,8 @@ Kestrun                                                                78.1%
   Kestrun.Client.KrHttpDownloads                                          0%
   Kestrun.FixedTimeEquals                                              90.9%
   Kestrun.Hosting.KestrunHost                                          73.8%
-  Kestrun.Hosting.KestrunHostAuthExtensions                              79%
+  Kestrun.Hosting.KestrunHostAuthnExtensions                           78.5%
+  Kestrun.Hosting.KestrunHostAuthorizationExtensions                   69.2%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                82.2%
@@ -99,7 +103,7 @@ Kestrun                                                                78.1%
   Kestrun.Scheduling.RoslynJobFactory                                   100%
   Kestrun.Scheduling.ScheduledTask                                      100%
   Kestrun.Scheduling.ScheduleReport                                     100%
-  Kestrun.Scheduling.SchedulerService                                  80.7%
+  Kestrun.Scheduling.SchedulerService                                  81.2%
   Kestrun.Scripting.CompilationErrorException                          96.1%
   Kestrun.Scripting.EndpointConventionBuilderLanguageExtensions          75%
   Kestrun.Scripting.KestrunRunspacePoolManager                         75.5%
@@ -117,7 +121,7 @@ Kestrun                                                                78.1%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                        100%
+  Kestrun.Utilities.VariablesMap                                       95.4%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
@@ -144,12 +148,14 @@ Kestrun.PowerShell.Private                                             40.2%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                                26%
+Kestrun.PowerShell.Public                                              25.7%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
   Public.Authentication.Add-KrJwtBearerAuthentication                    26%
   Public.Authentication.Add-KrWindowsAuthentication                    66.6%
+  Public.Authorization.Add-KrAuthorizationPolicy                          0%
+  Public.Authorization.Add-KrRequiredClaims                               0%
   Public.Certificate.Export-KrCertificate                                 0%
   Public.Certificate.Get-KrCertificatePurpose                             0%
   Public.Certificate.Import-KrCertificate                                 0%
