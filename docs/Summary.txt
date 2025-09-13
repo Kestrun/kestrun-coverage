@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/13/2025 - 15:59:59
-  Coverage date: 09/13/2025 - 15:59:26
+  Generated on: 09/13/2025 - 17:19:56
+  Coverage date: 09/13/2025 - 17:19:26
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 254
-  Files: 254
-  Line coverage: 64.3%
+  Classes: 255
+  Files: 255
+  Line coverage: 63.9%
   Covered lines: 5000
-  Uncovered lines: 2770
-  Coverable lines: 7770
-  Total lines: 28042
-  Branch coverage: 64.1% (1798 of 2802)
-  Covered branches: 1798
-  Total branches: 2802
-  Method coverage: 76.2% (816 of 1070)
-  Full method coverage: 58.9% (631 of 1070)
+  Uncovered lines: 2821
+  Coverable lines: 7821
+  Total lines: 28223
+  Branch coverage: 63.5% (1799 of 2832)
+  Covered branches: 1799
+  Total branches: 2832
+  Method coverage: 76.1% (816 of 1072)
+  Full method coverage: 58.8% (631 of 1072)
   Covered methods: 816
   Fully covered methods: 631
-  Total methods: 1070
-  Tag: Kestrun/Kestrun@617ba4d4a85a063834a981e0ecdafb35a9c160da
+  Total methods: 1072
+  Tag: Kestrun/Kestrun@ea635f1ee1937c260a89d1a43a3c203cd8767c7b
 
-Kestrun                                                                74.9%
+Kestrun                                                                74.5%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -95,7 +95,7 @@ Kestrun                                                                74.9%
   Kestrun.Models.ContentDispositionOptions                              100%
   Kestrun.Models.KestrunContext                                         100%
   Kestrun.Models.KestrunRequest                                         100%
-  Kestrun.Models.KestrunResponse                                       89.3%
+  Kestrun.Models.KestrunResponse                                       83.4%
   Kestrun.Razor.PowerShellRazorPage                                    85.5%
   Kestrun.Razor.PwshKestrunModel                                        100%
   Kestrun.Scheduling.JobFactory                                        86.3%
@@ -149,7 +149,7 @@ Kestrun.PowerShell.Private                                             40.2%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              25.2%
+Kestrun.PowerShell.Public                                              24.9%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
@@ -195,13 +195,13 @@ Kestrun.PowerShell.Public                                              25.2%
   Public.JWT.Test-KrJWT                                                   0%
   Public.JWT.Update-KrJWT                                                 0%
   Public.Logging.core.Close-KrLogger                                      0%
-  Public.Logging.core.Get-KrLevelSwitch                                   0%
   Public.Logging.core.Get-KrLogger                                        0%
+  Public.Logging.core.Get-KrLoggerLevelSwitch                             0%
   Public.Logging.core.New-KrLogger                                      100%
   Public.Logging.core.Register-KrLogger                                 100%
-  Public.Logging.core.Set-KrLevelSwitch                                   0%
   Public.Logging.core.Set-KrLogger                                        0%
-  Public.Logging.core.Set-KrMinimumLevel                                 30%
+  Public.Logging.core.Set-KrLoggerLevelSwitch                             0%
+  Public.Logging.core.Set-KrLoggerMinimumLevel                           30%
   Public.Logging.core.Test-KrLogger                                       0%
   Public.Logging.enrichers.Add-KrEnrichEnvironment                        0%
   Public.Logging.enrichers.Add-KrEnrichErrorRecord                        0%
@@ -211,7 +211,6 @@ Kestrun.PowerShell.Public                                              25.2%
   Public.Logging.enrichers.Add-KrEnrichProcessName                        0%
   Public.Logging.enrichers.Add-KrEnrichProperty                           0%
   Public.Logging.enrichers.Push-KrLogContextProperty                      0%
-  Public.Logging.formatters.Get-KrJsonFormatter                           0%
   Public.Logging.sinks.Add-KrSinkConsole                                  0%
   Public.Logging.sinks.Add-KrSinkEventLog                                 0%
   Public.Logging.sinks.Add-KrSinkFile                                  66.6%
@@ -220,7 +219,16 @@ Kestrun.PowerShell.Public                                              25.2%
   Public.Logging.sinks.Add-KrSinkSyslogLocal                              0%
   Public.Logging.sinks.Add-KrSinkSyslogTcp                                0%
   Public.Logging.sinks.Add-KrSinkSyslogUdp                                0%
+  Public.Logging.sinks.formatters.function Get-KrSinkJsonFormatter {      0%
   Public.Logging.Write-KrLog                                             24%
+  Public.Middleware.Add-KrAntiforgeryMiddleware                           0%
+  Public.Middleware.Add-KrCacheMiddleware                                 0%
+  Public.Middleware.Add-KrCompressionMiddleware                        78.5%
+  Public.Middleware.Add-KrCorsPolicyMiddleware                            0%
+  Public.Middleware.Add-KrFaviconMiddleware                            66.6%
+  Public.Middleware.Add-KrFileServerMiddleware                            0%
+  Public.Middleware.Add-KrSignalRHubMiddleware                            0%
+  Public.Middleware.Add-KrStaticFilesMiddleware                           0%
   Public.Razor.Add-KrPowerShellRazorPagesRuntime                          0%
   Public.Razor.Add-KrRazorPageService                                     0%
   Public.Request.Get-KrRequestBody                                        0%
@@ -229,6 +237,7 @@ Kestrun.PowerShell.Public                                              25.2%
   Public.Request.Get-KrRequestHeader                                      0%
   Public.Request.Get-KrRequestQuery                                       0%
   Public.Request.Get-KrRequestRouteValue                                  0%
+  Public.Response.Add-KrCacheResponse                                     0%
   Public.Response.Test-KrCacheRevalidation                                0%
   Public.Response.Write-KrBinaryResponse                                  0%
   Public.Response.Write-KrBsonResponse                                    0%
@@ -267,15 +276,7 @@ Kestrun.PowerShell.Public                                              25.2%
   Public.Server.Set-KrServerOptions                                    53.1%
   Public.Server.Start-KrServer                                         18.9%
   Public.Server.Stop-KrServer                                          57.1%
-  Public.Service.Add-Favicon                                           66.6%
-  Public.Service.Add-KrAntiforgery                                        0%
-  Public.Service.Add-KrCorsPolicy                                         0%
-  Public.Service.Add-KrFileServer                                         0%
   Public.Service.Add-KrPowerShellRuntime                               66.6%
-  Public.Service.Add-KrResponseCaching                                    0%
-  Public.Service.Add-KrResponseCompression                             78.5%
   Public.Service.Add-KrScheduling                                         0%
-  Public.Service.Add-KrSignalRHub                                         0%
-  Public.Service.Add-KrStaticFilesService                                 0%
   Public.SharedState.Get-KrSharedState                                  100%
   Public.SharedState.Set-KrSharedState                                  100%
