@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/13/2025 - 21:11:11
-  Coverage date: 09/13/2025 - 21:10:40
+  Generated on: 09/14/2025 - 21:23:16
+  Coverage date: 09/14/2025 - 21:22:47
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 255
   Files: 255
-  Line coverage: 63.6%
-  Covered lines: 5007
-  Uncovered lines: 2859
-  Coverable lines: 7866
-  Total lines: 28374
-  Branch coverage: 62.9% (1798 of 2858)
-  Covered branches: 1798
-  Total branches: 2858
-  Method coverage: 75.9% (816 of 1074)
-  Full method coverage: 58.7% (631 of 1074)
-  Covered methods: 816
-  Fully covered methods: 631
-  Total methods: 1074
-  Tag: Kestrun/Kestrun@c00c04d65edffc6840698a5c67a70cae1ad411d9
+  Line coverage: 63.3%
+  Covered lines: 5022
+  Uncovered lines: 2904
+  Coverable lines: 7926
+  Total lines: 28529
+  Branch coverage: 63.1% (1802 of 2854)
+  Covered branches: 1802
+  Total branches: 2854
+  Method coverage: 75.9% (819 of 1078)
+  Full method coverage: 58.7% (633 of 1078)
+  Covered methods: 819
+  Fully covered methods: 633
+  Total methods: 1078
+  Tag: Kestrun/Kestrun@c9d2f0b3dd164d7dc0dc2407a9f006293d924223
 
 Kestrun                                                                74.1%
   DelegateBuilder                                                      97.3%
@@ -45,14 +45,14 @@ Kestrun                                                                74.1%
   Kestrun.Client.KrHttpClientOptions                                      0%
   Kestrun.Client.KrHttpDownloads                                          0%
   Kestrun.FixedTimeEquals                                              90.9%
-  Kestrun.Hosting.KestrunHost                                          68.3%
+  Kestrun.Hosting.KestrunHost                                          68.1%
   Kestrun.Hosting.KestrunHostAuthnExtensions                           78.5%
   Kestrun.Hosting.KestrunHostAuthorizationExtensions                   69.2%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                82.2%
-  Kestrun.Hosting.KestrunHostStaticFilesExtensions                     55.2%
-  Kestrun.Hosting.KestrunHttpMiddlewareExtensions                      33.1%
+  Kestrun.Hosting.KestrunHostStaticFilesExtensions                     42.3%
+  Kestrun.Hosting.KestrunHttpMiddlewareExtensions                      35.5%
   Kestrun.Hosting.NoopHostLifetime                                        0%
   Kestrun.Hosting.Options.KestrelOptionsExtensions                      100%
   Kestrun.Hosting.Options.KestrunOptions                               94.7%
@@ -95,7 +95,7 @@ Kestrun                                                                74.1%
   Kestrun.Models.ContentDispositionOptions                              100%
   Kestrun.Models.KestrunContext                                         100%
   Kestrun.Models.KestrunRequest                                         100%
-  Kestrun.Models.KestrunResponse                                       83.4%
+  Kestrun.Models.KestrunResponse                                       88.3%
   Kestrun.Razor.PowerShellRazorPage                                    85.5%
   Kestrun.Razor.PwshKestrunModel                                        100%
   Kestrun.Scheduling.JobFactory                                        86.3%
@@ -149,7 +149,7 @@ Kestrun.PowerShell.Private                                             40.2%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.4%
 
-Kestrun.PowerShell.Public                                              25.1%
+Kestrun.PowerShell.Public                                              24.4%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
