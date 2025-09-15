@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/14/2025 - 21:23:16
-  Coverage date: 09/14/2025 - 21:22:47
+  Generated on: 09/15/2025 - 19:16:36
+  Coverage date: 09/15/2025 - 19:16:07
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 255
-  Files: 255
-  Line coverage: 63.3%
-  Covered lines: 5022
-  Uncovered lines: 2904
-  Coverable lines: 7926
-  Total lines: 28529
-  Branch coverage: 63.1% (1802 of 2854)
-  Covered branches: 1802
-  Total branches: 2854
-  Method coverage: 75.9% (819 of 1078)
-  Full method coverage: 58.7% (633 of 1078)
-  Covered methods: 819
-  Fully covered methods: 633
-  Total methods: 1078
-  Tag: Kestrun/Kestrun@c9d2f0b3dd164d7dc0dc2407a9f006293d924223
+  Classes: 249
+  Files: 249
+  Line coverage: 63.7%
+  Covered lines: 5014
+  Uncovered lines: 2849
+  Coverable lines: 7863
+  Total lines: 28241
+  Branch coverage: 63.7% (1800 of 2822)
+  Covered branches: 1800
+  Total branches: 2822
+  Method coverage: 76.8% (815 of 1060)
+  Full method coverage: 59.4% (630 of 1060)
+  Covered methods: 815
+  Fully covered methods: 630
+  Total methods: 1060
+  Tag: Kestrun/Kestrun@bfb58693b9baaed61644ace5b29e014d9ffacbc9
 
-Kestrun                                                                74.1%
+Kestrun                                                                74.6%
   DelegateBuilder                                                      97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                    100%
   Kestrun.Authentication.ApiKeyAuthHandler                             95.5%
@@ -30,9 +30,6 @@ Kestrun                                                                74.1%
   Kestrun.Authentication.BasicAuthHandler                              88.8%
   Kestrun.Authentication.IAuthHandler                                  90.4%
   Kestrun.Authentication.JwtAuthenticationOptions                       100%
-  Kestrun.Authorization.KestrunAuthorizationRegistry                   10.3%
-  Kestrun.Authorization.KestrunDynamicPolicyProvider                   45.4%
-  Kestrun.Authorization.KestrunPolicyConfig                               0%
   Kestrun.Certificates.CertificateManager                              73.5%
   Kestrun.Certificates.CsrResult                                         60%
   Kestrun.Claims.ClaimPolicyBuilder                                     100%
@@ -46,8 +43,7 @@ Kestrun                                                                74.1%
   Kestrun.Client.KrHttpDownloads                                          0%
   Kestrun.FixedTimeEquals                                              90.9%
   Kestrun.Hosting.KestrunHost                                          68.1%
-  Kestrun.Hosting.KestrunHostAuthnExtensions                           78.5%
-  Kestrun.Hosting.KestrunHostAuthorizationExtensions                   69.2%
+  Kestrun.Hosting.KestrunHostAuthnExtensions                             79%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
   Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                82.2%
@@ -122,12 +118,12 @@ Kestrun                                                                74.1%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                          81.8%
   Kestrun.Utilities.RegexUtils                                          100%
   Kestrun.Utilities.SecureStringUtils                                  89.6%
-  Kestrun.Utilities.VariablesMap                                       95.4%
+  Kestrun.Utilities.VariablesMap                                        100%
   Kestrun.Utilities.XmlHelper                                          96.4%
   Kestrun.Utilities.YamlHelper                                         92.9%
   KestrunRuntimeApiAttribute                                            100%
 
-Kestrun.PowerShell.Private                                             40.2%
+Kestrun.PowerShell.Private                                             40.4%
   Private.Assembly.Add-KrAspNetCoreType                                71.4%
   Private.Assembly.Add-KrCodeAnalysisType                               100%
   Private.Assembly.Assert-KrAssemblyLoaded                             46.1%
@@ -147,16 +143,14 @@ Kestrun.PowerShell.Private                                             40.2%
   Private.Routing._KrWith-MRO                                             0%
   Private.Server.Helper                                                 100%
   Private.Server.Resolve-KestrunServer                                   80%
-  Private.Variable.Get-KrAssignedVariables                             67.4%
+  Private.Variable.Get-KrAssignedVariables                             67.8%
 
-Kestrun.PowerShell.Public                                              24.4%
+Kestrun.PowerShell.Public                                              24.6%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
   Public.Authentication.Add-KrJwtBearerAuthentication                    26%
   Public.Authentication.Add-KrWindowsAuthentication                    66.6%
-  Public.Authorization.Add-KrAuthorizationPolicy                          0%
-  Public.Authorization.Add-KrRequiredClaims                               0%
   Public.Certificate.Export-KrCertificate                                 0%
   Public.Certificate.Get-KrCertificatePurpose                             0%
   Public.Certificate.Import-KrCertificate                                 0%
@@ -274,7 +268,7 @@ Kestrun.PowerShell.Public                                              24.4%
   Public.Server.Set-KrServerLimit                                      58.5%
   Public.Server.Set-KrServerNamedPipeOptions                              0%
   Public.Server.Set-KrServerOptions                                    53.1%
-  Public.Server.Start-KrServer                                         18.9%
+  Public.Server.Start-KrServer                                         17.9%
   Public.Server.Stop-KrServer                                          57.1%
   Public.Service.Add-KrPowerShellRuntime                               66.6%
   Public.Service.Add-KrScheduling                                         0%
