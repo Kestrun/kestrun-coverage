@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 09/16/2025 - 04:01:29
-  Coverage date: 09/16/2025 - 04:00:59
+  Generated on: 09/16/2025 - 16:28:43
+  Coverage date: 09/16/2025 - 16:28:13
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 251
   Files: 251
-  Line coverage: 63.5%
+  Line coverage: 63.2%
   Covered lines: 5024
-  Uncovered lines: 2887
-  Coverable lines: 7911
-  Total lines: 28471
-  Branch coverage: 63.2% (1804 of 2850)
+  Uncovered lines: 2917
+  Coverable lines: 7941
+  Total lines: 28587
+  Branch coverage: 63.1% (1804 of 2856)
   Covered branches: 1804
-  Total branches: 2850
+  Total branches: 2856
   Method coverage: 76% (821 of 1080)
   Full method coverage: 58.7% (635 of 1080)
   Covered methods: 821
   Fully covered methods: 635
   Total methods: 1080
-  Tag: Kestrun/Kestrun@e5263347b0baba68d9fd62ffbf60a7dd87f994bb
+  Tag: Kestrun/Kestrun@d5c0d6132e97ca542441289c02a4c9e9d0364d49
 
 Kestrun                                                                74.2%
   DelegateBuilder                                                      97.3%
@@ -46,7 +46,7 @@ Kestrun                                                                74.2%
   Kestrun.Hosting.KestrunHost                                            68%
   Kestrun.Hosting.KestrunHostAuthnExtensions                           79.3%
   Kestrun.Hosting.KestrunHostMapExtensions                             54.6%
-  Kestrun.Hosting.KestrunHostRazorExtensions                           56.9%
+  Kestrun.Hosting.KestrunHostRazorExtensions                           56.5%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                82.2%
   Kestrun.Hosting.KestrunHostStaticFilesExtensions                     42.3%
   Kestrun.Hosting.KestrunHttpMiddlewareExtensions                      35.5%
@@ -93,7 +93,7 @@ Kestrun                                                                74.2%
   Kestrun.Models.ContentDispositionOptions                              100%
   Kestrun.Models.KestrunContext                                         100%
   Kestrun.Models.KestrunRequest                                         100%
-  Kestrun.Models.KestrunResponse                                       88.3%
+  Kestrun.Models.KestrunResponse                                       88.1%
   Kestrun.Razor.PowerShellRazorPage                                    85.5%
   Kestrun.Razor.PwshKestrunModel                                        100%
   Kestrun.Scheduling.JobFactory                                        86.3%
@@ -147,7 +147,7 @@ Kestrun.PowerShell.Private                                             40.4%
   Private.Server.Resolve-KestrunServer                                   80%
   Private.Variable.Get-KrAssignedVariables                             67.8%
 
-Kestrun.PowerShell.Public                                              24.5%
+Kestrun.PowerShell.Public                                                24%
   Public.Authentication.Add-KrApiKeyAuthentication                       54%
   Public.Authentication.Add-KrBasicAuthentication                      55.9%
   Public.Authentication.Add-KrCookiesAuthentication                    92.8%
