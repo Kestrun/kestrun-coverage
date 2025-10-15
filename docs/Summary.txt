@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 10/15/2025 - 01:01:19
-  Coverage date: 10/15/2025 - 00:50:39
+  Generated on: 10/15/2025 - 14:41:23
+  Coverage date: 10/15/2025 - 14:31:57
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 344
   Files: 344
   Line coverage: 57.6%
-  Covered lines: 6490
-  Uncovered lines: 4760
+  Covered lines: 6491
+  Uncovered lines: 4759
   Coverable lines: 11250
   Total lines: 39454
-  Branch coverage: 62.6% (2637 of 4207)
-  Covered branches: 2637
+  Branch coverage: 62.7% (2638 of 4207)
+  Covered branches: 2638
   Total branches: 4207
   Method coverage: 72.9% (1145 of 1569)
-  Full method coverage: 56.9% (893 of 1569)
+  Full method coverage: 56.9% (894 of 1569)
   Covered methods: 1145
-  Fully covered methods: 893
+  Fully covered methods: 894
   Total methods: 1569
-  Tag: Kestrun/Kestrun@7c4ce528870211ad6c2d2398c31ec13097fc5840
+  Tag: Kestrun/Kestrun@b8b9998b417b75ba511e5145a7d5cf848bac5517
 
 Kestrun                                                                       72.6%
   DelegateBuilder                                                             99.1%
@@ -126,7 +126,7 @@ Kestrun                                                                       72
   Kestrun.Razor.PowerShellRazorPage                                           85.5%
   Kestrun.Razor.PwshKestrunModel                                               100%
   Kestrun.Runtime.EnvironmentHelper                                           12.5%
-  Kestrun.Runtime.VariablesMap                                                95.4%
+  Kestrun.Runtime.VariablesMap                                                 100%
   Kestrun.Scheduling.JobFactory                                               86.3%
   Kestrun.Scheduling.JobInfo                                                   100%
   Kestrun.Scheduling.RoslynJobFactory                                          100%
