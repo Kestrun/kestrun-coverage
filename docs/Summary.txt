@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 10/13/2025 - 16:52:37
-  Coverage date: 10/13/2025 - 16:43:23
+  Generated on: 10/15/2025 - 01:01:19
+  Coverage date: 10/15/2025 - 00:50:39
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 330
-  Files: 330
+  Classes: 344
+  Files: 344
   Line coverage: 57.6%
-  Covered lines: 6234
-  Uncovered lines: 4587
-  Coverable lines: 10821
-  Total lines: 37948
-  Branch coverage: 62.1% (2537 of 4081)
-  Covered branches: 2537
-  Total branches: 4081
-  Method coverage: 72.9% (1089 of 1493)
-  Full method coverage: 56.7% (848 of 1493)
-  Covered methods: 1089
-  Fully covered methods: 848
-  Total methods: 1493
-  Tag: Kestrun/Kestrun@10d476bee71c71ad215bb8ab59f219887b5b4a5e
+  Covered lines: 6490
+  Uncovered lines: 4760
+  Coverable lines: 11250
+  Total lines: 39454
+  Branch coverage: 62.6% (2637 of 4207)
+  Covered branches: 2637
+  Total branches: 4207
+  Method coverage: 72.9% (1145 of 1569)
+  Full method coverage: 56.9% (893 of 1569)
+  Covered methods: 1145
+  Fully covered methods: 893
+  Total methods: 1569
+  Tag: Kestrun/Kestrun@7c4ce528870211ad6c2d2398c31ec13097fc5840
 
-Kestrun                                                                       72.4%
+Kestrun                                                                       72.6%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -61,7 +61,7 @@ Kestrun                                                                       72
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 69.4%
+  Kestrun.Hosting.KestrunHost                                                 65.8%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  79.3%
   Kestrun.Hosting.KestrunHostHealthExtensions                                    0%
   Kestrun.Hosting.KestrunHostMapExtensions                                    62.5%
@@ -93,7 +93,7 @@ Kestrun                                                                       72
   Kestrun.Languages.FSharpDelegateBuilder                                      100%
   Kestrun.Languages.JScriptDelegateBuilder                                    23.8%
   Kestrun.Languages.PowerShellDelegateBuilder                                 87.5%
-  Kestrun.Languages.PowerShellExecutionHelpers                                52.3%
+  Kestrun.Languages.PowerShellExecutionHelpers                                76.1%
   Kestrun.Languages.PyDelegateBuilder                                         11.4%
   Kestrun.Languages.VBNetDelegateBuilder                                      94.7%
   Kestrun.Logging.Data.ErrorRecordWrapper                                      100%
@@ -126,7 +126,7 @@ Kestrun                                                                       72
   Kestrun.Razor.PowerShellRazorPage                                           85.5%
   Kestrun.Razor.PwshKestrunModel                                               100%
   Kestrun.Runtime.EnvironmentHelper                                           12.5%
-  Kestrun.Runtime.VariablesMap                                                 100%
+  Kestrun.Runtime.VariablesMap                                                95.4%
   Kestrun.Scheduling.JobFactory                                               86.3%
   Kestrun.Scheduling.JobInfo                                                   100%
   Kestrun.Scheduling.RoslynJobFactory                                          100%
@@ -139,6 +139,11 @@ Kestrun                                                                       72
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                        0%
   Kestrun.Scripting.ScriptLanguageAttribute                                    100%
   Kestrun.SharedState.SharedStateStore                                        87.5%
+  Kestrun.Tasks.KestrunTask                                                     90%
+  Kestrun.Tasks.KestrunTaskService                                            75.9%
+  Kestrun.Tasks.KrTask                                                          40%
+  Kestrun.Tasks.ProgressiveKestrunTaskState                                    100%
+  Kestrun.Tasks.TaskJobFactory                                                95.3%
   Kestrun.TBuilder.EndpointConventionBuilderLanguageExtensions                  75%
   Kestrun.TBuilder.EndpointDisablingCompressionExtensions                      100%
   Kestrun.Utilities.AssemblyAutoLoader                                        65.6%
@@ -195,7 +200,7 @@ Kestrun.PowerShell.Private                                                     7
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                      3.2%
+Kestrun.PowerShell.Public                                                        3%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrCookiesAuthentication                              0%
@@ -340,6 +345,7 @@ Kestrun.PowerShell.Public                                                      3
   Public.Server.Start-KrServer                                                   0%
   Public.Server.Stop-KrServer                                                    0%
   Public.Service.Add-KrScheduling                                                0%
+  Public.Service.Add-KrTasks                                                     0%
   Public.Session.Add-KrDistributedRedisCache                                     0%
   Public.Session.Add-KrDistributedSqlServerCache                                 0%
   Public.Session.Add-KrSession                                                   0%
@@ -353,5 +359,13 @@ Kestrun.PowerShell.Public                                                      3
   Public.Session.Set-KrSessionString                                             0%
   Public.SharedState.Get-KrSharedState                                         100%
   Public.SharedState.Set-KrSharedState                                         100%
+  Public.Tasks.Get-KrTask                                                        0%
+  Public.Tasks.Get-KrTaskResult                                                  0%
+  Public.Tasks.Get-KrTaskState                                                   0%
+  Public.Tasks.New-KrTask                                                        0%
+  Public.Tasks.Remove-KrTask                                                     0%
+  Public.Tasks.Set-KrTaskName                                                    0%
+  Public.Tasks.Start-KrTask                                                      0%
+  Public.Tasks.Stop-KrTask                                                       0%
   Public.Yaml.ConvertFrom-KrYaml                                                34%
   Public.Yaml.ConvertTo-KrYaml                                                90.9%
