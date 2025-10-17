@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 10/16/2025 - 12:37:56
-  Coverage date: 10/16/2025 - 12:27:44
+  Generated on: 10/17/2025 - 15:48:31
+  Coverage date: 10/17/2025 - 15:38:30
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 354
-  Files: 354
-  Line coverage: 57.2%
-  Covered lines: 6572
-  Uncovered lines: 4915
-  Coverable lines: 11487
-  Total lines: 40177
-  Branch coverage: 61.9% (2696 of 4354)
-  Covered branches: 2696
-  Total branches: 4354
-  Method coverage: 72.1% (1164 of 1613)
-  Full method coverage: 56.3% (909 of 1613)
-  Covered methods: 1164
-  Fully covered methods: 909
-  Total methods: 1613
-  Tag: Kestrun/Kestrun@fe9b0d5b0046c725ac092fdc6c0e022ea3ddbd06
+  Classes: 357
+  Files: 357
+  Line coverage: 57%
+  Covered lines: 6615
+  Uncovered lines: 4983
+  Coverable lines: 11598
+  Total lines: 40635
+  Branch coverage: 62.1% (2723 of 4378)
+  Covered branches: 2723
+  Total branches: 4378
+  Method coverage: 72.1% (1171 of 1623)
+  Full method coverage: 56.2% (913 of 1623)
+  Covered methods: 1171
+  Fully covered methods: 913
+  Total methods: 1623
+  Tag: Kestrun/Kestrun@b8199aff869a847b75e185d0527ba45e04a43d86
 
-Kestrun                                                                       71.6%
+Kestrun                                                                       71.7%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -61,7 +61,7 @@ Kestrun                                                                       71
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 63.6%
+  Kestrun.Hosting.KestrunHost                                                 64.2%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  79.3%
   Kestrun.Hosting.KestrunHostHealthExtensions                                    0%
   Kestrun.Hosting.KestrunHostMapExtensions                                    71.1%
@@ -70,7 +70,8 @@ Kestrun                                                                       71
   Kestrun.Hosting.KestrunHostSessionExtensions                                76.3%
   Kestrun.Hosting.KestrunHostSignalRExtensions                                   0%
   Kestrun.Hosting.KestrunHostStaticFilesExtensions                            42.3%
-  Kestrun.Hosting.KestrunHttpMiddlewareExtensions                             58.4%
+  Kestrun.Hosting.KestrunHttpMiddlewareExtensions                             55.3%
+  Kestrun.Hosting.KestrunSecurityMiddlewareExtensions                         66.3%
   Kestrun.Hosting.NoopHostLifetime                                               0%
   Kestrun.Hosting.Options.AuthKeyComparer                                      100%
   Kestrun.Hosting.Options.ExceptionOptions                                    80.5%
@@ -121,12 +122,12 @@ Kestrun                                                                       71
   Kestrun.Middleware.PowerShellRunspaceMiddlewareExtensions                    100%
   Kestrun.Middleware.StatusCodePageExtensions                                 67.4%
   Kestrun.Models.ContentDispositionOptions                                     100%
-  Kestrun.Models.KestrunContext                                                 40%
+  Kestrun.Models.KestrunContext                                               39.4%
   Kestrun.Models.KestrunRequest                                                100%
   Kestrun.Models.KestrunResponse                                              86.5%
   Kestrun.Razor.PowerShellRazorPage                                           85.5%
   Kestrun.Razor.PwshKestrunModel                                               100%
-  Kestrun.Runtime.EnvironmentHelper                                           12.5%
+  Kestrun.Runtime.EnvironmentHelper                                           62.5%
   Kestrun.Runtime.VariablesMap                                                 100%
   Kestrun.Scheduling.JobFactory                                               86.3%
   Kestrun.Scheduling.JobInfo                                                   100%
@@ -206,7 +207,7 @@ Kestrun.PowerShell.Private                                                     7
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                        3%
+Kestrun.PowerShell.Public                                                      2.9%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrCookiesAuthentication                              0%
@@ -292,6 +293,8 @@ Kestrun.PowerShell.Public                                                       
   Public.Middleware.Add-KrCorsPolicyMiddleware                                   0%
   Public.Middleware.Add-KrFaviconMiddleware                                      0%
   Public.Middleware.Add-KrFileServerMiddleware                                   0%
+  Public.Middleware.Add-KrForwardHeader                                          0%
+  Public.Middleware.Add-KrHostFiltering                                          0%
   Public.Middleware.Add-KrHsts                                                   0%
   Public.Middleware.Add-KrHttpsRedirection                                       0%
   Public.Middleware.Add-KrSignalRHubMiddleware                                   0%
