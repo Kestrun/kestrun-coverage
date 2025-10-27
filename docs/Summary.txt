@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 10/27/2025 - 15:14:43
-  Coverage date: 10/27/2025 - 15:04:16
+  Generated on: 10/27/2025 - 17:48:02
+  Coverage date: 10/27/2025 - 17:37:40
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
   Classes: 357
   Files: 357
   Line coverage: 57%
-  Covered lines: 6619
-  Uncovered lines: 4980
-  Coverable lines: 11599
-  Total lines: 40636
-  Branch coverage: 62.1% (2722 of 4378)
-  Covered branches: 2722
+  Covered lines: 6615
+  Uncovered lines: 4985
+  Coverable lines: 11600
+  Total lines: 40637
+  Branch coverage: 62.1% (2723 of 4378)
+  Covered branches: 2723
   Total branches: 4378
   Method coverage: 72.1% (1171 of 1623)
-  Full method coverage: 56.1% (912 of 1623)
+  Full method coverage: 56.2% (913 of 1623)
   Covered methods: 1171
-  Fully covered methods: 912
+  Fully covered methods: 913
   Total methods: 1623
-  Tag: Kestrun/Kestrun@29b7a3fdf10e67fea44e784a49929d1eb2a88746
+  Tag: Kestrun/Kestrun@43d8ece4bc8573b7948ce1cea478a13ad32652d0
 
-Kestrun                                                                       71.8%
+Kestrun                                                                       71.7%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -128,7 +128,7 @@ Kestrun                                                                       71
   Kestrun.Razor.PowerShellRazorPage                                           85.5%
   Kestrun.Razor.PwshKestrunModel                                               100%
   Kestrun.Runtime.EnvironmentHelper                                           62.5%
-  Kestrun.Runtime.VariablesMap                                                95.4%
+  Kestrun.Runtime.VariablesMap                                                 100%
   Kestrun.Scheduling.JobFactory                                               86.3%
   Kestrun.Scheduling.JobInfo                                                   100%
   Kestrun.Scheduling.RoslynJobFactory                                          100%
@@ -145,7 +145,7 @@ Kestrun                                                                       71
   Kestrun.SignalR.KestrunHub                                                  13.6%
   Kestrun.SignalR.RealtimeBroadcaster                                            0%
   Kestrun.Tasks.KestrunTask                                                     90%
-  Kestrun.Tasks.KestrunTaskService                                            79.6%
+  Kestrun.Tasks.KestrunTaskService                                            75.9%
   Kestrun.Tasks.KrTask                                                          40%
   Kestrun.Tasks.ProgressiveKestrunTaskState                                   88.8%
   Kestrun.Tasks.TaskJobFactory                                                95.4%
