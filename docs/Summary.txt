@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 11/05/2025 - 18:56:03
-  Coverage date: 11/05/2025 - 18:45:33
+  Generated on: 11/14/2025 - 12:29:35
+  Coverage date: 11/14/2025 - 12:18:18
   Parser: MultiReport (2x Cobertura)
   Assemblies: 3
-  Classes: 357
-  Files: 357
-  Line coverage: 57%
-  Covered lines: 6616
-  Uncovered lines: 4984
-  Coverable lines: 11600
-  Total lines: 40637
-  Branch coverage: 62.2% (2724 of 4378)
-  Covered branches: 2724
-  Total branches: 4378
-  Method coverage: 72.1% (1171 of 1623)
-  Full method coverage: 56.3% (914 of 1623)
-  Covered methods: 1171
-  Fully covered methods: 914
-  Total methods: 1623
-  Tag: Kestrun/Kestrun@771090d0ab777e3a86cac67dfb644c4ee548aca5
+  Classes: 361
+  Files: 361
+  Line coverage: 56.6%
+  Covered lines: 6638
+  Uncovered lines: 5073
+  Coverable lines: 11711
+  Total lines: 41105
+  Branch coverage: 61.9% (2725 of 4402)
+  Covered branches: 2725
+  Total branches: 4402
+  Method coverage: 71.3% (1180 of 1654)
+  Full method coverage: 55% (911 of 1654)
+  Covered methods: 1180
+  Fully covered methods: 911
+  Total methods: 1654
+  Tag: Kestrun/Kestrun@5e12b09a6838e68e704cd3dc975331b9e680a626
 
-Kestrun                                                                       71.7%
+Kestrun                                                                       71.4%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -29,7 +29,7 @@ Kestrun                                                                       71
   Kestrun.Authentication.AuthOptionsHelper                                       0%
   Kestrun.Authentication.BasicAuthenticationOptions                            100%
   Kestrun.Authentication.BasicAuthHandler                                     89.1%
-  Kestrun.Authentication.IAuthHandler                                         89.4%
+  Kestrun.Authentication.IAuthHandler                                         89.7%
   Kestrun.Authentication.JwtAuthenticationOptions                              100%
   Kestrun.Certificates.CertificateManager                                     71.4%
   Kestrun.Certificates.CsrResult                                                60%
@@ -61,7 +61,7 @@ Kestrun                                                                       71
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 64.2%
+  Kestrun.Hosting.KestrunHost                                                 63.4%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  79.3%
   Kestrun.Hosting.KestrunHostHealthExtensions                                    0%
   Kestrun.Hosting.KestrunHostMapExtensions                                    71.1%
@@ -91,13 +91,13 @@ Kestrun                                                                       71
   Kestrun.KestrunHostManager                                                  86.2%
   Kestrun.KestrunRuntimeInfo                                                  78.6%
   Kestrun.Languages.CsGlobals                                                  100%
-  Kestrun.Languages.CSharpDelegateBuilder                                     83.1%
+  Kestrun.Languages.CSharpDelegateBuilder                                       82%
   Kestrun.Languages.FSharpDelegateBuilder                                      100%
-  Kestrun.Languages.JScriptDelegateBuilder                                    23.8%
-  Kestrun.Languages.PowerShellDelegateBuilder                                 87.5%
+  Kestrun.Languages.JScriptDelegateBuilder                                    27.2%
+  Kestrun.Languages.PowerShellDelegateBuilder                                 87.6%
   Kestrun.Languages.PowerShellExecutionHelpers                                76.1%
-  Kestrun.Languages.PyDelegateBuilder                                         11.4%
-  Kestrun.Languages.VBNetDelegateBuilder                                      94.7%
+  Kestrun.Languages.PyDelegateBuilder                                         12.9%
+  Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Logging.Data.ErrorRecordWrapper                                      100%
   Kestrun.Logging.Data.InvocationInfoWrapper                                   100%
   Kestrun.Logging.Enrichers.ErrorRecordEnricher                               81.8%
@@ -128,8 +128,8 @@ Kestrun                                                                       71
   Kestrun.Razor.PowerShellRazorPage                                           85.5%
   Kestrun.Razor.PwshKestrunModel                                               100%
   Kestrun.Runtime.EnvironmentHelper                                           62.5%
-  Kestrun.Runtime.VariablesMap                                                 100%
-  Kestrun.Scheduling.JobFactory                                               86.3%
+  Kestrun.Runtime.VariablesMap                                                92.5%
+  Kestrun.Scheduling.JobFactory                                               86.5%
   Kestrun.Scheduling.JobInfo                                                   100%
   Kestrun.Scheduling.RoslynJobFactory                                          100%
   Kestrun.Scheduling.ScheduledTask                                            91.6%
@@ -140,15 +140,16 @@ Kestrun                                                                       71
   Kestrun.Scripting.LanguageRuntimeExtensions                                 42.8%
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                        0%
   Kestrun.Scripting.ScriptLanguageAttribute                                    100%
-  Kestrun.SharedState.SharedStateStore                                        87.5%
+  Kestrun.SharedState.GlobalStore                                             16.6%
+  Kestrun.SharedState.SharedState                                             70.7%
   Kestrun.SignalR.InMemoryConnectionTracker                                   11.1%
   Kestrun.SignalR.KestrunHub                                                  13.6%
   Kestrun.SignalR.RealtimeBroadcaster                                            0%
   Kestrun.Tasks.KestrunTask                                                     90%
-  Kestrun.Tasks.KestrunTaskService                                            75.9%
+  Kestrun.Tasks.KestrunTaskService                                            76.1%
   Kestrun.Tasks.KrTask                                                          40%
   Kestrun.Tasks.ProgressiveKestrunTaskState                                   88.8%
-  Kestrun.Tasks.TaskJobFactory                                                95.4%
+  Kestrun.Tasks.TaskJobFactory                                                95.2%
   Kestrun.TBuilder.EndpointConventionBuilderLanguageExtensions                  75%
   Kestrun.TBuilder.EndpointDisablingCompressionExtensions                      100%
   Kestrun.Utilities.AssemblyAutoLoader                                        65.6%
@@ -179,7 +180,7 @@ Kestrun                                                                       71
   Kestrun.Utilities.Yaml.YamlTypeConverter                                      75%
   KestrunRuntimeApiAttribute                                                   100%
 
-Kestrun.PowerShell.Private                                                     7.5%
+Kestrun.PowerShell.Private                                                     7.2%
   Private.Assembly.Add-KrAspNetCoreType                                          0%
   Private.Assembly.Add-KrCodeAnalysisType                                        0%
   Private.Assembly.Assert-KrAssemblyLoaded                                       0%
@@ -187,6 +188,7 @@ Kestrun.PowerShell.Private                                                     7
   Private.Assembly.Get-KrDocSet                                                  0%
   Private.Assembly.Get-KrFunctionContextMask                                     0%
   Private.ConvertTo.ConvertTo-DateTimeOffset                                     0%
+  Private.ConvertTo.ConvertTo-ThreadSafeValue                                    0%
   Private.ConvertTo.ConvertTo-TimeSpan                                           0%
   Private.Logging.Get-KrFormattedMessage                                         0%
   Private.Logging.Set-KrLogLevelToPreference                                     0%
@@ -207,7 +209,7 @@ Kestrun.PowerShell.Private                                                     7
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                      2.9%
+Kestrun.PowerShell.Public                                                      3.1%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrCookiesAuthentication                              0%
@@ -366,8 +368,10 @@ Kestrun.PowerShell.Public                                                      2
   Public.Session.Set-KrSessionByte                                               0%
   Public.Session.Set-KrSessionInt32                                              0%
   Public.Session.Set-KrSessionString                                             0%
-  Public.SharedState.Get-KrSharedState                                         100%
-  Public.SharedState.Set-KrSharedState                                         100%
+  Public.SharedState.Get-KrSharedState                                          60%
+  Public.SharedState.Remove-KrSharedState                                        0%
+  Public.SharedState.Set-KrSharedState                                        57.1%
+  Public.SharedState.Update-KrSynchronizedCounter                                0%
   Public.SignalR.Get-KrSignalRConnectedClient                                    0%
   Public.SignalR.Send-KrSignalREvent                                             0%
   Public.SignalR.Send-KrSignalRGroupMessage                                      0%
