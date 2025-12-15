@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 12/15/2025 - 02:23:47
-  Coverage date: 12/15/2025 - 02:10:15
+  Generated on: 12/15/2025 - 04:25:24
+  Coverage date: 12/15/2025 - 04:11:41
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 455
   Files: 466
-  Line coverage: 49.8%
-  Covered lines: 7969
-  Uncovered lines: 8014
-  Coverable lines: 15983
-  Total lines: 54166
-  Branch coverage: 49.1% (3352 of 6820)
-  Covered branches: 3352
-  Total branches: 6820
-  Method coverage: 62.1% (1477 of 2378)
-  Full method coverage: 47.9% (1140 of 2378)
-  Covered methods: 1477
-  Fully covered methods: 1140
+  Line coverage: 50.7%
+  Covered lines: 8124
+  Uncovered lines: 7892
+  Coverable lines: 16016
+  Total lines: 54267
+  Branch coverage: 49.8% (3417 of 6848)
+  Covered branches: 3417
+  Total branches: 6848
+  Method coverage: 63.5% (1512 of 2378)
+  Full method coverage: 49.2% (1170 of 2378)
+  Covered methods: 1512
+  Fully covered methods: 1170
   Total methods: 2378
-  Tag: Kestrun/Kestrun@7a3839f4de2254e22daae81ab8dc7cb2f40c8330
+  Tag: Kestrun/Kestrun@e333660af9731cab5ae4c14a12f3bb84a8fabc7d
 
-Kestrun                                                                       60.8%
+Kestrun                                                                       61.8%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                          97.6%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -81,9 +81,9 @@ Kestrun                                                                       60
   Kestrun.Hosting.KestrunHostRazorExtensions                                  56.5%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                       82.2%
   Kestrun.Hosting.KestrunHostSessionExtensions                                76.3%
-  Kestrun.Hosting.KestrunHostSignalRExtensions                                   0%
+  Kestrun.Hosting.KestrunHostSignalRExtensions                                  82%
   Kestrun.Hosting.KestrunHostStaticFilesExtensions                            42.3%
-  Kestrun.Hosting.KestrunHttpMiddlewareExtensions                               55%
+  Kestrun.Hosting.KestrunHttpMiddlewareExtensions                             57.5%
   Kestrun.Hosting.KestrunSecurityMiddlewareExtensions                         68.5%
   Kestrun.Hosting.NoopHostLifetime                                               0%
   Kestrun.Hosting.Options.AuthKeyComparer                                      100%
@@ -121,18 +121,18 @@ Kestrun                                                                       60
   Kestrun.Logging.Enrichers.ErrorRecordEnricher                               81.8%
   Kestrun.Logging.Enrichers.Extensions.ErrorRecordEnricherExtensions           100%
   Kestrun.Logging.Enrichers.Extensions.ErrorRecordExtensions                   100%
-  Kestrun.Logging.Exceptions.WrapperException                                 22.2%
-  Kestrun.Logging.LoggerConfigurationExtensions                               55.5%
+  Kestrun.Logging.Exceptions.WrapperException                                  100%
+  Kestrun.Logging.LoggerConfigurationExtensions                                100%
   Kestrun.Logging.LoggerExtensions                                            94.4%
-  Kestrun.Logging.LoggerManager                                               32.5%
+  Kestrun.Logging.LoggerManager                                               88.3%
   Kestrun.Logging.Sinks.Extensions.PowerShellSinkExtensions                    100%
   Kestrun.Logging.Sinks.PowerShellSink                                         100%
-  Kestrun.Logging.Utils.Console.Cell                                          92.3%
+  Kestrun.Logging.Utils.Console.Cell                                           100%
   Kestrun.Logging.Utils.Console.Column                                        90.9%
   Kestrun.Logging.Utils.Console.Extensions.TableExtensions                     100%
-  Kestrun.Logging.Utils.Console.Padding                                         60%
-  Kestrun.Logging.Utils.Console.Row                                           85.7%
-  Kestrun.Logging.Utils.Console.Table                                         78.4%
+  Kestrun.Logging.Utils.Console.Padding                                        100%
+  Kestrun.Logging.Utils.Console.Row                                            100%
+  Kestrun.Logging.Utils.Console.Table                                         98.4%
   Kestrun.Middleware.CommonAccessLogMiddleware                                76.1%
   Kestrun.Middleware.CommonAccessLogOptions                                    100%
   Kestrun.Middleware.FaviconMiddlewareExtensions                               100%
@@ -165,7 +165,7 @@ Kestrun                                                                       60
   Kestrun.Scheduling.ScheduleReport                                            100%
   Kestrun.Scheduling.SchedulerService                                         79.8%
   Kestrun.Scripting.CompilationErrorException                                 96.1%
-  Kestrun.Scripting.KestrunRunspacePoolManager                                72.5%
+  Kestrun.Scripting.KestrunRunspacePoolManager                                74.8%
   Kestrun.Scripting.LanguageRuntimeExtensions                                 42.8%
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                        0%
   Kestrun.Scripting.ScriptLanguageAttribute                                    100%
@@ -185,14 +185,14 @@ Kestrun                                                                       60
   Kestrun.Utilities.BuildError                                                90.9%
   Kestrun.Utilities.CacheRevalidation                                         86.1%
   Kestrun.Utilities.CcUtilities                                                100%
-  Kestrun.Utilities.HostingExtensions                                            0%
+  Kestrun.Utilities.HostingExtensions                                          3.4%
   Kestrun.Utilities.HttpVerbExtensions                                        95.8%
   Kestrun.Utilities.Json.JsonSerializerHelper                                    0%
   Kestrun.Utilities.Json.PayloadSanitizer                                     86.3%
   Kestrun.Utilities.Json.ReferenceEqualityComparer                             100%
   Kestrun.Utilities.ObjectToDictionaryConverter                               98.2%
   Kestrun.Utilities.PowerShellModuleLocator                                   28.8%
-  Kestrun.Utilities.RateLimiterOptionsExtensions                                 0%
+  Kestrun.Utilities.RateLimiterOptionsExtensions                              30.9%
   Kestrun.Utilities.ReadOnlyDictionaryAdapter                                 81.8%
   Kestrun.Utilities.RegexUtils                                                 100%
   Kestrun.Utilities.SecureStringUtils                                         89.6%
