@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 12/25/2025 - 19:20:45
-  Coverage date: 12/25/2025 - 19:06:14
+  Generated on: 12/26/2025 - 04:28:43
+  Coverage date: 12/26/2025 - 04:14:09
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
-  Classes: 462
-  Files: 476
+  Classes: 463
+  Files: 477
   Line coverage: 50.3%
-  Covered lines: 8288
-  Uncovered lines: 8171
-  Coverable lines: 16459
-  Total lines: 56197
-  Branch coverage: 49.1% (3468 of 7051)
-  Covered branches: 3468
+  Covered lines: 8281
+  Uncovered lines: 8181
+  Coverable lines: 16462
+  Total lines: 56225
+  Branch coverage: 49% (3460 of 7051)
+  Covered branches: 3460
   Total branches: 7051
-  Method coverage: 62.8% (1548 of 2462)
-  Full method coverage: 49.3% (1214 of 2462)
+  Method coverage: 62.8% (1548 of 2463)
+  Full method coverage: 49% (1209 of 2463)
   Covered methods: 1548
-  Fully covered methods: 1214
-  Total methods: 2462
-  Tag: Kestrun/Kestrun@5251f12f253e29f8a1dfb77edc2ef50b90a4f26f
+  Fully covered methods: 1209
+  Total methods: 2463
+  Tag: Kestrun/Kestrun@078efbc0494329762e193e7b43b6ce82e4942764
 
-Kestrun                                                                       61.7%
+Kestrun                                                                       61.6%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -73,7 +73,7 @@ Kestrun                                                                       61
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 70.5%
+  Kestrun.Hosting.KestrunHost                                                 69.5%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  51.8%
   Kestrun.Hosting.KestrunHostHealthExtensions                                    0%
   Kestrun.Hosting.KestrunHostMapExtensions                                    52.5%
@@ -111,7 +111,7 @@ Kestrun                                                                       61
   Kestrun.Languages.JScriptDelegateBuilder                                    27.2%
   Kestrun.Languages.ParameterForInjectionInfo                                  2.1%
   Kestrun.Languages.PowerShellDelegateBuilder                                 86.5%
-  Kestrun.Languages.PowerShellExecutionHelpers                                88.8%
+  Kestrun.Languages.PowerShellExecutionHelpers                                85.1%
   Kestrun.Languages.PyDelegateBuilder                                         12.6%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Logging.Data.ErrorRecordWrapper                                      100%
@@ -163,7 +163,7 @@ Kestrun                                                                       61
   Kestrun.Scheduling.RoslynJobFactory                                          100%
   Kestrun.Scheduling.ScheduledTask                                            91.6%
   Kestrun.Scheduling.ScheduleReport                                            100%
-  Kestrun.Scheduling.SchedulerService                                         79.8%
+  Kestrun.Scheduling.SchedulerService                                         80.2%
   Kestrun.Scripting.CompilationErrorException                                 96.1%
   Kestrun.Scripting.KestrunRunspacePoolManager                                87.7%
   Kestrun.Scripting.LanguageRuntimeExtensions                                 42.8%
@@ -244,13 +244,14 @@ Kestrun.Annotations                                                           24
   OpenApiServerAttribute                                                         0%
   OpenApiServerVariableAttribute                                                 0%
 
-Kestrun.PowerShell.Private                                                     6.8%
+Kestrun.PowerShell.Private                                                     6.6%
   Private.Assembly.Add-KrAspNetCoreType                                          0%
   Private.Assembly.Add-KrCodeAnalysisType                                        0%
   Private.Assembly.Assert-KrAssemblyLoaded                                       0%
   Private.Assembly.Get-KrCommandByContext                                        0%
   Private.Assembly.Get-KrDocSet                                                  0%
   Private.Assembly.Get-KrFunctionContextMask                                     0%
+  Private.Assembly.Resolve-KrSchemaTypeLiteral                                   0%
   Private.ConvertTo.ConvertTo-DateTimeOffset                                     0%
   Private.ConvertTo.ConvertTo-ThreadSafeValue                                    0%
   Private.ConvertTo.ConvertTo-TimeSpan                                           0%
