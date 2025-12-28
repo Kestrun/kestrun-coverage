@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 12/27/2025 - 20:05:23
-  Coverage date: 12/27/2025 - 19:50:37
+  Generated on: 12/28/2025 - 06:48:52
+  Coverage date: 12/28/2025 - 06:34:10
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 467
   Files: 484
   Line coverage: 49.4%
   Covered lines: 8290
-  Uncovered lines: 8460
-  Coverable lines: 16750
-  Total lines: 57166
+  Uncovered lines: 8458
+  Coverable lines: 16748
+  Total lines: 57181
   Branch coverage: 47.7% (3468 of 7265)
   Covered branches: 3468
   Total branches: 7265
   Method coverage: 61.4% (1550 of 2522)
-  Full method coverage: 48.2% (1217 of 2522)
+  Full method coverage: 48.2% (1216 of 2522)
   Covered methods: 1550
-  Fully covered methods: 1217
+  Fully covered methods: 1216
   Total methods: 2522
-  Tag: Kestrun/Kestrun@dec745d62965b14e1ed62c0f3ec815e60e53366f
+  Tag: Kestrun/Kestrun@4939cb68f5bc90e7d415ff811c4182dc0e086f3c
 
 Kestrun                                                                       60.5%
   DelegateBuilder                                                             99.1%
@@ -110,7 +110,7 @@ Kestrun                                                                       60
   Kestrun.Languages.JScriptDelegateBuilder                                    27.2%
   Kestrun.Languages.ParameterForInjectionInfo                                  2.1%
   Kestrun.Languages.PowerShellDelegateBuilder                                 86.5%
-  Kestrun.Languages.PowerShellExecutionHelpers                                85.1%
+  Kestrun.Languages.PowerShellExecutionHelpers                                88.8%
   Kestrun.Languages.PyDelegateBuilder                                         12.6%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Logging.Data.ErrorRecordWrapper                                      100%
@@ -163,7 +163,7 @@ Kestrun                                                                       60
   Kestrun.Scheduling.RoslynJobFactory                                          100%
   Kestrun.Scheduling.ScheduledTask                                            91.6%
   Kestrun.Scheduling.ScheduleReport                                            100%
-  Kestrun.Scheduling.SchedulerService                                         80.2%
+  Kestrun.Scheduling.SchedulerService                                         79.8%
   Kestrun.Scripting.CompilationErrorException                                 96.1%
   Kestrun.Scripting.KestrunRunspacePoolManager                                87.7%
   Kestrun.Scripting.LanguageRuntimeExtensions                                 42.8%
