@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/02/2026 - 00:16:26
-  Coverage date: 01/02/2026 - 00:01:42
+  Generated on: 01/02/2026 - 21:56:11
+  Coverage date: 01/02/2026 - 21:41:22
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
-  Classes: 492
-  Files: 505
-  Line coverage: 49.8%
-  Covered lines: 8773
-  Uncovered lines: 8816
-  Coverable lines: 17589
-  Total lines: 59395
-  Branch coverage: 47.5% (3651 of 7673)
-  Covered branches: 3651
-  Total branches: 7673
-  Method coverage: 62.8% (1658 of 2639)
-  Full method coverage: 49.2% (1301 of 2639)
-  Covered methods: 1658
-  Fully covered methods: 1301
-  Total methods: 2639
-  Tag: Kestrun/Kestrun@8405dc23b786b9d436fba0d65fb80baa4171e1d0
+  Classes: 517
+  Files: 506
+  Line coverage: 51.1%
+  Covered lines: 9084
+  Uncovered lines: 8663
+  Coverable lines: 17747
+  Total lines: 60011
+  Branch coverage: 49.3% (3814 of 7729)
+  Covered branches: 3814
+  Total branches: 7729
+  Method coverage: 63.9% (1752 of 2739)
+  Full method coverage: 50.8% (1394 of 2739)
+  Covered methods: 1752
+  Fully covered methods: 1394
+  Total methods: 2739
+  Tag: Kestrun/Kestrun@f60326065ebb24cf70b241e459b37baf142e6ed6
 
-Kestrun                                                                       60.5%
+Kestrun                                                                       61.8%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -92,7 +92,7 @@ Kestrun                                                                       60
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                   67%
+  Kestrun.Hosting.KestrunHost                                                 67.9%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  51.8%
   Kestrun.Hosting.KestrunHostHealthExtensions                                    0%
   Kestrun.Hosting.KestrunHostMapExtensions                                    52.7%
@@ -132,7 +132,7 @@ Kestrun                                                                       60
   Kestrun.Languages.ParameterForInjectionInfoBase                             85.7%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
   Kestrun.Languages.PowerShellDelegateBuilder                                 86.5%
-  Kestrun.Languages.PowerShellExecutionHelpers                                88.8%
+  Kestrun.Languages.PowerShellExecutionHelpers                                85.1%
   Kestrun.Languages.PyDelegateBuilder                                         12.6%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Logging.Data.ErrorRecordWrapper                                      100%
@@ -171,7 +171,7 @@ Kestrun                                                                       60
   Kestrun.OpenApi.OpenApiComponentClone                                       25.7%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                                 0%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
-  Kestrun.OpenApi.OpenApiDocDescriptor                                          25%
+  Kestrun.OpenApi.OpenApiDocDescriptor                                        25.1%
   Kestrun.OpenApi.OpenApiHelper                                                  0%
   Kestrun.OpenApi.OpenApiJsonNodeFactory                                         0%
   Kestrun.OpenApi.OpenApiSchemaDiscovery                                         0%
@@ -179,7 +179,7 @@ Kestrun                                                                       60
   Kestrun.Razor.PowerShellRazorPage                                           92.3%
   Kestrun.Razor.PwshKestrunModel                                               100%
   Kestrun.Runtime.EnvironmentHelper                                           62.5%
-  Kestrun.Runtime.PowerShellOpenApiClassExporter                              34.4%
+  Kestrun.Runtime.PowerShellOpenApiClassExporter                              92.7%
   Kestrun.Runtime.VariablesMap                                                92.5%
   Kestrun.Scheduling.JobFactory                                               86.7%
   Kestrun.Scheduling.JobInfo                                                   100%
@@ -236,25 +236,43 @@ Kestrun                                                                       60
   Kestrun.Utilities.Yaml.YamlTypeConverter                                      75%
   PowerShellAttributes                                                         4.4%
 
-Kestrun.Annotations                                                           22.2%
+Kestrun.Annotations                                                           42.5%
   KestrunAnnotationsRuntimeInfo                                                7.6%
   KestrunRuntimeApiAttribute                                                   100%
   OpenApiAuthorizationAttribute                                                  0%
+  OpenApiBinary                                                                 80%
+  OpenApiBoolean                                                                75%
+  OpenApiByte                                                                   80%
   OpenApiCallbackAttribute                                                       0%
   OpenApiCallbackRefAttribute                                                    0%
+  OpenApiDate                                                                 66.6%
+  OpenApiDateTime                                                             66.6%
+  OpenApiDouble                                                                 75%
+  OpenApiEmail                                                                66.6%
   OpenApiExampleAttribute                                                        0%
   OpenApiExampleRefAttribute                                                   100%
-  OpenApiHeaderAttribute                                                         0%
+  OpenApiFloat                                                                  75%
+  OpenApiHeaderAttribute                                                      78.5%
   OpenApiHeaderRefAttribute                                                      0%
+  OpenApiHostname                                                             66.6%
+  OpenApiInt32                                                                  75%
+  OpenApiInt64                                                                  75%
+  OpenApiInteger                                                                75%
+  OpenApiIpv4                                                                   60%
+  OpenApiIpv6                                                                 77.7%
+  OpenApiJson                                                                 66.6%
   OpenApiLinkRefAttribute                                                        0%
+  OpenApiNumber                                                                 75%
   OpenApiParameterAttribute                                                      0%
   OpenApiParameterComponent                                                      0%
   OpenApiParameterExampleRefAttribute                                            0%
   OpenApiParameterRefAttribute                                                   0%
+  OpenApiPassword                                                             66.6%
   OpenApiPathAttribute                                                           0%
   OpenApiPathComponent                                                           0%
-  OpenApiProperties                                                             52%
+  OpenApiProperties                                                           56.2%
   OpenApiPropertyAttribute                                                       0%
+  OpenApiRegex                                                                66.6%
   OpenApiRequestBodyAttribute                                                    0%
   OpenApiRequestBodyComponent                                                  100%
   OpenApiRequestBodyExampleRefAttribute                                          0%
@@ -269,7 +287,14 @@ Kestrun.Annotations                                                           22
   OpenApiSchemaComponent                                                        50%
   OpenApiServerAttribute                                                         0%
   OpenApiServerVariableAttribute                                                 0%
+  OpenApiString                                                                100%
+  OpenApiUri                                                                    50%
+  OpenApiUrl                                                                    50%
+  OpenApiUuid                                                                 66.6%
+  OpenApiValue<T>                                                              100%
   OpenApiWebhookAttribute                                                        0%
+  OpenApiXml                                                                    75%
+  OpenApiYaml                                                                 66.6%
 
 Kestrun.PowerShell.Private                                                     6.3%
   Private.Assembly.Add-KrAspNetCoreType                                          0%
