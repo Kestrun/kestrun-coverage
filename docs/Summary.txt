@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/08/2026 - 08:19:27
-  Coverage date: 01/08/2026 - 08:04:16
+  Generated on: 01/09/2026 - 02:57:33
+  Coverage date: 01/09/2026 - 02:42:01
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 519
   Files: 510
   Line coverage: 55%
-  Covered lines: 10259
-  Uncovered lines: 8380
-  Coverable lines: 18639
-  Total lines: 62678
-  Branch coverage: 52.8% (4410 of 8347)
-  Covered branches: 4410
+  Covered lines: 10272
+  Uncovered lines: 8373
+  Coverable lines: 18645
+  Total lines: 62711
+  Branch coverage: 52.9% (4418 of 8347)
+  Covered branches: 4418
   Total branches: 8347
   Method coverage: 67.2% (1915 of 2846)
-  Full method coverage: 51.8% (1476 of 2846)
+  Full method coverage: 52% (1482 of 2846)
   Covered methods: 1915
-  Fully covered methods: 1476
+  Fully covered methods: 1482
   Total methods: 2846
-  Tag: Kestrun/Kestrun@6ab94ca7560634c2ac58b36c2b98e2a9b1bf305d
+  Tag: Kestrun/Kestrun@e3a5419e6c64edac795b8d501a4f334796c09139
 
 Kestrun                                                                       65.2%
   DelegateBuilder                                                             99.1%
@@ -92,7 +92,7 @@ Kestrun                                                                       65
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 62.4%
+  Kestrun.Hosting.KestrunHost                                                   63%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  51.8%
   Kestrun.Hosting.KestrunHostMapExtensions                                    52.7%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                       82.2%
@@ -185,7 +185,7 @@ Kestrun                                                                       65
   Kestrun.Scheduling.RoslynJobFactory                                          100%
   Kestrun.Scheduling.ScheduledTask                                            91.6%
   Kestrun.Scheduling.ScheduleReport                                            100%
-  Kestrun.Scheduling.SchedulerService                                         79.8%
+  Kestrun.Scheduling.SchedulerService                                         80.2%
   Kestrun.Scripting.CompilationErrorException                                 96.1%
   Kestrun.Scripting.KestrunRunspacePoolManager                                87.7%
   Kestrun.Scripting.LanguageRuntimeExtensions                                 42.8%
@@ -329,7 +329,7 @@ Kestrun.PowerShell.Private                                                    43
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                      2.5%
+Kestrun.PowerShell.Public                                                      2.7%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrCookiesAuthentication                              0%
@@ -544,5 +544,5 @@ Kestrun.PowerShell.Public                                                      2
   Public.Tasks.Set-KrTaskName                                                    0%
   Public.Tasks.Start-KrTask                                                      0%
   Public.Tasks.Stop-KrTask                                                       0%
-  Public.Yaml.ConvertFrom-KrYaml                                                34%
+  Public.Yaml.ConvertFrom-KrYaml                                              39.2%
   Public.Yaml.ConvertTo-KrYaml                                                90.9%
