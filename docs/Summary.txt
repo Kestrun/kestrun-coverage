@@ -1,13 +1,13 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/14/2026 - 07:55:08
-  Coverage date: 01/14/2026 - 07:39:10
+  Generated on: 01/14/2026 - 16:24:24
+  Coverage date: 01/14/2026 - 16:08:08
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 528
   Files: 522
   Line coverage: 56.2%
-  Covered lines: 10823
-  Uncovered lines: 8412
+  Covered lines: 10821
+  Uncovered lines: 8414
   Coverable lines: 19235
   Total lines: 64872
   Branch coverage: 53.9% (4607 of 8539)
@@ -18,7 +18,7 @@ Summary - Kestrun — Combined Coverage
   Covered methods: 1992
   Fully covered methods: 1534
   Total methods: 2921
-  Tag: Kestrun/Kestrun@13bd81d8920e7e63e39aafdd188e7d766641ad35
+  Tag: Kestrun/Kestrun@e6894577f8be1c47294e9e3a795b9d779938e175
 
 Kestrun                                                                       66.5%
   DelegateBuilder                                                             99.1%
@@ -168,7 +168,7 @@ Kestrun                                                                       66
   Kestrun.OpenApi.HelpExtractor                                                  0%
   Kestrun.OpenApi.OaParameterExtensions                                        8.6%
   Kestrun.OpenApi.OaSchemaTypeExtensions                                         0%
-  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.6%
+  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.3%
   Kestrun.OpenApi.OpenApiComponentClone                                       68.2%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
