@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/14/2026 - 21:08:56
-  Coverage date: 01/14/2026 - 20:52:54
+  Generated on: 01/15/2026 - 23:50:40
+  Coverage date: 01/15/2026 - 23:33:43
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 528
   Files: 522
-  Line coverage: 56.3%
-  Covered lines: 10831
-  Uncovered lines: 8404
+  Line coverage: 56.5%
+  Covered lines: 10874
+  Uncovered lines: 8361
   Coverable lines: 19235
-  Total lines: 64872
-  Branch coverage: 54% (4615 of 8539)
-  Covered branches: 4615
-  Total branches: 8539
-  Method coverage: 68.1% (1992 of 2921)
-  Full method coverage: 52.6% (1539 of 2921)
-  Covered methods: 1992
-  Fully covered methods: 1539
+  Total lines: 64876
+  Branch coverage: 54.4% (4652 of 8543)
+  Covered branches: 4652
+  Total branches: 8543
+  Method coverage: 68.3% (1996 of 2921)
+  Full method coverage: 52.9% (1548 of 2921)
+  Covered methods: 1996
+  Fully covered methods: 1548
   Total methods: 2921
-  Tag: Kestrun/Kestrun@b584423d949a5193ed8cd45cf9df490f06d1c545
+  Tag: Kestrun/Kestrun@2d823cb7ceae127151c8880ca073ffbb9c6322aa
 
-Kestrun                                                                       66.5%
+Kestrun                                                                       66.8%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -132,7 +132,7 @@ Kestrun                                                                       66
   Kestrun.Languages.ParameterForInjectionInfoBase                              100%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
   Kestrun.Languages.PowerShellDelegateBuilder                                 85.4%
-  Kestrun.Languages.PowerShellExecutionHelpers                                88.8%
+  Kestrun.Languages.PowerShellExecutionHelpers                                85.1%
   Kestrun.Languages.PyDelegateBuilder                                         12.6%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Logging.Data.ErrorRecordWrapper                                      100%
@@ -214,8 +214,8 @@ Kestrun                                                                       66
   Kestrun.Utilities.CcUtilities                                                100%
   Kestrun.Utilities.HostingExtensions                                          3.4%
   Kestrun.Utilities.HttpVerbExtensions                                        95.8%
-  Kestrun.Utilities.Json.JsonSerializerHelper                                    0%
-  Kestrun.Utilities.Json.PayloadSanitizer                                     91.7%
+  Kestrun.Utilities.Json.JsonSerializerHelper                                  100%
+  Kestrun.Utilities.Json.PayloadSanitizer                                     94.5%
   Kestrun.Utilities.Json.ReferenceEqualityComparer                             100%
   Kestrun.Utilities.ObjectToDictionaryConverter                               98.2%
   Kestrun.Utilities.PowerShellInvokeExtensions                                  65%
@@ -230,14 +230,14 @@ Kestrun                                                                       66
   Kestrun.Utilities.Yaml.BuilderUtils                                         87.5%
   Kestrun.Utilities.Yaml.FlowStyleAllEmitter                                   100%
   Kestrun.Utilities.Yaml.FlowStyleSequenceEmitter                              100%
-  Kestrun.Utilities.Yaml.IDictionaryTypeConverter                             63.1%
+  Kestrun.Utilities.Yaml.IDictionaryTypeConverter                             78.9%
   Kestrun.Utilities.Yaml.NullValueGraphVisitor                                66.6%
-  Kestrun.Utilities.Yaml.PSObjectTypeConverter                                  86%
-  Kestrun.Utilities.Yaml.StringQuotingEmitter                                   65%
+  Kestrun.Utilities.Yaml.PSObjectTypeConverter                                89.1%
+  Kestrun.Utilities.Yaml.StringQuotingEmitter                                   70%
   Kestrun.Utilities.Yaml.YamlHelper                                            100%
   Kestrun.Utilities.Yaml.YamlLoader                                            100%
   Kestrun.Utilities.Yaml.YamlSerializerFactory                                84.6%
-  Kestrun.Utilities.Yaml.YamlTypeConverter                                      75%
+  Kestrun.Utilities.Yaml.YamlTypeConverter                                    87.7%
   PowerShellAttributes                                                          85%
 
 Kestrun.Annotations                                                           44.7%
