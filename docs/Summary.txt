@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/15/2026 - 23:50:40
-  Coverage date: 01/15/2026 - 23:33:43
+  Generated on: 01/16/2026 - 03:52:32
+  Coverage date: 01/16/2026 - 03:35:30
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 528
   Files: 522
-  Line coverage: 56.5%
-  Covered lines: 10874
-  Uncovered lines: 8361
+  Line coverage: 56.7%
+  Covered lines: 10912
+  Uncovered lines: 8323
   Coverable lines: 19235
   Total lines: 64876
-  Branch coverage: 54.4% (4652 of 8543)
-  Covered branches: 4652
+  Branch coverage: 54.6% (4669 of 8543)
+  Covered branches: 4669
   Total branches: 8543
-  Method coverage: 68.3% (1996 of 2921)
-  Full method coverage: 52.9% (1548 of 2921)
-  Covered methods: 1996
-  Fully covered methods: 1548
+  Method coverage: 68.6% (2004 of 2921)
+  Full method coverage: 53% (1550 of 2921)
+  Covered methods: 2004
+  Fully covered methods: 1550
   Total methods: 2921
-  Tag: Kestrun/Kestrun@2d823cb7ceae127151c8880ca073ffbb9c6322aa
+  Tag: Kestrun/Kestrun@0077556dd757d1b7434cf700cd5c7be05cea3514
 
-Kestrun                                                                       66.8%
+Kestrun                                                                       67.1%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -92,7 +92,7 @@ Kestrun                                                                       66
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 58.2%
+  Kestrun.Hosting.KestrunHost                                                 57.7%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  51.8%
   Kestrun.Hosting.KestrunHostMapExtensions                                    52.7%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                       82.2%
@@ -168,7 +168,7 @@ Kestrun                                                                       66
   Kestrun.OpenApi.HelpExtractor                                                  0%
   Kestrun.OpenApi.OaParameterExtensions                                        8.6%
   Kestrun.OpenApi.OaSchemaTypeExtensions                                         0%
-  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.6%
+  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.3%
   Kestrun.OpenApi.OpenApiComponentClone                                       68.2%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
@@ -198,9 +198,9 @@ Kestrun                                                                       66
   Kestrun.SignalR.InMemoryConnectionTracker                                    100%
   Kestrun.SignalR.KestrunHub                                                   100%
   Kestrun.SignalR.RealtimeBroadcaster                                          100%
-  Kestrun.Sse.InMemorySseBroadcaster                                             0%
-  Kestrun.Sse.SseClientSubscription                                              0%
-  Kestrun.Sse.SseEventFormatter                                                  0%
+  Kestrun.Sse.InMemorySseBroadcaster                                          91.4%
+  Kestrun.Sse.SseClientSubscription                                            100%
+  Kestrun.Sse.SseEventFormatter                                                100%
   Kestrun.Tasks.KestrunTask                                                     90%
   Kestrun.Tasks.KestrunTaskService                                            76.1%
   Kestrun.Tasks.KrTask                                                          40%
