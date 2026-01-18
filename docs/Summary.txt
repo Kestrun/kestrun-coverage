@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/18/2026 - 06:40:42
-  Coverage date: 01/18/2026 - 06:23:41
+  Generated on: 01/18/2026 - 21:37:08
+  Coverage date: 01/18/2026 - 21:20:41
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 532
   Files: 527
-  Line coverage: 56.4%
-  Covered lines: 11175
-  Uncovered lines: 8619
-  Coverable lines: 19794
-  Total lines: 66529
-  Branch coverage: 53.8% (4831 of 8965)
+  Line coverage: 56.2%
+  Covered lines: 11179
+  Uncovered lines: 8708
+  Coverable lines: 19887
+  Total lines: 66944
+  Branch coverage: 53.5% (4831 of 9029)
   Covered branches: 4831
-  Total branches: 8965
-  Method coverage: 68.1% (2044 of 3001)
-  Full method coverage: 52.2% (1568 of 3001)
+  Total branches: 9029
+  Method coverage: 67.7% (2044 of 3015)
+  Full method coverage: 51.9% (1567 of 3015)
   Covered methods: 2044
-  Fully covered methods: 1568
-  Total methods: 3001
-  Tag: Kestrun/Kestrun@99e92690d0fd95f6f4896f3410d2c024350a9794
+  Fully covered methods: 1567
+  Total methods: 3015
+  Tag: Kestrun/Kestrun@99c4ae445e8e5afc8b7080e01d5d9cdf39f972b8
 
-Kestrun                                                                       66.5%
+Kestrun                                                                         66%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -168,11 +168,11 @@ Kestrun                                                                       66
   Kestrun.OpenApi.HelpExtractor                                                  0%
   Kestrun.OpenApi.OaParameterExtensions                                        8.6%
   Kestrun.OpenApi.OaSchemaTypeExtensions                                         0%
-  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.6%
+  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.4%
   Kestrun.OpenApi.OpenApiComponentClone                                       68.2%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
-  Kestrun.OpenApi.OpenApiDocDescriptor                                        39.1%
+  Kestrun.OpenApi.OpenApiDocDescriptor                                        37.2%
   Kestrun.OpenApi.OpenApiHelper                                                  0%
   Kestrun.OpenApi.OpenApiJsonNodeFactory                                      67.3%
   Kestrun.OpenApi.OpenApiSchemaDiscovery                                       100%
@@ -241,7 +241,7 @@ Kestrun                                                                       66
   Kestrun.Utilities.Yaml.YamlTypeConverter                                    87.7%
   PowerShellAttributes                                                          85%
 
-Kestrun.Annotations                                                           43.5%
+Kestrun.Annotations                                                             43%
   InternalPowershellAttribute                                                  100%
   KestrunAnnotationsRuntimeInfo                                                7.6%
   KestrunRuntimeApiAttribute                                                   100%
@@ -257,7 +257,7 @@ Kestrun.Annotations                                                           43
   OpenApiEmail                                                                66.6%
   OpenApiExampleAttribute                                                        0%
   OpenApiExampleRefAttribute                                                     0%
-  OpenApiExtensionAttribute                                                   51.2%
+  OpenApiExtensionAttribute                                                   46.5%
   OpenApiFloat                                                                  75%
   OpenApiHeaderRefAttribute                                                      0%
   OpenApiHostname                                                             66.6%
