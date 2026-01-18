@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/17/2026 - 18:18:03
-  Coverage date: 01/17/2026 - 18:01:16
+  Generated on: 01/18/2026 - 06:40:42
+  Coverage date: 01/18/2026 - 06:23:41
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
-  Classes: 530
-  Files: 525
-  Line coverage: 56.5%
-  Covered lines: 11146
-  Uncovered lines: 8579
-  Coverable lines: 19725
-  Total lines: 66279
-  Branch coverage: 53.9% (4826 of 8941)
-  Covered branches: 4826
-  Total branches: 8941
-  Method coverage: 68.1% (2037 of 2989)
-  Full method coverage: 52.4% (1569 of 2989)
-  Covered methods: 2037
-  Fully covered methods: 1569
-  Total methods: 2989
-  Tag: Kestrun/Kestrun@8dd16f7908c0e15b594d16bb49be0240e2c7c018
+  Classes: 532
+  Files: 527
+  Line coverage: 56.4%
+  Covered lines: 11175
+  Uncovered lines: 8619
+  Coverable lines: 19794
+  Total lines: 66529
+  Branch coverage: 53.8% (4831 of 8965)
+  Covered branches: 4831
+  Total branches: 8965
+  Method coverage: 68.1% (2044 of 3001)
+  Full method coverage: 52.2% (1568 of 3001)
+  Covered methods: 2044
+  Fully covered methods: 1568
+  Total methods: 3001
+  Tag: Kestrun/Kestrun@99e92690d0fd95f6f4896f3410d2c024350a9794
 
 Kestrun                                                                       66.5%
   DelegateBuilder                                                             99.1%
@@ -92,7 +92,7 @@ Kestrun                                                                       66
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 58.2%
+  Kestrun.Hosting.KestrunHost                                                 57.7%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  51.8%
   Kestrun.Hosting.KestrunHostMapExtensions                                    52.5%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                       82.2%
@@ -142,7 +142,7 @@ Kestrun                                                                       66
   Kestrun.Logging.Enrichers.Extensions.ErrorRecordExtensions                   100%
   Kestrun.Logging.Exceptions.WrapperException                                  100%
   Kestrun.Logging.LoggerConfigurationExtensions                                100%
-  Kestrun.Logging.LoggerExtensions                                            64.7%
+  Kestrun.Logging.LoggerExtensions                                            76.4%
   Kestrun.Logging.LoggerManager                                               88.3%
   Kestrun.Logging.Sinks.Extensions.PowerShellSinkExtensions                    100%
   Kestrun.Logging.Sinks.PowerShellSink                                         100%
@@ -168,11 +168,11 @@ Kestrun                                                                       66
   Kestrun.OpenApi.HelpExtractor                                                  0%
   Kestrun.OpenApi.OaParameterExtensions                                        8.6%
   Kestrun.OpenApi.OaSchemaTypeExtensions                                         0%
-  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.3%
+  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.6%
   Kestrun.OpenApi.OpenApiComponentClone                                       68.2%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
-  Kestrun.OpenApi.OpenApiDocDescriptor                                          39%
+  Kestrun.OpenApi.OpenApiDocDescriptor                                        39.1%
   Kestrun.OpenApi.OpenApiHelper                                                  0%
   Kestrun.OpenApi.OpenApiJsonNodeFactory                                      67.3%
   Kestrun.OpenApi.OpenApiSchemaDiscovery                                       100%
@@ -241,7 +241,7 @@ Kestrun                                                                       66
   Kestrun.Utilities.Yaml.YamlTypeConverter                                    87.7%
   PowerShellAttributes                                                          85%
 
-Kestrun.Annotations                                                           42.6%
+Kestrun.Annotations                                                           43.5%
   InternalPowershellAttribute                                                  100%
   KestrunAnnotationsRuntimeInfo                                                7.6%
   KestrunRuntimeApiAttribute                                                   100%
@@ -257,6 +257,7 @@ Kestrun.Annotations                                                           42
   OpenApiEmail                                                                66.6%
   OpenApiExampleAttribute                                                        0%
   OpenApiExampleRefAttribute                                                     0%
+  OpenApiExtensionAttribute                                                   51.2%
   OpenApiFloat                                                                  75%
   OpenApiHeaderRefAttribute                                                      0%
   OpenApiHostname                                                             66.6%
@@ -451,6 +452,7 @@ Kestrun.PowerShell.Public                                                      2
   Public.Middleware.Enable-KrStatusCodePage                                      0%
   Public.OpenAPI.Add-KrOpenApiComponent                                          0%
   Public.OpenAPI.Add-KrOpenApiContact                                            0%
+  Public.OpenAPI.Add-KrOpenApiExtension                                          0%
   Public.OpenAPI.Add-KrOpenApiExternalDoc                                        0%
   Public.OpenAPI.Add-KrOpenApiInfo                                               0%
   Public.OpenAPI.Add-KrOpenApiInline                                             0%
