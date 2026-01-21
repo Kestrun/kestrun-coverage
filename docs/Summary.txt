@@ -1,15 +1,15 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/21/2026 - 17:07:47
-  Coverage date: 01/21/2026 - 16:50:24
+  Generated on: 01/21/2026 - 23:00:43
+  Coverage date: 01/21/2026 - 22:43:07
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 539
   Files: 534
   Line coverage: 57.5%
-  Covered lines: 11937
+  Covered lines: 11925
   Uncovered lines: 8808
-  Coverable lines: 20745
-  Total lines: 69667
+  Coverable lines: 20733
+  Total lines: 69655
   Branch coverage: 54.3% (5222 of 9601)
   Covered branches: 5222
   Total branches: 9601
@@ -18,9 +18,9 @@ Summary - Kestrun — Combined Coverage
   Covered methods: 2163
   Fully covered methods: 1654
   Total methods: 3126
-  Tag: Kestrun/Kestrun@3f6f61710c7ef7d5953cab578fe699c1e5e01a36
+  Tag: Kestrun/Kestrun@14e8864e34955316f20616ecfbeb1640fd06c409
 
-Kestrun                                                                       66.5%
+Kestrun                                                                       66.4%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -176,7 +176,7 @@ Kestrun                                                                       66
   Kestrun.OpenApi.OpenApiComponentClone                                       70.5%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
-  Kestrun.OpenApi.OpenApiDocDescriptor                                        38.4%
+  Kestrun.OpenApi.OpenApiDocDescriptor                                        38.1%
   Kestrun.OpenApi.OpenApiHelper                                                  0%
   Kestrun.OpenApi.OpenApiJsonNodeFactory                                      67.3%
   Kestrun.OpenApi.OpenApiSchemaDiscovery                                       100%
