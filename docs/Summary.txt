@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/21/2026 - 23:00:43
-  Coverage date: 01/21/2026 - 22:43:07
+  Generated on: 01/23/2026 - 00:12:19
+  Coverage date: 01/22/2026 - 23:54:25
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
-  Classes: 539
-  Files: 534
-  Line coverage: 57.5%
-  Covered lines: 11925
-  Uncovered lines: 8808
-  Coverable lines: 20733
-  Total lines: 69655
-  Branch coverage: 54.3% (5222 of 9601)
-  Covered branches: 5222
-  Total branches: 9601
-  Method coverage: 69.1% (2163 of 3126)
-  Full method coverage: 52.9% (1654 of 3126)
-  Covered methods: 2163
-  Fully covered methods: 1654
-  Total methods: 3126
-  Tag: Kestrun/Kestrun@14e8864e34955316f20616ecfbeb1640fd06c409
+  Classes: 542
+  Files: 536
+  Line coverage: 57.6%
+  Covered lines: 12095
+  Uncovered lines: 8883
+  Coverable lines: 20978
+  Total lines: 70376
+  Branch coverage: 54.6% (5332 of 9761)
+  Covered branches: 5332
+  Total branches: 9761
+  Method coverage: 69.4% (2191 of 3157)
+  Full method coverage: 52.9% (1672 of 3157)
+  Covered methods: 2191
+  Fully covered methods: 1672
+  Total methods: 3157
+  Tag: Kestrun/Kestrun@67ed8a99376189d7ed94adba1b1854518edd75d9
 
-Kestrun                                                                       66.4%
+Kestrun                                                                       66.5%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -56,7 +56,7 @@ Kestrun                                                                       66
   Kestrun.Callback.DefaultCallbackUrlResolver                                 78.7%
   Kestrun.Callback.HttpCallbackSender                                          100%
   Kestrun.Callback.InMemoryCallbackDispatcher                                  100%
-  Kestrun.Callback.InMemoryCallbackDispatchWorker                             55.7%
+  Kestrun.Callback.InMemoryCallbackDispatchWorker                             52.4%
   Kestrun.Callback.InMemoryCallbackQueue                                       100%
   Kestrun.Callback.JsonCallbackBodySerializer                                  100%
   Kestrun.Callback.RetryDecision                                               100%
@@ -98,7 +98,7 @@ Kestrun                                                                       66
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
   Kestrun.Hosting.KestrunHost                                                 58.1%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  51.7%
-  Kestrun.Hosting.KestrunHostMapExtensions                                    52.5%
+  Kestrun.Hosting.KestrunHostMapExtensions                                    53.1%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                       82.2%
   Kestrun.Hosting.KestrunHostSessionExtensions                                76.3%
   Kestrun.Hosting.KestrunHostSignalRExtensions                                  82%
@@ -176,11 +176,14 @@ Kestrun                                                                       66
   Kestrun.OpenApi.OpenApiComponentClone                                       70.5%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
-  Kestrun.OpenApi.OpenApiDocDescriptor                                        38.1%
+  Kestrun.OpenApi.OpenApiDocDescriptor                                          38%
   Kestrun.OpenApi.OpenApiHelper                                                  0%
   Kestrun.OpenApi.OpenApiJsonNodeFactory                                      67.3%
   Kestrun.OpenApi.OpenApiSchemaDiscovery                                       100%
   Kestrun.OpenApi.OpenApiSpecVersionExtensions                                   0%
+  Kestrun.OpenApi.Rfc6570PathMapping                                           100%
+  Kestrun.OpenApi.Rfc6570PathTemplateMapper                                   76.2%
+  Kestrun.OpenApi.Rfc6570VariableMapper                                         78%
   Kestrun.Razor.PowerShellRazorPage                                           92.3%
   Kestrun.Razor.PwshKestrunModel                                               100%
   Kestrun.Runtime.EnvironmentHelper                                           62.5%
