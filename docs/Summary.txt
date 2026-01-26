@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 01/24/2026 - 19:36:00
-  Coverage date: 01/24/2026 - 19:17:53
+  Generated on: 01/26/2026 - 05:11:19
+  Coverage date: 01/26/2026 - 04:53:09
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 550
   Files: 545
   Line coverage: 57.9%
-  Covered lines: 12451
-  Uncovered lines: 9023
+  Covered lines: 12452
+  Uncovered lines: 9022
   Coverable lines: 21474
   Total lines: 71854
-  Branch coverage: 55% (5533 of 10053)
-  Covered branches: 5533
+  Branch coverage: 55% (5532 of 10053)
+  Covered branches: 5532
   Total branches: 10053
   Method coverage: 69.6% (2250 of 3229)
   Full method coverage: 52.7% (1702 of 3229)
   Covered methods: 2250
   Fully covered methods: 1702
   Total methods: 3229
-  Tag: Kestrun/Kestrun@f59dcba478ea75f69584d696e5f1fb1cfa40aa51
+  Tag: Kestrun/Kestrun@698a353442ed1dc2deec89391a324a20b0f74e0b
 
 Kestrun                                                                       66.8%
   DelegateBuilder                                                             99.1%
@@ -136,7 +136,7 @@ Kestrun                                                                       66
   Kestrun.Languages.ParameterForInjectionInfoBase                              100%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
   Kestrun.Languages.PowerShellDelegateBuilder                                   67%
-  Kestrun.Languages.PowerShellExecutionHelpers                                58.5%
+  Kestrun.Languages.PowerShellExecutionHelpers                                  56%
   Kestrun.Languages.PyDelegateBuilder                                         12.6%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Localization.KestrunLocalizationOptions                              100%
@@ -177,7 +177,7 @@ Kestrun                                                                       66
   Kestrun.OpenApi.HelpExtractor                                                  0%
   Kestrun.OpenApi.OaParameterExtensions                                        8.6%
   Kestrun.OpenApi.OaSchemaTypeExtensions                                         0%
-  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.1%
+  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.4%
   Kestrun.OpenApi.OpenApiComponentClone                                       70.5%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
