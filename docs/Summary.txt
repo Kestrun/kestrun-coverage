@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 02/01/2026 - 00:21:42
-  Coverage date: 02/01/2026 - 00:03:38
+  Generated on: 02/03/2026 - 18:01:46
+  Coverage date: 02/03/2026 - 17:43:49
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 550
   Files: 545
-  Line coverage: 58%
-  Covered lines: 12459
-  Uncovered lines: 9015
+  Line coverage: 57.9%
+  Covered lines: 12451
+  Uncovered lines: 9023
   Coverable lines: 21474
   Total lines: 71854
-  Branch coverage: 55% (5539 of 10053)
-  Covered branches: 5539
+  Branch coverage: 55% (5533 of 10053)
+  Covered branches: 5533
   Total branches: 10053
   Method coverage: 69.6% (2250 of 3229)
-  Full method coverage: 52.8% (1707 of 3229)
+  Full method coverage: 52.7% (1702 of 3229)
   Covered methods: 2250
-  Fully covered methods: 1707
+  Fully covered methods: 1702
   Total methods: 3229
-  Tag: Kestrun/Kestrun@7cc5472da9e24346545f7201f994930135f8e6a5
+  Tag: Kestrun/Kestrun@ca54e35c77799b76774b3805b6f075cdbc0c5fbe
 
 Kestrun                                                                       66.8%
   DelegateBuilder                                                             99.1%
@@ -56,7 +56,7 @@ Kestrun                                                                       66
   Kestrun.Callback.DefaultCallbackUrlResolver                                 78.7%
   Kestrun.Callback.HttpCallbackSender                                          100%
   Kestrun.Callback.InMemoryCallbackDispatcher                                  100%
-  Kestrun.Callback.InMemoryCallbackDispatchWorker                             55.7%
+  Kestrun.Callback.InMemoryCallbackDispatchWorker                             52.4%
   Kestrun.Callback.InMemoryCallbackQueue                                       100%
   Kestrun.Callback.JsonCallbackBodySerializer                                  100%
   Kestrun.Callback.RetryDecision                                               100%
@@ -96,7 +96,7 @@ Kestrun                                                                       66
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 57.9%
+  Kestrun.Hosting.KestrunHost                                                 57.4%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  51.7%
   Kestrun.Hosting.KestrunHostMapExtensions                                    53.1%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                       82.2%
@@ -136,7 +136,7 @@ Kestrun                                                                       66
   Kestrun.Languages.ParameterForInjectionInfoBase                              100%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
   Kestrun.Languages.PowerShellDelegateBuilder                                   67%
-  Kestrun.Languages.PowerShellExecutionHelpers                                  56%
+  Kestrun.Languages.PowerShellExecutionHelpers                                58.5%
   Kestrun.Languages.PyDelegateBuilder                                         12.6%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Localization.KestrunLocalizationOptions                              100%
