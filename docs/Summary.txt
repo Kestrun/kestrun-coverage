@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 02/03/2026 - 18:01:46
-  Coverage date: 02/03/2026 - 17:43:49
+  Generated on: 02/05/2026 - 00:28:19
+  Coverage date: 02/05/2026 - 00:08:20
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
-  Classes: 550
-  Files: 545
-  Line coverage: 57.9%
-  Covered lines: 12451
-  Uncovered lines: 9023
-  Coverable lines: 21474
-  Total lines: 71854
-  Branch coverage: 55% (5533 of 10053)
-  Covered branches: 5533
-  Total branches: 10053
-  Method coverage: 69.6% (2250 of 3229)
-  Full method coverage: 52.7% (1702 of 3229)
-  Covered methods: 2250
-  Fully covered methods: 1702
-  Total methods: 3229
-  Tag: Kestrun/Kestrun@ca54e35c77799b76774b3805b6f075cdbc0c5fbe
+  Classes: 580
+  Files: 567
+  Line coverage: 57%
+  Covered lines: 13505
+  Uncovered lines: 10151
+  Coverable lines: 23656
+  Total lines: 78395
+  Branch coverage: 53.6% (6094 of 11351)
+  Covered branches: 6094
+  Total branches: 11351
+  Method coverage: 69.9% (2485 of 3551)
+  Full method coverage: 52.8% (1877 of 3551)
+  Covered methods: 2485
+  Fully covered methods: 1877
+  Total methods: 3551
+  Tag: Kestrun/Kestrun@d9261bd752e45afa789d10bc0c82b7d5724d9589
 
-Kestrun                                                                       66.8%
+Kestrun                                                                       65.3%
   DelegateBuilder                                                             99.1%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -56,7 +56,7 @@ Kestrun                                                                       66
   Kestrun.Callback.DefaultCallbackUrlResolver                                 78.7%
   Kestrun.Callback.HttpCallbackSender                                          100%
   Kestrun.Callback.InMemoryCallbackDispatcher                                  100%
-  Kestrun.Callback.InMemoryCallbackDispatchWorker                             52.4%
+  Kestrun.Callback.InMemoryCallbackDispatchWorker                             55.7%
   Kestrun.Callback.InMemoryCallbackQueue                                       100%
   Kestrun.Callback.JsonCallbackBodySerializer                                  100%
   Kestrun.Callback.RetryDecision                                               100%
@@ -78,6 +78,25 @@ Kestrun                                                                       66
   Kestrun.Client.KrHttpClientOptions                                             0%
   Kestrun.Client.KrHttpDownloads                                                 0%
   Kestrun.FixedTimeEquals                                                     90.9%
+  Kestrun.Forms.FormHelper                                                    89.6%
+  Kestrun.Forms.KrDiskPartSink                                                 100%
+  Kestrun.Forms.KrFilePart                                                    71.4%
+  Kestrun.Forms.KrFormContext                                                 69.2%
+  Kestrun.Forms.KrFormData                                                     100%
+  Kestrun.Forms.KrFormEndpoints                                                100%
+  Kestrun.Forms.KrFormException                                                100%
+  Kestrun.Forms.KrFormLimitExceededException                                   100%
+  Kestrun.Forms.KrFormLimits                                                   100%
+  Kestrun.Forms.KrFormOptions                                                 56.2%
+  Kestrun.Forms.KrFormParser                                                  46.8%
+  Kestrun.Forms.KrFormPartRule                                                 100%
+  Kestrun.Forms.KrMultipart                                                    100%
+  Kestrun.Forms.KrPartContext                                                  100%
+  Kestrun.Forms.KrPartDecompression                                            100%
+  Kestrun.Forms.KrPartWriteResult                                              100%
+  Kestrun.Forms.KrRawPart                                                      100%
+  Kestrun.Forms.LimitedReadStream                                             56.6%
+  Kestrun.Forms.LoggerExtensions                                               100%
   Kestrun.Health.CSharpScriptProbe                                               0%
   Kestrun.Health.DelegateProbe                                                   0%
   Kestrun.Health.DiskSpaceProbe                                               86.3%
@@ -96,9 +115,11 @@ Kestrun                                                                       66
   Kestrun.Health.VbScriptProbe                                                   0%
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
-  Kestrun.Hosting.KestrunHost                                                 57.4%
+  Kestrun.Hosting.Compression.KrRequestDecompressionExtensions                94.5%
+  Kestrun.Hosting.KestrunHost                                                   59%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  51.7%
-  Kestrun.Hosting.KestrunHostMapExtensions                                    53.1%
+  Kestrun.Hosting.KestrunHostMapExtensions                                    38.2%
+  Kestrun.Hosting.KestrunHostRuntime                                           100%
   Kestrun.Hosting.KestrunHostScriptValidationExtensions                       82.2%
   Kestrun.Hosting.KestrunHostSessionExtensions                                76.3%
   Kestrun.Hosting.KestrunHostSignalRExtensions                                  82%
@@ -112,9 +133,9 @@ Kestrun                                                                       66
   Kestrun.Hosting.Options.KestrunOptions                                       100%
   Kestrun.Hosting.Options.LanguageOptions                                      100%
   Kestrun.Hosting.Options.ListenerOptions                                      100%
-  Kestrun.Hosting.Options.MapRouteOptions                                       80%
+  Kestrun.Hosting.Options.MapRouteOptions                                     76.9%
   Kestrun.Hosting.Options.OpenAPICommonMetadata                               94.4%
-  Kestrun.Hosting.Options.OpenApiMapRouteOptions                                 0%
+  Kestrun.Hosting.Options.OpenApiMapRouteOptions                                95%
   Kestrun.Hosting.Options.OpenAPIPathMetadata                                 71.4%
   Kestrun.Hosting.Options.RouteKeyComparer                                     100%
   Kestrun.Hosting.Options.SignalROptions                                         0%
@@ -132,11 +153,11 @@ Kestrun                                                                       66
   Kestrun.Languages.CSharpDelegateBuilder                                     82.1%
   Kestrun.Languages.FSharpDelegateBuilder                                      100%
   Kestrun.Languages.JScriptDelegateBuilder                                    27.2%
-  Kestrun.Languages.ParameterForInjectionInfo                                 62.7%
+  Kestrun.Languages.ParameterForInjectionInfo                                   50%
   Kestrun.Languages.ParameterForInjectionInfoBase                              100%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
-  Kestrun.Languages.PowerShellDelegateBuilder                                   67%
-  Kestrun.Languages.PowerShellExecutionHelpers                                58.5%
+  Kestrun.Languages.PowerShellDelegateBuilder                                 61.2%
+  Kestrun.Languages.PowerShellExecutionHelpers                                  56%
   Kestrun.Languages.PyDelegateBuilder                                         12.6%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Localization.KestrunLocalizationOptions                              100%
@@ -149,7 +170,7 @@ Kestrun                                                                       66
   Kestrun.Logging.Enrichers.Extensions.ErrorRecordExtensions                   100%
   Kestrun.Logging.Exceptions.WrapperException                                  100%
   Kestrun.Logging.LoggerConfigurationExtensions                                100%
-  Kestrun.Logging.LoggerExtensions                                            76.4%
+  Kestrun.Logging.LoggerExtensions                                            79.4%
   Kestrun.Logging.LoggerManager                                               88.3%
   Kestrun.Logging.Sinks.Extensions.PowerShellSinkExtensions                    100%
   Kestrun.Logging.Sinks.PowerShellSink                                         100%
@@ -170,18 +191,18 @@ Kestrun                                                                       66
   Kestrun.Models.ContentDispositionOptions                                     100%
   Kestrun.Models.KestrunContext                                               49.6%
   Kestrun.Models.KestrunRequest                                                100%
-  Kestrun.Models.KestrunResponse                                              82.5%
+  Kestrun.Models.KestrunResponse                                              82.8%
   Kestrun.Models.ResolvedRequestParameters                                     100%
   Kestrun.OpenApi.CallbackOperationId                                            0%
   Kestrun.OpenApi.FunctionInfoExtensions                                        75%
   Kestrun.OpenApi.HelpExtractor                                                  0%
   Kestrun.OpenApi.OaParameterExtensions                                        8.6%
   Kestrun.OpenApi.OaSchemaTypeExtensions                                         0%
-  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.4%
+  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           48.1%
   Kestrun.OpenApi.OpenApiComponentClone                                       70.5%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
-  Kestrun.OpenApi.OpenApiDocDescriptor                                          38%
+  Kestrun.OpenApi.OpenApiDocDescriptor                                        39.2%
   Kestrun.OpenApi.OpenApiHelper                                                  0%
   Kestrun.OpenApi.OpenApiJsonNodeFactory                                      67.3%
   Kestrun.OpenApi.OpenApiSchemaDiscovery                                       100%
@@ -192,7 +213,7 @@ Kestrun                                                                       66
   Kestrun.Razor.PowerShellRazorPage                                           90.7%
   Kestrun.Razor.PwshKestrunModel                                               100%
   Kestrun.Runtime.EnvironmentHelper                                           62.5%
-  Kestrun.Runtime.PowerShellOpenApiClassExporter                              85.2%
+  Kestrun.Runtime.PowerShellOpenApiClassExporter                              86.4%
   Kestrun.Runtime.VariablesMap                                                92.5%
   Kestrun.Scheduling.JobFactory                                               86.7%
   Kestrun.Scheduling.JobInfo                                                   100%
@@ -221,7 +242,7 @@ Kestrun                                                                       66
   Kestrun.TBuilder.EndpointConventionBuilderLanguageExtensions                  75%
   Kestrun.TBuilder.EndpointDisablingCompressionExtensions                      100%
   Kestrun.Utilities.AssemblyAutoLoader                                        66.1%
-  Kestrun.Utilities.BuildError                                                90.9%
+  Kestrun.Utilities.BuildError                                                87.8%
   Kestrun.Utilities.CacheRevalidation                                         86.1%
   Kestrun.Utilities.CcUtilities                                                100%
   Kestrun.Utilities.HostingExtensions                                          3.4%
@@ -253,10 +274,12 @@ Kestrun                                                                       66
   Kestrun.Utilities.Yaml.YamlTypeConverter                                    87.7%
   PowerShellAttributes                                                          85%
 
-Kestrun.Annotations                                                           45.2%
+Kestrun.Annotations                                                           49.3%
   InternalPowershellAttribute                                                  100%
   KestrunAnnotationsRuntimeInfo                                                7.6%
   KestrunRuntimeApiAttribute                                                   100%
+  KrBindFormAttribute                                                         92.8%
+  KrPartAttribute                                                              100%
   OpenApiAuthorizationAttribute                                                  0%
   OpenApiBinary                                                                 80%
   OpenApiBoolean                                                                75%
@@ -288,7 +311,8 @@ Kestrun.Annotations                                                           45
   OpenApiPassword                                                             66.6%
   OpenApiPathAttribute                                                           0%
   OpenApiPathComponent                                                           0%
-  OpenApiProperties                                                             68%
+  OpenApiPatternPropertiesAttribute                                            100%
+  OpenApiProperties                                                           71.6%
   OpenApiPropertyAttribute                                                       0%
   OpenApiRegex                                                                66.6%
   OpenApiRequestBodyAttribute                                                    0%
@@ -303,7 +327,7 @@ Kestrun.Annotations                                                           45
   OpenApiResponseLinkRefAttribute                                              100%
   OpenApiResponseRefAttribute                                                    0%
   OpenApiScalar<T>                                                             100%
-  OpenApiSchemaComponent                                                        50%
+  OpenApiSchemaComponent                                                      66.6%
   OpenApiServerAttribute                                                         0%
   OpenApiServerVariableAttribute                                                 0%
   OpenApiString                                                                100%
@@ -315,10 +339,10 @@ Kestrun.Annotations                                                           45
   OpenApiXmlAttribute                                                          100%
   OpenApiYaml                                                                 66.6%
 
-Kestrun.PowerShell.Private                                                    53.4%
-  Private.Assembly.Add-KrAspNetCoreType                                       76.9%
-  Private.Assembly.Add-KrCodeAnalysisType                                      100%
-  Private.Assembly.Assert-KrAssemblyLoaded                                    63.1%
+Kestrun.PowerShell.Private                                                    46.1%
+  Private.Assembly.Add-KrAspNetCoreType                                          0%
+  Private.Assembly.Add-KrCodeAnalysisType                                        0%
+  Private.Assembly.Assert-KrAssemblyLoaded                                       0%
   Private.Assembly.Get-EntryScriptPath                                        81.8%
   Private.Assembly.Get-KrCommandByContext                                        0%
   Private.Assembly.Get-KrDocSet                                                  0%
@@ -350,7 +374,7 @@ Kestrun.PowerShell.Private                                                    53
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                      4.9%
+Kestrun.PowerShell.Public                                                      4.7%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrClientCertificateAuthentication                    0%
@@ -377,6 +401,10 @@ Kestrun.PowerShell.Public                                                      4
   Public.Cookies.Invoke-KrCookieSignIn                                           0%
   Public.Cookies.Invoke-KrCookieSignOut                                          0%
   Public.Cookies.New-KrCookieBuilder                                             0%
+  Public.Form.Add-KrFormOption                                                   0%
+  Public.Form.Get-KrFormOption                                                   0%
+  Public.Form.Get-KrFormPartRule                                                 0%
+  Public.Form.New-KrFormPartRule                                                 0%
   Public.Health.Add-KrHealthEndpoint                                             0%
   Public.Health.Add-KrHealthHttpProbe                                            0%
   Public.Health.Add-KrHealthProbe                                                0%
@@ -392,7 +420,7 @@ Kestrun.PowerShell.Public                                                      4
   Public.Helper.Invoke-KrWebRequest                                              0%
   Public.Helper.NoDefault                                                        0%
   Public.Helper.Resolve-KrPath                                                87.5%
-  Public.Helper.ScriptBlock                                                    6.2%
+  Public.Helper.ScriptBlock                                                      0%
   Public.Helper.Set-KrEnvironment                                               80%
   Public.Helper.Set-KrPythonRuntime                                              0%
   Public.Helper.Test-KrDebugContext                                            100%
@@ -455,6 +483,7 @@ Kestrun.PowerShell.Public                                                      4
   Public.Middleware.Add-KrHsts                                                   0%
   Public.Middleware.Add-KrHttpsRedirection                                       0%
   Public.Middleware.Add-KrLocalizationMiddleware                                 0%
+  Public.Middleware.Add-KrRequestDecompressionMiddleware                         0%
   Public.Middleware.Add-KrSignalRHubMiddleware                                   0%
   Public.Middleware.Add-KrSseBroadcastMiddleware                                 0%
   Public.Middleware.Add-KrStaticFilesMiddleware                                  0%
@@ -515,6 +544,7 @@ Kestrun.PowerShell.Public                                                      4
   Public.Response.Write-KrYamlResponse                                           0%
   Public.Route.Add-KrAntiforgeryTokenRoute                                       0%
   Public.Route.Add-KrApiDocumentationRoute                                       0%
+  Public.Route.Add-KrFormRoute                                                   0%
   Public.Route.Add-KrHtmlTemplateRoute                                           0%
   Public.Route.Add-KrMapRoute                                                    0%
   Public.Route.Add-KrOpenApiRoute                                                0%
