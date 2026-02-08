@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 02/05/2026 - 00:28:19
-  Coverage date: 02/05/2026 - 00:08:20
+  Generated on: 02/08/2026 - 02:36:48
+  Coverage date: 02/08/2026 - 02:16:20
   Parser: MultiReport (2x Cobertura)
   Assemblies: 4
   Classes: 580
   Files: 567
   Line coverage: 57%
-  Covered lines: 13505
-  Uncovered lines: 10151
+  Covered lines: 13506
+  Uncovered lines: 10150
   Coverable lines: 23656
   Total lines: 78395
-  Branch coverage: 53.6% (6094 of 11351)
-  Covered branches: 6094
+  Branch coverage: 53.6% (6095 of 11351)
+  Covered branches: 6095
   Total branches: 11351
   Method coverage: 69.9% (2485 of 3551)
   Full method coverage: 52.8% (1877 of 3551)
   Covered methods: 2485
   Fully covered methods: 1877
   Total methods: 3551
-  Tag: Kestrun/Kestrun@d9261bd752e45afa789d10bc0c82b7d5724d9589
+  Tag: Kestrun/Kestrun@83bec58a66f31ecab8a188e687c5259666fb8163
 
 Kestrun                                                                       65.3%
   DelegateBuilder                                                             99.1%
@@ -157,7 +157,7 @@ Kestrun                                                                       65
   Kestrun.Languages.ParameterForInjectionInfoBase                              100%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
   Kestrun.Languages.PowerShellDelegateBuilder                                 61.2%
-  Kestrun.Languages.PowerShellExecutionHelpers                                  56%
+  Kestrun.Languages.PowerShellExecutionHelpers                                58.5%
   Kestrun.Languages.PyDelegateBuilder                                         12.6%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Localization.KestrunLocalizationOptions                              100%
