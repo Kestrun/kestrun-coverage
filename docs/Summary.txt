@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 03/26/2026 - 03:55:01
-  Coverage date: 03/26/2026 - 03:28:30
+  Generated on: 03/27/2026 - 14:18:41
+  Coverage date: 03/27/2026 - 13:51:40
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 594
   Files: 586
-  Line coverage: 64.2%
-  Covered lines: 19478
-  Uncovered lines: 10838
-  Coverable lines: 30316
-  Total lines: 95149
-  Branch coverage: 62.4% (9391 of 15031)
-  Covered branches: 9391
-  Total branches: 15031
-  Method coverage: 78.8% (3333 of 4225)
-  Full method coverage: 56.8% (2401 of 4225)
-  Covered methods: 3333
-  Fully covered methods: 2401
-  Total methods: 4225
-  Tag: Kestrun/Kestrun@844b5179fb0492dc6b1182bae3ff65fa7365521d
+  Line coverage: 64.3%
+  Covered lines: 19584
+  Uncovered lines: 10849
+  Coverable lines: 30433
+  Total lines: 95485
+  Branch coverage: 62.5% (9428 of 15065)
+  Covered branches: 9428
+  Total branches: 15065
+  Method coverage: 79% (3358 of 4247)
+  Full method coverage: 56.9% (2419 of 4247)
+  Covered methods: 3358
+  Fully covered methods: 2419
+  Total methods: 4247
+  Tag: Kestrun/Kestrun@63388ea9aed376ffbb41cd2727be2fb7646f6402
 
-Kestrun                                                                       73.9%
+Kestrun                                                                         74%
   DelegateBuilder                                                             97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -116,7 +116,7 @@ Kestrun                                                                       73
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
   Kestrun.Hosting.Compression.KrRequestDecompressionExtensions                94.5%
-  Kestrun.Hosting.KestrunHost                                                 58.5%
+  Kestrun.Hosting.KestrunHost                                                 60.2%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  77.2%
   Kestrun.Hosting.KestrunHostMapExtensions                                    82.5%
   Kestrun.Hosting.KestrunHostRuntime                                           100%
@@ -129,7 +129,7 @@ Kestrun                                                                       73
   Kestrun.Hosting.Options.AuthKeyComparer                                      100%
   Kestrun.Hosting.Options.ContentTypeWithSchema                                100%
   Kestrun.Hosting.Options.DefaultResponseContentType                             0%
-  Kestrun.Hosting.Options.ExceptionOptions                                    81.8%
+  Kestrun.Hosting.Options.ExceptionOptions                                    80.4%
   Kestrun.Hosting.Options.KestrelOptionsExtensions                             100%
   Kestrun.Hosting.Options.KestrunOptions                                      96.2%
   Kestrun.Hosting.Options.LanguageOptions                                      100%
@@ -160,7 +160,7 @@ Kestrun                                                                       73
   Kestrun.Languages.ParameterForInjectionInfoBase                              100%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
   Kestrun.Languages.PowerShellDelegateBuilder                                 42.5%
-  Kestrun.Languages.PowerShellExecutionHelpers                                  56%
+  Kestrun.Languages.PowerShellExecutionHelpers                                58.5%
   Kestrun.Languages.PyDelegateBuilder                                         11.2%
   Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
   Kestrun.Localization.KestrunLocalizationOptions                              100%
@@ -188,9 +188,9 @@ Kestrun                                                                       73
   Kestrun.Middleware.FaviconMiddlewareExtensions                               100%
   Kestrun.Middleware.KestrunLocalizationMiddlewareExtensions                  56.5%
   Kestrun.Middleware.KestrunRequestCultureMiddleware                          86.1%
-  Kestrun.Middleware.PowerShellRunspaceMiddleware                               91%
+  Kestrun.Middleware.PowerShellRunspaceMiddleware                             93.2%
   Kestrun.Middleware.PowerShellRunspaceMiddlewareExtensions                    100%
-  Kestrun.Middleware.StatusCodePageExtensions                                 72.1%
+  Kestrun.Middleware.StatusCodePageExtensions                                 70.5%
   Kestrun.Models.ContentDispositionOptions                                     100%
   Kestrun.Models.KestrunContext                                               49.6%
   Kestrun.Models.KestrunRequest                                                100%
@@ -225,7 +225,7 @@ Kestrun                                                                       73
   Kestrun.Scheduling.ScheduleReport                                            100%
   Kestrun.Scheduling.SchedulerService                                         79.8%
   Kestrun.Scripting.CompilationErrorException                                 96.1%
-  Kestrun.Scripting.KestrunRunspacePoolManager                                87.7%
+  Kestrun.Scripting.KestrunRunspacePoolManager                                82.9%
   Kestrun.Scripting.LanguageRuntimeExtensions                                  100%
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                      100%
   Kestrun.Scripting.ScriptLanguageAttribute                                    100%
@@ -237,8 +237,8 @@ Kestrun                                                                       73
   Kestrun.Sse.InMemorySseBroadcaster                                          91.4%
   Kestrun.Sse.SseClientSubscription                                            100%
   Kestrun.Sse.SseEventFormatter                                                100%
-  Kestrun.Tasks.KestrunTask                                                     90%
-  Kestrun.Tasks.KestrunTaskService                                            76.1%
+  Kestrun.Tasks.KestrunTask                                                   90.4%
+  Kestrun.Tasks.KestrunTaskService                                            71.7%
   Kestrun.Tasks.KrTask                                                          40%
   Kestrun.Tasks.ProgressiveKestrunTaskState                                   88.8%
   Kestrun.Tasks.TaskJobFactory                                                95.2%
