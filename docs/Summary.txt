@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 03/28/2026 - 17:56:06
-  Coverage date: 03/28/2026 - 17:29:23
+  Generated on: 03/28/2026 - 19:32:01
+  Coverage date: 03/28/2026 - 19:05:22
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 594
   Files: 586
   Line coverage: 64.3%
-  Covered lines: 19580
-  Uncovered lines: 10853
-  Coverable lines: 30433
-  Total lines: 95485
-  Branch coverage: 62.5% (9426 of 15065)
-  Covered branches: 9426
-  Total branches: 15065
-  Method coverage: 79% (3358 of 4247)
-  Full method coverage: 56.9% (2419 of 4247)
-  Covered methods: 3358
-  Fully covered methods: 2419
-  Total methods: 4247
-  Tag: Kestrun/Kestrun@ce0d0c28ca3b8f725e604442b374b8f4aec87c86
+  Covered lines: 19622
+  Uncovered lines: 10858
+  Coverable lines: 30480
+  Total lines: 95628
+  Branch coverage: 62.6% (9449 of 15089)
+  Covered branches: 9449
+  Total branches: 15089
+  Method coverage: 79.1% (3365 of 4254)
+  Full method coverage: 56.9% (2423 of 4254)
+  Covered methods: 3365
+  Fully covered methods: 2423
+  Total methods: 4254
+  Tag: Kestrun/Kestrun@84d0d2071c053497504fc6f8a83b92eb3b0e4e21
 
 Kestrun                                                                         74%
   DelegateBuilder                                                             97.3%
@@ -162,7 +162,7 @@ Kestrun                                                                         
   Kestrun.Languages.PowerShellDelegateBuilder                                 42.5%
   Kestrun.Languages.PowerShellExecutionHelpers                                  56%
   Kestrun.Languages.PyDelegateBuilder                                         11.2%
-  Kestrun.Languages.VBNetDelegateBuilder                                      89.2%
+  Kestrun.Languages.VBNetDelegateBuilder                                      88.8%
   Kestrun.Localization.KestrunLocalizationOptions                              100%
   Kestrun.Localization.KestrunLocalizationStore                                 85%
   Kestrun.Localization.StringTableParser                                      85.1%
@@ -225,7 +225,7 @@ Kestrun                                                                         
   Kestrun.Scheduling.ScheduleReport                                            100%
   Kestrun.Scheduling.SchedulerService                                         79.8%
   Kestrun.Scripting.CompilationErrorException                                 96.1%
-  Kestrun.Scripting.KestrunRunspacePoolManager                                82.3%
+  Kestrun.Scripting.KestrunRunspacePoolManager                                82.9%
   Kestrun.Scripting.LanguageRuntimeExtensions                                  100%
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                      100%
   Kestrun.Scripting.ScriptLanguageAttribute                                    100%
