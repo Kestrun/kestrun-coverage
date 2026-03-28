@@ -1,13 +1,13 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 03/28/2026 - 16:51:00
-  Coverage date: 03/28/2026 - 16:24:16
+  Generated on: 03/28/2026 - 17:56:06
+  Coverage date: 03/28/2026 - 17:29:23
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 594
   Files: 586
   Line coverage: 64.3%
-  Covered lines: 19584
-  Uncovered lines: 10849
+  Covered lines: 19580
+  Uncovered lines: 10853
   Coverable lines: 30433
   Total lines: 95485
   Branch coverage: 62.5% (9426 of 15065)
@@ -18,7 +18,7 @@ Summary - Kestrun — Combined Coverage
   Covered methods: 3358
   Fully covered methods: 2419
   Total methods: 4247
-  Tag: Kestrun/Kestrun@ed21cde3194f74ae2ee1e725739e4205e0940f31
+  Tag: Kestrun/Kestrun@ce0d0c28ca3b8f725e604442b374b8f4aec87c86
 
 Kestrun                                                                         74%
   DelegateBuilder                                                             97.3%
@@ -56,7 +56,7 @@ Kestrun                                                                         
   Kestrun.Callback.DefaultCallbackUrlResolver                                 78.7%
   Kestrun.Callback.HttpCallbackSender                                          100%
   Kestrun.Callback.InMemoryCallbackDispatcher                                  100%
-  Kestrun.Callback.InMemoryCallbackDispatchWorker                             55.7%
+  Kestrun.Callback.InMemoryCallbackDispatchWorker                             52.4%
   Kestrun.Callback.InMemoryCallbackQueue                                       100%
   Kestrun.Callback.JsonCallbackBodySerializer                                  100%
   Kestrun.Callback.RetryDecision                                               100%
@@ -216,7 +216,7 @@ Kestrun                                                                         
   Kestrun.Razor.PowerShellRazorPage                                           90.7%
   Kestrun.Razor.PwshKestrunModel                                               100%
   Kestrun.Runtime.EnvironmentHelper                                           62.5%
-  Kestrun.Runtime.PowerShellOpenApiClassExporter                              76.8%
+  Kestrun.Runtime.PowerShellOpenApiClassExporter                              76.5%
   Kestrun.Runtime.VariablesMap                                                92.5%
   Kestrun.Scheduling.JobFactory                                               86.7%
   Kestrun.Scheduling.JobInfo                                                   100%
