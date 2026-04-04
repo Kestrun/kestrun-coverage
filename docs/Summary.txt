@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 04/03/2026 - 00:32:31
-  Coverage date: 04/03/2026 - 00:05:00
+  Generated on: 04/04/2026 - 18:57:33
+  Coverage date: 04/04/2026 - 18:30:17
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
-  Classes: 594
-  Files: 587
-  Line coverage: 64.7%
-  Covered lines: 20383
-  Uncovered lines: 11100
-  Coverable lines: 31483
-  Total lines: 98229
-  Branch coverage: 62.8% (9780 of 15571)
-  Covered branches: 9780
+  Classes: 595
+  Files: 588
+  Line coverage: 65%
+  Covered lines: 20544
+  Uncovered lines: 11038
+  Coverable lines: 31582
+  Total lines: 98672
+  Branch coverage: 62.8% (9786 of 15571)
+  Covered branches: 9786
   Total branches: 15571
-  Method coverage: 79.5% (3450 of 4339)
-  Full method coverage: 56.6% (2460 of 4339)
-  Covered methods: 3450
-  Fully covered methods: 2460
-  Total methods: 4339
-  Tag: Kestrun/Kestrun@8b1d7be6fa3c9196a4dc338b779df2907d8580a4
+  Method coverage: 79.6% (3461 of 4345)
+  Full method coverage: 56.8% (2470 of 4345)
+  Covered methods: 3461
+  Fully covered methods: 2470
+  Total methods: 4345
+  Tag: Kestrun/Kestrun@25c95cfbd84df534a61ed03b9abab034ac673a75
 
-Kestrun                                                                         74%
+Kestrun                                                                       74.1%
   DelegateBuilder                                                             97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -56,7 +56,7 @@ Kestrun                                                                         
   Kestrun.Callback.DefaultCallbackUrlResolver                                 78.7%
   Kestrun.Callback.HttpCallbackSender                                          100%
   Kestrun.Callback.InMemoryCallbackDispatcher                                  100%
-  Kestrun.Callback.InMemoryCallbackDispatchWorker                             55.7%
+  Kestrun.Callback.InMemoryCallbackDispatchWorker                             52.4%
   Kestrun.Callback.InMemoryCallbackQueue                                       100%
   Kestrun.Callback.JsonCallbackBodySerializer                                  100%
   Kestrun.Callback.RetryDecision                                               100%
@@ -116,7 +116,7 @@ Kestrun                                                                         
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
   Kestrun.Hosting.Compression.KrRequestDecompressionExtensions                94.5%
-  Kestrun.Hosting.KestrunHost                                                 60.2%
+  Kestrun.Hosting.KestrunHost                                                 60.7%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  77.2%
   Kestrun.Hosting.KestrunHostMapExtensions                                    82.5%
   Kestrun.Hosting.KestrunHostRuntime                                           100%
@@ -201,7 +201,7 @@ Kestrun                                                                         
   Kestrun.OpenApi.HelpExtractor                                               36.8%
   Kestrun.OpenApi.OaParameterExtensions                                        100%
   Kestrun.OpenApi.OaSchemaTypeExtensions                                       100%
-  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           66.8%
+  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           66.5%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
   Kestrun.OpenApi.OpenApiComponentShallowCopy                                 55.1%
@@ -342,10 +342,10 @@ Kestrun.Annotations                                                           63
   OpenApiXmlAttribute                                                          100%
   OpenApiYaml                                                                 66.6%
 
-Kestrun.PowerShell.Private                                                    48.6%
-  Private.Assembly.Add-KrAspNetCoreType                                          0%
-  Private.Assembly.Add-KrCodeAnalysisType                                        0%
-  Private.Assembly.Assert-KrAssemblyLoaded                                       0%
+Kestrun.PowerShell.Private                                                    58.4%
+  Private.Assembly.Add-KrAspNetCoreType                                       76.9%
+  Private.Assembly.Add-KrCodeAnalysisType                                      100%
+  Private.Assembly.Assert-KrAssemblyLoaded                                    63.1%
   Private.Assembly.Get-EntryScriptPath                                        81.8%
   Private.Assembly.Get-KrCommandByContext                                        0%
   Private.Assembly.Get-KrDocSet                                                  0%
@@ -367,8 +367,9 @@ Kestrun.PowerShell.Private                                                    48
   Private.Routing._KrMerge-MRO                                                   0%
   Private.Routing._KrMerge-Unique                                                0%
   Private.Routing._KrWith-MRO                                                    0%
-  Private.Server.Helper                                                        100%
-  Private.Server.Resolve-KestrunServer                                          25%
+  Private.Server.Get-KrUserImportedModule                                      100%
+  Private.Server.Resolve-KestrunServer                                        62.5%
+  Private.Server.Resolve-KrEndpointBinding                                    80.4%
   Private.Service.Test-KrServiceDescriptorData                                78.3%
   Private.Variable._NormalizeValueToDictionary                                   0%
   Private.Variable.Get-KrAssignedVariables                                    85.3%
@@ -378,7 +379,7 @@ Kestrun.PowerShell.Private                                                    48
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                     10.7%
+Kestrun.PowerShell.Public                                                     11.6%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrClientCertificateAuthentication                    0%
@@ -424,7 +425,7 @@ Kestrun.PowerShell.Public                                                     10
   Public.Helper.Invoke-KrWebRequest                                              0%
   Public.Helper.NoDefault                                                        0%
   Public.Helper.Resolve-KrPath                                                87.5%
-  Public.Helper.ScriptBlock                                                      0%
+  Public.Helper.ScriptBlock                                                    6.2%
   Public.Helper.Set-KrEnvironment                                               80%
   Public.Helper.Set-KrPythonRuntime                                              0%
   Public.Helper.Test-KrDebugContext                                            100%
@@ -566,11 +567,11 @@ Kestrun.PowerShell.Public                                                     10
   Public.Scheduling.Register-KrSchedule                                          0%
   Public.Scheduling.Resume-KrSchedule                                            0%
   Public.Scheduling.Suspend-KrSchedule                                           0%
-  Public.Server.Add-KrEndpoint                                                   0%
+  Public.Server.Add-KrEndpoint                                                  55%
   Public.Server.Add-KrListenUnixSocket                                           0%
   Public.Server.Add-KrNamedPipeListener                                          0%
   Public.Server.Enable-KrConfiguration                                           0%
-  Public.Server.Get-KrServer                                                     0%
+  Public.Server.Get-KrServer                                                    60%
   Public.Server.New-KrServer                                                  48.2%
   Public.Server.Remove-KrServer                                               33.3%
   Public.Server.Set-KrServerHttpsOption                                       85.2%
