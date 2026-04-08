@@ -1,26 +1,26 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 04/04/2026 - 18:57:33
-  Coverage date: 04/04/2026 - 18:30:17
+  Generated on: 04/08/2026 - 23:41:38
+  Coverage date: 04/08/2026 - 23:13:36
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
-  Classes: 595
-  Files: 588
-  Line coverage: 65%
-  Covered lines: 20544
-  Uncovered lines: 11038
-  Coverable lines: 31582
-  Total lines: 98672
-  Branch coverage: 62.8% (9786 of 15571)
-  Covered branches: 9786
+  Classes: 600
+  Files: 593
+  Line coverage: 65.1%
+  Covered lines: 20618
+  Uncovered lines: 11042
+  Coverable lines: 31660
+  Total lines: 99121
+  Branch coverage: 62.8% (9781 of 15571)
+  Covered branches: 9781
   Total branches: 15571
-  Method coverage: 79.6% (3461 of 4345)
-  Full method coverage: 56.8% (2470 of 4345)
-  Covered methods: 3461
-  Fully covered methods: 2470
-  Total methods: 4345
-  Tag: Kestrun/Kestrun@25c95cfbd84df534a61ed03b9abab034ac673a75
+  Method coverage: 79.7% (3471 of 4354)
+  Full method coverage: 56.7% (2472 of 4354)
+  Covered methods: 3471
+  Fully covered methods: 2472
+  Total methods: 4354
+  Tag: Kestrun/Kestrun@971dd53fc1f17b61ce476aa4cec36c172d4f02e4
 
-Kestrun                                                                       74.1%
+Kestrun                                                                         74%
   DelegateBuilder                                                             97.3%
   Kestrun.Authentication.ApiKeyAuthenticationOptions                           100%
   Kestrun.Authentication.ApiKeyAuthHandler                                    94.4%
@@ -56,7 +56,7 @@ Kestrun                                                                       74
   Kestrun.Callback.DefaultCallbackUrlResolver                                 78.7%
   Kestrun.Callback.HttpCallbackSender                                          100%
   Kestrun.Callback.InMemoryCallbackDispatcher                                  100%
-  Kestrun.Callback.InMemoryCallbackDispatchWorker                             52.4%
+  Kestrun.Callback.InMemoryCallbackDispatchWorker                             55.7%
   Kestrun.Callback.InMemoryCallbackQueue                                       100%
   Kestrun.Callback.JsonCallbackBodySerializer                                  100%
   Kestrun.Callback.RetryDecision                                               100%
@@ -116,7 +116,7 @@ Kestrun                                                                       74
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
   Kestrun.Hosting.Compression.KrRequestDecompressionExtensions                94.5%
-  Kestrun.Hosting.KestrunHost                                                 60.7%
+  Kestrun.Hosting.KestrunHost                                                 60.2%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  77.2%
   Kestrun.Hosting.KestrunHostMapExtensions                                    82.5%
   Kestrun.Hosting.KestrunHostRuntime                                           100%
@@ -160,7 +160,7 @@ Kestrun                                                                       74
   Kestrun.Languages.ParameterForInjectionInfoBase                              100%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
   Kestrun.Languages.PowerShellDelegateBuilder                                 42.5%
-  Kestrun.Languages.PowerShellExecutionHelpers                                  56%
+  Kestrun.Languages.PowerShellExecutionHelpers                                58.5%
   Kestrun.Languages.PyDelegateBuilder                                         11.2%
   Kestrun.Languages.VBNetDelegateBuilder                                      88.8%
   Kestrun.Localization.KestrunLocalizationOptions                              100%
@@ -253,6 +253,7 @@ Kestrun                                                                       74
   Kestrun.Utilities.Json.JsonSerializerHelper                                  100%
   Kestrun.Utilities.Json.PayloadSanitizer                                     94.5%
   Kestrun.Utilities.Json.ReferenceEqualityComparer                             100%
+  Kestrun.Utilities.KestrunLockRegistry                                        100%
   Kestrun.Utilities.MediaTypeHelper                                            100%
   Kestrun.Utilities.ObjectToDictionaryConverter                               98.2%
   Kestrun.Utilities.PowerShellInvokeExtensions                                  65%
@@ -379,7 +380,7 @@ Kestrun.PowerShell.Private                                                    58
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                     11.6%
+Kestrun.PowerShell.Public                                                     13.4%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrClientCertificateAuthentication                    0%
@@ -449,6 +450,8 @@ Kestrun.PowerShell.Public                                                     11
   Public.JWT.Update-KrJWT                                                        0%
   Public.Localization.Get-KrLocalizationCulture                                  0%
   Public.Localization.Get-KrLocalizedString                                      0%
+  Public.Locks.Get-KrLock                                                      100%
+  Public.Locks.Use-KrLock                                                     91.6%
   Public.Logging.core.Close-KrLogger                                             0%
   Public.Logging.core.Get-KrLogger                                               0%
   Public.Logging.core.Get-KrLoggerLevelSwitch                                    0%
@@ -595,9 +598,11 @@ Kestrun.PowerShell.Public                                                     11
   Public.Session.Set-KrSessionByte                                               0%
   Public.Session.Set-KrSessionInt32                                              0%
   Public.Session.Set-KrSessionString                                             0%
-  Public.SharedState.Get-KrSharedState                                          60%
-  Public.SharedState.Remove-KrSharedState                                        0%
-  Public.SharedState.Set-KrSharedState                                        57.1%
+  Public.SharedState.Export-KrSharedState                                     83.3%
+  Public.SharedState.Get-KrSharedState                                         100%
+  Public.SharedState.Import-KrSharedState                                     77.7%
+  Public.SharedState.Remove-KrSharedState                                     88.8%
+  Public.SharedState.Set-KrSharedState                                        85.7%
   Public.SharedState.Update-KrSynchronizedCounter                                0%
   Public.SignalR.Get-KrSignalRConnectedClient                                    0%
   Public.SignalR.Send-KrSignalREvent                                             0%
