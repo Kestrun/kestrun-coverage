@@ -1,6 +1,6 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 04/08/2026 - 23:41:38
-  Coverage date: 04/08/2026 - 23:13:36
+  Generated on: 04/10/2026 - 15:43:17
+  Coverage date: 04/10/2026 - 15:15:04
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 600
@@ -18,7 +18,7 @@ Summary - Kestrun — Combined Coverage
   Covered methods: 3471
   Fully covered methods: 2472
   Total methods: 4354
-  Tag: Kestrun/Kestrun@971dd53fc1f17b61ce476aa4cec36c172d4f02e4
+  Tag: Kestrun/Kestrun@ff6fa380dac2906300f9b9c0cce2df7f5f4f47ba
 
 Kestrun                                                                         74%
   DelegateBuilder                                                             97.3%
@@ -160,7 +160,7 @@ Kestrun                                                                         
   Kestrun.Languages.ParameterForInjectionInfoBase                              100%
   Kestrun.Languages.ParameterForInjectionResolved                              100%
   Kestrun.Languages.PowerShellDelegateBuilder                                 42.5%
-  Kestrun.Languages.PowerShellExecutionHelpers                                58.5%
+  Kestrun.Languages.PowerShellExecutionHelpers                                  56%
   Kestrun.Languages.PyDelegateBuilder                                         11.2%
   Kestrun.Languages.VBNetDelegateBuilder                                      88.8%
   Kestrun.Localization.KestrunLocalizationOptions                              100%
@@ -225,7 +225,7 @@ Kestrun                                                                         
   Kestrun.Scheduling.ScheduleReport                                            100%
   Kestrun.Scheduling.SchedulerService                                         79.8%
   Kestrun.Scripting.CompilationErrorException                                 96.1%
-  Kestrun.Scripting.KestrunRunspacePoolManager                                82.3%
+  Kestrun.Scripting.KestrunRunspacePoolManager                                82.9%
   Kestrun.Scripting.LanguageRuntimeExtensions                                  100%
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                      100%
   Kestrun.Scripting.ScriptLanguageAttribute                                    100%
