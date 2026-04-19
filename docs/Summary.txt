@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 04/13/2026 - 18:04:15
-  Coverage date: 04/13/2026 - 17:36:39
+  Generated on: 04/19/2026 - 15:52:59
+  Coverage date: 04/19/2026 - 15:21:59
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
-  Classes: 600
-  Files: 593
-  Line coverage: 65.1%
-  Covered lines: 20625
-  Uncovered lines: 11035
-  Coverable lines: 31660
-  Total lines: 99121
-  Branch coverage: 62.8% (9787 of 15571)
-  Covered branches: 9787
-  Total branches: 15571
-  Method coverage: 79.7% (3471 of 4354)
-  Full method coverage: 56.8% (2477 of 4354)
-  Covered methods: 3471
-  Fully covered methods: 2477
-  Total methods: 4354
-  Tag: Kestrun/Kestrun@fe7c978cc667e2af2e6c69d1db434b537df4b4f0
+  Classes: 604
+  Files: 597
+  Line coverage: 65.3%
+  Covered lines: 21008
+  Uncovered lines: 11144
+  Coverable lines: 32152
+  Total lines: 100577
+  Branch coverage: 62.9% (9895 of 15715)
+  Covered branches: 9895
+  Total branches: 15715
+  Method coverage: 79.9% (3530 of 4413)
+  Full method coverage: 56.9% (2512 of 4413)
+  Covered methods: 3530
+  Fully covered methods: 2512
+  Total methods: 4413
+  Tag: Kestrun/Kestrun@765a8f13c573c01494250a29d6392b6037f087c9
 
 Kestrun                                                                       74.1%
   DelegateBuilder                                                             97.3%
@@ -60,11 +60,13 @@ Kestrun                                                                       74
   Kestrun.Callback.InMemoryCallbackQueue                                       100%
   Kestrun.Callback.JsonCallbackBodySerializer                                  100%
   Kestrun.Callback.RetryDecision                                               100%
-  Kestrun.Certificates.CertificateManager                                     53.4%
+  Kestrun.Certificates.CertificateManager                                     60.9%
   Kestrun.Certificates.ClientCertificateValidationCallbacks                    100%
   Kestrun.Certificates.ClientCertificateValidationCompiler                    97.6%
   Kestrun.Certificates.CsrOptions                                              100%
   Kestrun.Certificates.CsrResult                                                60%
+  Kestrun.Certificates.DevelopmentCertificateOptions                           100%
+  Kestrun.Certificates.DevelopmentCertificateResult                            100%
   Kestrun.Certificates.JwkJson                                                 100%
   Kestrun.Certificates.RsaJwk                                                    0%
   Kestrun.Certificates.SelfSignedOptions                                       100%
@@ -116,7 +118,7 @@ Kestrun                                                                       74
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
   Kestrun.Hosting.Compression.KrRequestDecompressionExtensions                94.5%
-  Kestrun.Hosting.KestrunHost                                                 60.7%
+  Kestrun.Hosting.KestrunHost                                                 60.2%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  77.2%
   Kestrun.Hosting.KestrunHostMapExtensions                                    82.5%
   Kestrun.Hosting.KestrunHostRuntime                                           100%
@@ -201,7 +203,7 @@ Kestrun                                                                       74
   Kestrun.OpenApi.HelpExtractor                                               36.8%
   Kestrun.OpenApi.OaParameterExtensions                                        100%
   Kestrun.OpenApi.OaSchemaTypeExtensions                                       100%
-  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           66.5%
+  Kestrun.OpenApi.OpenApiComponentAnnotationScanner                           66.8%
   Kestrun.OpenApi.OpenApiComponentKindExtensions                              95.8%
   Kestrun.OpenApi.OpenApiComponentSet                                          100%
   Kestrun.OpenApi.OpenApiComponentShallowCopy                                 55.1%
@@ -343,7 +345,7 @@ Kestrun.Annotations                                                           63
   OpenApiXmlAttribute                                                          100%
   OpenApiYaml                                                                 66.6%
 
-Kestrun.PowerShell.Private                                                    58.4%
+Kestrun.PowerShell.Private                                                    58.9%
   Private.Assembly.Add-KrAspNetCoreType                                       76.9%
   Private.Assembly.Add-KrCodeAnalysisType                                      100%
   Private.Assembly.Assert-KrAssemblyLoaded                                    63.1%
@@ -354,6 +356,7 @@ Kestrun.PowerShell.Private                                                    58
   Private.Assembly.Resolve-KrCodeLanguageFromPath                             62.5%
   Private.Assembly.Resolve-KrSchemaTypeLiteral                                   0%
   Private.Assembly.Test-KrFunctionHasAttribute                                   0%
+  Private.Certificate.Join-KeyUsageFlag                                       83.3%
   Private.ConvertTo.ConvertTo-DateTimeOffset                                     0%
   Private.ConvertTo.ConvertTo-ThreadSafeValue                                    0%
   Private.ConvertTo.ConvertTo-TimeSpan                                           0%
@@ -371,7 +374,7 @@ Kestrun.PowerShell.Private                                                    58
   Private.Server.Get-KrUserImportedModule                                      100%
   Private.Server.Resolve-KestrunServer                                        62.5%
   Private.Server.Resolve-KrEndpointBinding                                    80.4%
-  Private.Service.Test-KrServiceDescriptorData                                78.3%
+  Private.Service.Test-KrServiceDescriptorData                                80.8%
   Private.Variable._NormalizeValueToDictionary                                   0%
   Private.Variable.Get-KrAssignedVariables                                    85.3%
   Private.Yaml.Convert-DateTimeOffsetToDateTime                               81.8%
@@ -380,7 +383,7 @@ Kestrun.PowerShell.Private                                                    58
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                     13.4%
+Kestrun.PowerShell.Public                                                     16.1%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrClientCertificateAuthentication                    0%
@@ -395,10 +398,11 @@ Kestrun.PowerShell.Public                                                     13
   Public.Certificate.Export-KrCertificate                                        0%
   Public.Certificate.Get-KrCertificatePurpose                                    0%
   Public.Certificate.Import-KrCertificate                                     71.4%
-  Public.Certificate.New-KrCertificateRequest                                    0%
+  Public.Certificate.New-KrCertificateRequest                                  100%
+  Public.Certificate.New-KrDevelopmentCertificate                             66.6%
   Public.Certificate.New-KrPrivateKeyJwt                                         0%
-  Public.Certificate.New-KrSelfSignedCertificate                                 0%
-  Public.Certificate.Test-KrCertificate                                         50%
+  Public.Certificate.New-KrSelfSignedCertificate                               100%
+  Public.Certificate.Test-KrCertificate                                         40%
   Public.ClaimPolicy.Add-KrClaimPolicy                                           0%
   Public.ClaimPolicy.Add-KrUserClaim                                             0%
   Public.ClaimPolicy.Build-KrClaimPolicy                                         0%
@@ -583,10 +587,10 @@ Kestrun.PowerShell.Public                                                     13
   Public.Server.Set-KrServerOptions                                              0%
   Public.Server.Start-KrServer                                                   0%
   Public.Server.Stop-KrServer                                                    0%
-  Public.Service.Get-KrServiceDescriptor                                      88.4%
-  Public.Service.New-KrServiceDescriptor                                      90.9%
-  Public.Service.New-KrServicePackage                                         89.7%
-  Public.Service.Set-KrServiceDescriptor                                      83.5%
+  Public.Service.Get-KrServiceDescriptor                                        90%
+  Public.Service.New-KrServiceDescriptor                                      92.1%
+  Public.Service.New-KrServicePackage                                         89.4%
+  Public.Service.Set-KrServiceDescriptor                                      84.4%
   Public.Session.Add-KrDistributedRedisCache                                     0%
   Public.Session.Add-KrDistributedSqlServerCache                                 0%
   Public.Session.Add-KrSession                                                   0%
@@ -630,6 +634,6 @@ Kestrun.Runner                                                                55
 Kestrun.ServiceHost                                                           41.8%
   Kestrun.ServiceHost.Program                                                 41.8%
 
-Kestrun.Tool                                                                  65.5%
+Kestrun.Tool                                                                  65.7%
   Kestrun.Tool.ConsoleProgressBar                                             62.5%
-  Kestrun.Tool.Program                                                        65.6%
+  Kestrun.Tool.Program                                                        65.7%
