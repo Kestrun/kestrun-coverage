@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 04/19/2026 - 15:52:59
-  Coverage date: 04/19/2026 - 15:21:59
+  Generated on: 04/20/2026 - 15:01:12
+  Coverage date: 04/20/2026 - 14:35:16
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 604
   Files: 597
   Line coverage: 65.3%
-  Covered lines: 21008
-  Uncovered lines: 11144
-  Coverable lines: 32152
-  Total lines: 100577
-  Branch coverage: 62.9% (9895 of 15715)
-  Covered branches: 9895
+  Covered lines: 21018
+  Uncovered lines: 11135
+  Coverable lines: 32153
+  Total lines: 100588
+  Branch coverage: 63% (9901 of 15715)
+  Covered branches: 9901
   Total branches: 15715
   Method coverage: 79.9% (3530 of 4413)
-  Full method coverage: 56.9% (2512 of 4413)
+  Full method coverage: 57% (2517 of 4413)
   Covered methods: 3530
-  Fully covered methods: 2512
+  Fully covered methods: 2517
   Total methods: 4413
-  Tag: Kestrun/Kestrun@765a8f13c573c01494250a29d6392b6037f087c9
+  Tag: Kestrun/Kestrun@633f156f2bdb11c688cfcba5b3f073a53ed52858
 
 Kestrun                                                                       74.1%
   DelegateBuilder                                                             97.3%
@@ -118,7 +118,7 @@ Kestrun                                                                       74
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
   Kestrun.Hosting.Compression.KrRequestDecompressionExtensions                94.5%
-  Kestrun.Hosting.KestrunHost                                                 60.2%
+  Kestrun.Hosting.KestrunHost                                                 60.7%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  77.2%
   Kestrun.Hosting.KestrunHostMapExtensions                                    82.5%
   Kestrun.Hosting.KestrunHostRuntime                                           100%
@@ -574,7 +574,7 @@ Kestrun.PowerShell.Public                                                     16
   Public.Scheduling.Register-KrSchedule                                          0%
   Public.Scheduling.Resume-KrSchedule                                            0%
   Public.Scheduling.Suspend-KrSchedule                                           0%
-  Public.Server.Add-KrEndpoint                                                  55%
+  Public.Server.Add-KrEndpoint                                                60.9%
   Public.Server.Add-KrListenUnixSocket                                           0%
   Public.Server.Add-KrNamedPipeListener                                          0%
   Public.Server.Enable-KrConfiguration                                           0%
