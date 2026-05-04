@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 05/02/2026 - 18:28:33
-  Coverage date: 05/02/2026 - 17:55:47
+  Generated on: 05/04/2026 - 03:10:28
+  Coverage date: 05/04/2026 - 02:37:57
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
-  Classes: 618
-  Files: 597
-  Line coverage: 65.5%
-  Covered lines: 21440
-  Uncovered lines: 11248
-  Coverable lines: 32688
-  Total lines: 101968
+  Classes: 619
+  Files: 598
+  Line coverage: 65.7%
+  Covered lines: 21652
+  Uncovered lines: 11264
+  Coverable lines: 32916
+  Total lines: 102578
   Branch coverage: 62.8% (10059 of 15995)
   Covered branches: 10059
   Total branches: 15995
-  Method coverage: 80.3% (3631 of 4517)
-  Full method coverage: 57.2% (2588 of 4517)
-  Covered methods: 3631
-  Fully covered methods: 2588
-  Total methods: 4517
-  Tag: Kestrun/Kestrun@88b693fdbf4365fb787c0c8279e7a1dec36288fd
+  Method coverage: 80.4% (3639 of 4525)
+  Full method coverage: 57.2% (2590 of 4525)
+  Covered methods: 3639
+  Fully covered methods: 2590
+  Total methods: 4525
+  Tag: Kestrun/Kestrun@476fba12d8b4c7db258e9ff68fad76f0d7e4e042
 
 Kestrun                                                                       74.3%
   DelegateBuilder                                                             97.3%
@@ -360,7 +360,7 @@ Kestrun.Annotations                                                           63
   OpenApiXmlAttribute                                                          100%
   OpenApiYaml                                                                 66.6%
 
-Kestrun.PowerShell.Private                                                    58.9%
+Kestrun.PowerShell.Private                                                      59%
   Private.Assembly.Add-KrAspNetCoreType                                       76.9%
   Private.Assembly.Add-KrCodeAnalysisType                                      100%
   Private.Assembly.Assert-KrAssemblyLoaded                                    63.1%
@@ -389,7 +389,7 @@ Kestrun.PowerShell.Private                                                    58
   Private.Server.Get-KrUserImportedModule                                      100%
   Private.Server.Resolve-KestrunServer                                        62.5%
   Private.Server.Resolve-KrEndpointBinding                                    80.4%
-  Private.Service.Test-KrServiceDescriptorData                                80.8%
+  Private.Service.Test-KrServiceDescriptorData                                82.3%
   Private.Variable._NormalizeValueToDictionary                                   0%
   Private.Variable.Get-KrAssignedVariables                                    85.3%
   Private.Yaml.Convert-DateTimeOffsetToDateTime                               81.8%
@@ -398,7 +398,7 @@ Kestrun.PowerShell.Private                                                    58
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                       16%
+Kestrun.PowerShell.Public                                                     20.8%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrClientCertificateAuthentication                    0%
@@ -602,6 +602,7 @@ Kestrun.PowerShell.Public                                                       
   Public.Server.Start-KrServer                                                   0%
   Public.Server.Stop-KrServer                                                    0%
   Public.Service.Get-KrServiceDescriptor                                        90%
+  Public.Service.New-KrDockerDeployment                                       92.5%
   Public.Service.New-KrServiceDescriptor                                      92.1%
   Public.Service.New-KrServicePackage                                         89.4%
   Public.Service.Set-KrServiceDescriptor                                      84.4%
