@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 05/08/2026 - 15:14:16
-  Coverage date: 05/08/2026 - 14:42:29
+  Generated on: 05/09/2026 - 18:07:50
+  Coverage date: 05/09/2026 - 17:36:45
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 619
   Files: 598
-  Line coverage: 65.7%
-  Covered lines: 21652
-  Uncovered lines: 11264
+  Line coverage: 65.8%
+  Covered lines: 21660
+  Uncovered lines: 11256
   Coverable lines: 32916
   Total lines: 102578
-  Branch coverage: 62.8% (10059 of 15995)
-  Covered branches: 10059
+  Branch coverage: 62.9% (10066 of 15995)
+  Covered branches: 10066
   Total branches: 15995
   Method coverage: 80.4% (3639 of 4525)
-  Full method coverage: 57.2% (2590 of 4525)
+  Full method coverage: 57.3% (2595 of 4525)
   Covered methods: 3639
-  Fully covered methods: 2590
+  Fully covered methods: 2595
   Total methods: 4525
-  Tag: Kestrun/Kestrun@96e1030c0b309cc5e71f240a2b44fef38a5e122e
+  Tag: Kestrun/Kestrun@e1d59d77c5600a74fe35386966348873fe90ef33
 
 Kestrun                                                                       74.3%
   DelegateBuilder                                                             97.3%
@@ -117,7 +117,7 @@ Kestrun                                                                       74
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
   Kestrun.Hosting.Compression.KrRequestDecompressionExtensions                94.5%
-  Kestrun.Hosting.KestrunHost                                                 60.1%
+  Kestrun.Hosting.KestrunHost                                                 60.6%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  77.2%
   Kestrun.Hosting.KestrunHostMapExtensions                                    83.2%
   Kestrun.Hosting.KestrunHostRuntime                                           100%
@@ -242,7 +242,7 @@ Kestrun                                                                       74
   Kestrun.Scheduling.ScheduleReport                                            100%
   Kestrun.Scheduling.SchedulerService                                         79.8%
   Kestrun.Scripting.CompilationErrorException                                 96.1%
-  Kestrun.Scripting.KestrunRunspacePoolManager                                82.3%
+  Kestrun.Scripting.KestrunRunspacePoolManager                                82.9%
   Kestrun.Scripting.LanguageRuntimeExtensions                                  100%
   Kestrun.Scripting.RouteHandlerBuilderLanguageExtensions                      100%
   Kestrun.Scripting.ScriptLanguageAttribute                                    100%
