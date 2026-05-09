@@ -1,15 +1,15 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 05/09/2026 - 18:07:50
-  Coverage date: 05/09/2026 - 17:36:45
+  Generated on: 05/09/2026 - 21:51:39
+  Coverage date: 05/09/2026 - 21:20:49
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 619
   Files: 598
   Line coverage: 65.8%
   Covered lines: 21660
-  Uncovered lines: 11256
-  Coverable lines: 32916
-  Total lines: 102578
+  Uncovered lines: 11224
+  Coverable lines: 32884
+  Total lines: 102338
   Branch coverage: 62.9% (10066 of 15995)
   Covered branches: 10066
   Total branches: 15995
@@ -18,7 +18,7 @@ Summary - Kestrun — Combined Coverage
   Covered methods: 3639
   Fully covered methods: 2595
   Total methods: 4525
-  Tag: Kestrun/Kestrun@e1d59d77c5600a74fe35386966348873fe90ef33
+  Tag: Kestrun/Kestrun@6b24c7512a1bad61723a28d32446de0aa658293e
 
 Kestrun                                                                       74.3%
   DelegateBuilder                                                             97.3%
@@ -398,7 +398,7 @@ Kestrun.PowerShell.Private                                                      
   Private.Yaml.Convert-OrderedHashtableToDictionary                            100%
   Private.Yaml.Convert-PSObjectToGenericObject                                 100%
 
-Kestrun.PowerShell.Public                                                     20.8%
+Kestrun.PowerShell.Public                                                       21%
   Public.Authentication.Add-KrApiKeyAuthentication                               0%
   Public.Authentication.Add-KrBasicAuthentication                                0%
   Public.Authentication.Add-KrClientCertificateAuthentication                    0%
