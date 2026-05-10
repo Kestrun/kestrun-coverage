@@ -1,24 +1,24 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 05/09/2026 - 21:51:39
-  Coverage date: 05/09/2026 - 21:20:49
+  Generated on: 05/10/2026 - 04:11:28
+  Coverage date: 05/10/2026 - 03:40:38
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 619
   Files: 598
   Line coverage: 65.8%
-  Covered lines: 21660
-  Uncovered lines: 11224
+  Covered lines: 21653
+  Uncovered lines: 11231
   Coverable lines: 32884
   Total lines: 102338
-  Branch coverage: 62.9% (10066 of 15995)
-  Covered branches: 10066
+  Branch coverage: 62.8% (10060 of 15995)
+  Covered branches: 10060
   Total branches: 15995
   Method coverage: 80.4% (3639 of 4525)
-  Full method coverage: 57.3% (2595 of 4525)
+  Full method coverage: 57.2% (2590 of 4525)
   Covered methods: 3639
-  Fully covered methods: 2595
+  Fully covered methods: 2590
   Total methods: 4525
-  Tag: Kestrun/Kestrun@6b24c7512a1bad61723a28d32446de0aa658293e
+  Tag: Kestrun/Kestrun@4824472493ea197ada4262312c482942e9350a75
 
 Kestrun                                                                       74.3%
   DelegateBuilder                                                             97.3%
@@ -117,7 +117,7 @@ Kestrun                                                                       74
   Kestrun.Hosting.Compression.KestrunCompressionServiceCollectionExtensions    100%
   Kestrun.Hosting.Compression.KestrunResponseCompressionProvider               100%
   Kestrun.Hosting.Compression.KrRequestDecompressionExtensions                94.5%
-  Kestrun.Hosting.KestrunHost                                                 60.6%
+  Kestrun.Hosting.KestrunHost                                                 60.1%
   Kestrun.Hosting.KestrunHostAuthnExtensions                                  77.2%
   Kestrun.Hosting.KestrunHostMapExtensions                                    83.2%
   Kestrun.Hosting.KestrunHostRuntime                                           100%
