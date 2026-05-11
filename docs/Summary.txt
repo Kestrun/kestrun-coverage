@@ -1,13 +1,13 @@
 Summary - Kestrun — Combined Coverage
-  Generated on: 05/10/2026 - 15:06:24
-  Coverage date: 05/10/2026 - 14:35:22
+  Generated on: 05/11/2026 - 04:30:25
+  Coverage date: 05/11/2026 - 03:59:19
   Parser: MultiReport (2x Cobertura)
   Assemblies: 7
   Classes: 619
   Files: 598
   Line coverage: 65.8%
-  Covered lines: 21652
-  Uncovered lines: 11232
+  Covered lines: 21650
+  Uncovered lines: 11234
   Coverable lines: 32884
   Total lines: 102338
   Branch coverage: 62.8% (10059 of 15995)
@@ -18,7 +18,7 @@ Summary - Kestrun — Combined Coverage
   Covered methods: 3639
   Fully covered methods: 2590
   Total methods: 4525
-  Tag: Kestrun/Kestrun@97f2684448410cf7e8c09bbca5e3c2eef16dbece
+  Tag: Kestrun/Kestrun@6135d944f8787fb570e4dfbacac6e80312799a86
 
 Kestrun                                                                       74.3%
   DelegateBuilder                                                             97.3%
@@ -56,7 +56,7 @@ Kestrun                                                                       74
   Kestrun.Callback.DefaultCallbackUrlResolver                                 78.7%
   Kestrun.Callback.HttpCallbackSender                                          100%
   Kestrun.Callback.InMemoryCallbackDispatcher                                  100%
-  Kestrun.Callback.InMemoryCallbackDispatchWorker                             55.7%
+  Kestrun.Callback.InMemoryCallbackDispatchWorker                             52.4%
   Kestrun.Callback.InMemoryCallbackQueue                                       100%
   Kestrun.Callback.JsonCallbackBodySerializer                                  100%
   Kestrun.Callback.RetryDecision                                               100%
